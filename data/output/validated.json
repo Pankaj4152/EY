@@ -1,10 +1,50 @@
 [
     {
-        "provider_id": "201",
-        "npi": "1467483221",
-        "name": "1 ON 1 CHIROPRACTIC PLLC",
-        "address": "62 E 1st St, New York, NY 10003, USA",
-        "phone": "+12122287072",
+        "provider_id": "P001",
+        "npi": "1447268107",
+        "name": "10 PARK PHARMACY INC.",
+        "address": "10 Park Ave, New York, NY 10016, USA",
+        "phone": "+12127213883",
+        "specialty": "Pharmacist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P002",
+        "npi": "1871860924",
+        "name": "1 ON 1 CHIROPRACTIC, PLLC",
+        "address": "Main St, Vancouver, BC, Canada",
+        "phone": "+13479821590",
+        "specialty": "Chiropractor",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P003",
+        "npi": "1760456789",
+        "name": "SMITH FAMILY PRACTICE",
+        "address": "45 Brookline Ave, Boston, MA 02215, USA",
+        "phone": "+14092361650",
         "specialty": "Unknown",
         "confidence": {
             "address": 0.7,
@@ -12,18 +52,39 @@
             "identity": 0.6
         },
         "sources": {
-            "npi": false,
+            "npi_provided": true,
+            "npi_verified": false,
             "google_address": true,
             "google_place": true
         },
-        "identity_status": "NPI_MISSING"
+        "identity_status": "NPI_PROVIDED_UNVERIFIED"
     },
     {
-        "provider_id": "202",
-        "npi": null,
-        "name": "10 PARK PHARMACY INC",
-        "address": "53 E 34th St, New York, NY 10016, USA",
-        "phone": "+17183935555",
+        "provider_id": "P004",
+        "npi": "1639876543",
+        "name": "LYDIA LANE",
+        "address": "200 Michigan Ave, Chicago, IL 60601, USA",
+        "phone": "+17734042600",
+        "specialty": "Technician, Personal Care Attendant",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P005",
+        "npi": "1187654321",
+        "name": "LAKEVIEW PEDIATRICS",
+        "address": "789 Sunset Blvd, Los Angeles, CA 90012, USA",
+        "phone": "+17738801738",
         "specialty": "Unknown",
         "confidence": {
             "address": 0.7,
@@ -31,18 +92,19 @@
             "identity": 0.6
         },
         "sources": {
-            "npi": false,
+            "npi_provided": true,
+            "npi_verified": false,
             "google_address": true,
             "google_place": true
         },
-        "identity_status": "NPI_MISSING"
+        "identity_status": "NPI_PROVIDED_UNVERIFIED"
     },
     {
-        "provider_id": "203",
-        "npi": "1801968278",
-        "name": "10 WEST 46TH STREET DENTAL PLLC",
-        "address": "10 W 46th St #1402, New York, NY 10036, USA",
-        "phone": "+12127595595",
+        "provider_id": "P006",
+        "npi": "1029384756",
+        "name": "RIVERSIDE CARDIOLOGY",
+        "address": "400 Ocean Dr, Miami Beach, FL 33139, USA",
+        "phone": "+18444044787",
         "specialty": "Unknown",
         "confidence": {
             "address": 0.7,
@@ -50,18 +112,19 @@
             "identity": 0.6
         },
         "sources": {
-            "npi": false,
+            "npi_provided": true,
+            "npi_verified": false,
             "google_address": true,
             "google_place": true
         },
-        "identity_status": "NPI_MISSING"
+        "identity_status": "NPI_PROVIDED_UNVERIFIED"
     },
     {
-        "provider_id": "204",
-        "npi": "1275537074",
-        "name": "101 LASIK SURGICAL GROUP",
-        "address": "101 Park Ave, New York, NY 10178, USA",
-        "phone": "+13473151876",
+        "provider_id": "P007",
+        "npi": "1357924680",
+        "name": "MOUNTAINVIEW CLINIC",
+        "address": "2500 E Colfax Ave, Denver, CO 80206, USA",
+        "phone": "+17209419363",
         "specialty": "Unknown",
         "confidence": {
             "address": 0.7,
@@ -69,18 +132,19 @@
             "identity": 0.6
         },
         "sources": {
-            "npi": false,
+            "npi_provided": true,
+            "npi_verified": false,
             "google_address": true,
             "google_place": true
         },
-        "identity_status": "NPI_MISSING"
+        "identity_status": "NPI_PROVIDED_UNVERIFIED"
     },
     {
-        "provider_id": "205",
-        "npi": null,
-        "name": "1016 5TH AVE GYNECOLOGY PC",
-        "address": "1016 5th Ave, New York, NY 10028, USA",
-        "phone": "+12124521370",
+        "provider_id": "P008",
+        "npi": "1902837465",
+        "name": "BAY AREA ORTHO CENTER",
+        "address": "950 Market St, San Francisco, CA 94102, USA",
+        "phone": "+14153532808",
         "specialty": "Unknown",
         "confidence": {
             "address": 0.7,
@@ -88,18 +152,19 @@
             "identity": 0.6
         },
         "sources": {
-            "npi": false,
+            "npi_provided": true,
+            "npi_verified": false,
             "google_address": true,
             "google_place": true
         },
-        "identity_status": "NPI_MISSING"
+        "identity_status": "NPI_PROVIDED_UNVERIFIED"
     },
     {
-        "provider_id": "206",
-        "npi": "1942213506",
-        "name": "103 PHARMACY INC",
-        "address": "2002 2nd Ave, New York, NY 10029, USA",
-        "phone": "+12124104410",
+        "provider_id": "P009",
+        "npi": "1092837465",
+        "name": "GREEN VALLEY URGENT CARE",
+        "address": "600 E Camelback Rd, Phoenix, AZ 85012, USA",
+        "phone": "+16027883285",
         "specialty": "Unknown",
         "confidence": {
             "address": 0.7,
@@ -107,37 +172,19 @@
             "identity": 0.6
         },
         "sources": {
-            "npi": false,
+            "npi_provided": true,
+            "npi_verified": false,
             "google_address": true,
             "google_place": true
         },
-        "identity_status": "NPI_MISSING"
+        "identity_status": "NPI_PROVIDED_UNVERIFIED"
     },
     {
-        "provider_id": "207",
-        "npi": null,
-        "name": "104TH ST OPTICAL INC",
-        "address": "1884 Third Ave, Bronx, NY 10454, USA",
-        "phone": "+12128314733",
-        "specialty": "Unknown",
-        "confidence": {
-            "address": 0.7,
-            "phone": 0.4,
-            "identity": 0.6
-        },
-        "sources": {
-            "npi": false,
-            "google_address": true,
-            "google_place": true
-        },
-        "identity_status": "NPI_MISSING"
-    },
-    {
-        "provider_id": "208",
-        "npi": "1104879934",
-        "name": "105 EAST 78 STREET MEDICAL",
-        "address": "885 Park Ave, New York, NY 10075, USA",
-        "phone": "+18446337736",
+        "provider_id": "P010",
+        "npi": "1543298765",
+        "name": "HUDSON NEUROLOGY GROUP",
+        "address": "800 Broad St, Providence, RI 02907, USA",
+        "phone": "+19737054914",
         "specialty": "Unknown",
         "confidence": {
             "address": 0.7,
@@ -145,124 +192,11 @@
             "identity": 0.6
         },
         "sources": {
-            "npi": false,
+            "npi_provided": true,
+            "npi_verified": false,
             "google_address": true,
             "google_place": true
         },
-        "identity_status": "NPI_MISSING"
-    },
-    {
-        "provider_id": "209",
-        "npi": null,
-        "name": "110RXCORP",
-        "address": "127 E 110th St, New York, NY 10029, USA",
-        "phone": "+12129960055",
-        "specialty": "Unknown",
-        "confidence": {
-            "address": 0.7,
-            "phone": 0.4,
-            "identity": 0.6
-        },
-        "sources": {
-            "npi": false,
-            "google_address": true,
-            "google_place": false
-        },
-        "identity_status": "NPI_MISSING"
-    },
-    {
-        "provider_id": "210",
-        "npi": "1215902302",
-        "name": "115 E 64TH STREET MEDICAL PLLC",
-        "address": "115 E 64th St, New York, NY 10065, USA",
-        "phone": "+12124346900",
-        "specialty": "Unknown",
-        "confidence": {
-            "address": 0.7,
-            "phone": 0.7,
-            "identity": 0.6
-        },
-        "sources": {
-            "npi": false,
-            "google_address": true,
-            "google_place": true
-        },
-        "identity_status": "NPI_MISSING"
-    },
-    {
-        "provider_id": "211",
-        "npi": null,
-        "name": "116 STREET DENTAL CARE PLLC",
-        "address": "240 W 116th St, New York, NY 10026, USA",
-        "phone": "+16466930625",
-        "specialty": "Unknown",
-        "confidence": {
-            "address": 0.7,
-            "phone": 0.7,
-            "identity": 0.6
-        },
-        "sources": {
-            "npi": false,
-            "google_address": true,
-            "google_place": true
-        },
-        "identity_status": "NPI_MISSING"
-    },
-    {
-        "provider_id": "212",
-        "npi": null,
-        "name": "10 PARK PHARMACY INC",
-        "address": "53 E 34th St, New York, NY 10016, USA",
-        "phone": "+17183935555",
-        "specialty": "Unknown",
-        "confidence": {
-            "address": 0.7,
-            "phone": 0.7,
-            "identity": 0.6
-        },
-        "sources": {
-            "npi": false,
-            "google_address": true,
-            "google_place": true
-        },
-        "identity_status": "NPI_MISSING"
-    },
-    {
-        "provider_id": "213",
-        "npi": "1467483221",
-        "name": "1 ON 1 CHIROPRACTIC PLLC",
-        "address": "Wrong St, Virginia 24630, USA",
-        "phone": "+12122287072",
-        "specialty": "Unknown",
-        "confidence": {
-            "address": 0.7,
-            "phone": 0.7,
-            "identity": 0.6
-        },
-        "sources": {
-            "npi": false,
-            "google_address": true,
-            "google_place": true
-        },
-        "identity_status": "NPI_MISSING"
-    },
-    {
-        "provider_id": "214",
-        "npi": "1104879934",
-        "name": "105 EAST 78 STREET MEDICAL",
-        "address": "885 Park Ave, New York, NY 10075, USA",
-        "phone": "+18446337736",
-        "specialty": "Unknown",
-        "confidence": {
-            "address": 0.7,
-            "phone": 0.7,
-            "identity": 0.6
-        },
-        "sources": {
-            "npi": false,
-            "google_address": true,
-            "google_place": true
-        },
-        "identity_status": "NPI_MISSING"
+        "identity_status": "NPI_PROVIDED_UNVERIFIED"
     }
 ]
