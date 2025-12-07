@@ -1,6 +1,9 @@
 # Pankaj
 test
 
+# project based
+validated.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

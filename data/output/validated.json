@@ -1,0 +1,268 @@
+[
+    {
+        "provider_id": "201",
+        "npi": "1467483221",
+        "name": "1 ON 1 CHIROPRACTIC PLLC",
+        "address": "62 E 1st St, New York, NY 10003, USA",
+        "phone": "+12122287072",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "202",
+        "npi": null,
+        "name": "10 PARK PHARMACY INC",
+        "address": "53 E 34th St, New York, NY 10016, USA",
+        "phone": "+17183935555",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "203",
+        "npi": "1801968278",
+        "name": "10 WEST 46TH STREET DENTAL PLLC",
+        "address": "10 W 46th St #1402, New York, NY 10036, USA",
+        "phone": "+12127595595",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "204",
+        "npi": "1275537074",
+        "name": "101 LASIK SURGICAL GROUP",
+        "address": "101 Park Ave, New York, NY 10178, USA",
+        "phone": "+13473151876",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "205",
+        "npi": null,
+        "name": "1016 5TH AVE GYNECOLOGY PC",
+        "address": "1016 5th Ave, New York, NY 10028, USA",
+        "phone": "+12124521370",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "206",
+        "npi": "1942213506",
+        "name": "103 PHARMACY INC",
+        "address": "2002 2nd Ave, New York, NY 10029, USA",
+        "phone": "+12124104410",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "207",
+        "npi": null,
+        "name": "104TH ST OPTICAL INC",
+        "address": "1884 Third Ave, Bronx, NY 10454, USA",
+        "phone": "+12128314733",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.4,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "208",
+        "npi": "1104879934",
+        "name": "105 EAST 78 STREET MEDICAL",
+        "address": "885 Park Ave, New York, NY 10075, USA",
+        "phone": "+18446337736",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "209",
+        "npi": null,
+        "name": "110RXCORP",
+        "address": "127 E 110th St, New York, NY 10029, USA",
+        "phone": "+12129960055",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.4,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": false
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "210",
+        "npi": "1215902302",
+        "name": "115 E 64TH STREET MEDICAL PLLC",
+        "address": "115 E 64th St, New York, NY 10065, USA",
+        "phone": "+12124346900",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "211",
+        "npi": null,
+        "name": "116 STREET DENTAL CARE PLLC",
+        "address": "240 W 116th St, New York, NY 10026, USA",
+        "phone": "+16466930625",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "212",
+        "npi": null,
+        "name": "10 PARK PHARMACY INC",
+        "address": "53 E 34th St, New York, NY 10016, USA",
+        "phone": "+17183935555",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "213",
+        "npi": "1467483221",
+        "name": "1 ON 1 CHIROPRACTIC PLLC",
+        "address": "Wrong St, Virginia 24630, USA",
+        "phone": "+12122287072",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    },
+    {
+        "provider_id": "214",
+        "npi": "1104879934",
+        "name": "105 EAST 78 STREET MEDICAL",
+        "address": "885 Park Ave, New York, NY 10075, USA",
+        "phone": "+18446337736",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.7,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_MISSING"
+    }
+]
