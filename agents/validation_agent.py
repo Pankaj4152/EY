@@ -66,6 +66,8 @@ def validate_providers():
             # ----------------------------
             # 1. FETCH NPI DATA (IF EXISTS)
             # ----------------------------
+            # Replace lines 55-90 with this corrected version:
+
             npi_data = None
             if npi and npi.strip():
                 try:
@@ -73,39 +75,21 @@ def validate_providers():
                     print(f"[NPI] attempting fetch for: {npi_str!r}")
                     fetched = fetch_provider_by_npi(npi_str)
                     print(f"[NPI] raw fetched: {fetched!r}")
+                    
                     if fetched:
-                        # defensive mapping for common NPPES response shapes
-                        npi_data = {}
-                        org_name = fetched.get("organization_name") or fetched.get("basic", {}).get("organization_name")
-                        if not org_name:
-                            basic = fetched.get("basic", {}) or {}
-                            first = basic.get("first_name", "") or ""
-                            last = basic.get("last_name", "") or ""
-                            org_name = (first + " " + last).strip() or None
-                        npi_data["name"] = org_name
-
-                        addresses = fetched.get("addresses") or []
-                        addr = None
-                        for a in addresses:
-                            if (a.get("address_purpose") or "").upper() == "LOCATION":
-                                addr = a
-                                break
-                        if not addr and addresses:
-                            addr = addresses[0]
-                        if addr:
-                            parts = [addr.get("address_1"), addr.get("address_2"), addr.get("city"), addr.get("state"), addr.get("postal_code")]
-                            npi_data["address"] = ", ".join([p for p in parts if p])
-                            npi_data["phone"] = addr.get("telephone_number")
-                        else:
-                            npi_data["address"] = fetched.get("address") or None
-                            npi_data["phone"] = fetched.get("telephone_number") or fetched.get("phone")
-
-                        taxonomies = fetched.get("taxonomies") or []
-                        npi_data["specialty"] = (taxonomies[0].get("desc") if taxonomies and taxonomies[0].get("desc") else None)
+                        # Now the data structure matches what we expect
+                        npi_data = {
+                            "name": fetched.get("name"),
+                            "address": fetched.get("address"),
+                            "phone": fetched.get("phone"),
+                            "specialty": fetched.get("specialty")
+                        }
+                        print(f"[NPI] Successfully extracted: {npi_data}")
                     else:
                         print(f"[NPI] no data returned for {npi_str!r}")
                 except Exception as e:
                     print(f"[NPI ERROR] fetching {npi!r}: {e}")
+
 
             has_npi = npi_data is not None
 
@@ -160,6 +144,25 @@ def validate_providers():
             # ----------------------------
             # 6. BUILD VALIDATION RECORD
             # ----------------------------
+
+            sources = {
+                "npi_provided": bool(npi and npi.strip()),
+                "npi_verified": bool(npi_data),
+                "google_address": bool(google_address_data),
+                "google_place": bool(google_place_data),
+            }
+
+            # identity status has three useful states:
+            # - NPI_VERIFIED: we fetched and matched NPI Registry data
+            # - NPI_PROVIDED_UNVERIFIED: NPI present in CSV but registry fetch failed
+            # - NPI_MISSING: no NPI provided in CSV
+            if sources["npi_verified"]:
+                identity_status = "NPI_VERIFIED"
+            elif sources["npi_provided"]:
+                identity_status = "NPI_PROVIDED_UNVERIFIED"
+            else:
+                identity_status = "NPI_MISSING"
+
             validated_record = {
                 "provider_id": provider_id,
                 "npi": npi if npi and npi.strip() else None,
@@ -172,13 +175,8 @@ def validate_providers():
                     "phone": phone_conf,
                     "identity": identity_conf
                 },
-                "sources": {
-                    "npi": bool(npi_data),
-                    "google_address": bool(google_address_data),
-                    "google_place": bool(google_place_data)
-                },
-                # add identity status so the later print() won't KeyError
-                "identity_status": "NPI_VERIFIED" if has_npi else "NPI_MISSING"
+                "sources": sources,
+                "identity_status": identity_status
             }
             validated_results.append(validated_record)
             print("[DONE]", validated_record["identity_status"])
