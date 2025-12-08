@@ -1,0 +1,31 @@
+
+QA SUMMARY REPORT
+======================================================================
+
+Total Providers: 10
+
+DECISIONS:
+  AUTO:     0 (  0.0%) - Ready for production
+  REVIEW:   0 (  0.0%) - Manual review needed
+  HOLD:    10 (100.0%) - Contact provider required
+
+CONFIDENCE METRICS:
+  Average Profile Confidence: 0.474
+  
+  Component Averages:
+    Identity:     0.690 (weight: 40%)
+    Address:      0.670 (weight: 15%)
+    Phone:        0.670 (weight: 10%)
+    Specialty:    0.180 (weight: 10%)
+    Education:    0.050 (weight:  5%)
+    Services:     0.050 (weight: 10%)
+    Affiliations: 0.050 (weight: 10%)
+
+TOP ISSUES:
+  - low_education_info            :  10 providers (100.0%)
+  - no_services_listed            :  10 providers (100.0%)
+  - no_affiliations               :  10 providers (100.0%)
+  - npi_unverified                :   7 providers ( 70.0%)
+  - missing_specialty             :   7 providers ( 70.0%)
+
+======================================================================

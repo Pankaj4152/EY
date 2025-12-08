@@ -1,0 +1,11 @@
+provider_id,name,npi,profile_confidence,reasons
+P001,10 PARK PHARMACY INC.,1447268107,0.583,low_education_info|no_services_listed|no_affiliations
+P002,"1 ON 1 CHIROPRACTIC, PLLC",1871860924,0.583,low_education_info|no_services_listed|no_affiliations
+P003,SMITH FAMILY PRACTICE,1760456789,0.427,npi_unverified|missing_specialty|low_education_info|no_services_listed|no_affiliations
+P004,LYDIA LANE,1639876543,0.583,low_education_info|no_services_listed|no_affiliations
+P005,LAKEVIEW PEDIATRICS,1187654321,0.427,npi_unverified|missing_specialty|low_education_info|no_services_listed|no_affiliations
+P006,RIVERSIDE CARDIOLOGY,1029384756,0.427,npi_unverified|missing_specialty|low_education_info|no_services_listed|no_affiliations
+P007,MOUNTAINVIEW CLINIC,1357924680,0.427,npi_unverified|missing_specialty|low_education_info|no_services_listed|no_affiliations
+P008,BAY AREA ORTHO CENTER,1902837465,0.427,npi_unverified|missing_specialty|low_education_info|no_services_listed|no_affiliations
+P009,GREEN VALLEY URGENT CARE,1092837465,0.427,npi_unverified|missing_specialty|low_education_info|no_services_listed|no_affiliations
+P010,HUDSON NEUROLOGY GROUP,1543298765,0.427,npi_unverified|missing_specialty|low_education_info|no_services_listed|no_affiliations

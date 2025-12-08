@@ -2,11 +2,10 @@ import json
 import re
 import time
 import urllib.parse
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Set
 
 import requests
 from bs4 import BeautifulSoup
-
 
 INPUT_JSON = "data/output/validated.json"
 OUTPUT_JSON = "data/output/enriched.json"
@@ -17,64 +16,72 @@ USER_AGENT = (
 )
 
 REQUEST_TIMEOUT = 8
-SLEEP_BETWEEN = 0.8  # throttle to be polite/deterministic
+SLEEP_BETWEEN = 0.8
 
-# deterministic lists / mappings
-KNOWN_HOSPITALS = [
-    "Mount Sinai",
-    "NY Presbyterian",
-    "NYU Langone",
-    "Montefiore",
-    "BronxCare",
-    "Hackensack Meridian",
-    "Lenox Hill",
-    "St. Barnabas",
-    "Northwell",
-    "Columbia University Irving Medical Center",
+# Dynamic hospital/facility indicators instead of fixed list
+HOSPITAL_INDICATORS = [
+    "hospital", "medical center", "health system", "healthcare system",
+    "clinic", "medical group", "health network", "university hospital",
+    "regional medical", "community hospital", "memorial hospital",
+    "general hospital", "children's hospital", "cancer center",
+    "heart center", "health partners", "medical associates"
 ]
 
 SPECIALTY_KEYWORDS = {
-    "cardiology": ["cardio", "cardiology"],
-    "pediatrics": ["pediatr", "children"],
-    "dentist": ["dentist", "dental", "dds", "dmd"],
-    "ophthalmology": ["ophthalmology", "ophthalmologist", "lasik"],
+    "cardiology": ["cardio", "cardiology", "heart"],
+    "pediatrics": ["pediatr", "children", "kids"],
+    "dentist": ["dentist", "dental", "dds", "dmd", "orthodont"],
+    "ophthalmology": ["ophthalmology", "ophthalmologist", "lasik", "eye care", "vision"],
     "optometry": ["optomet", "optometry"],
-    "pharmacy": ["pharmacy", "pharmac"],
+    "pharmacy": ["pharmacy", "pharmac", "drug store"],
     "chiropractic": ["chiropractic", "chiropractor"],
-    "gynecology": ["gynecology", "gynecologist", "obstetrics", "ob/gyn", "obgyn"],
-    "surgery": ["surgery", "surgeon"],
-    "dermatology": ["dermatology", "dermato"],
-    "orthopedics": ["orthopedic", "orthopaedic", "ortho"],
-    "neurology": ["neurology", "neuro"],
-    "ent": ["ear nose throat", "ent"],
+    "gynecology": ["gynecology", "gynecologist", "obstetrics", "ob/gyn", "obgyn", "women's health"],
+    "surgery": ["surgery", "surgeon", "surgical"],
+    "dermatology": ["dermatology", "dermato", "skin care"],
+    "orthopedics": ["orthopedic", "orthopaedic", "ortho", "bone", "joint"],
+    "neurology": ["neurology", "neuro", "brain"],
+    "ent": ["ear nose throat", "ent", "otolaryngology"],
     "internal medicine": ["internal medicine", "internist"],
-    "family medicine": ["family medicine", "family practice", "general practice"],
+    "family medicine": ["family medicine", "family practice", "general practice", "primary care"],
+    "psychiatry": ["psychiatry", "psychiatrist", "mental health"],
+    "radiology": ["radiology", "radiologist", "imaging"],
+    "anesthesiology": ["anesthesiology", "anesthesiologist"],
+    "emergency medicine": ["emergency medicine", "emergency room", "er"],
+    "oncology": ["oncology", "oncologist", "cancer"],
 }
 
 DEGREE_RE = re.compile(
-    r"\b(MD|M\.D\.|DO|D\.O\.|PhD|Ph\.D\.|DDS|DMD|RN|MBA|MPH|PA-C|PA)\b", re.I
+    r"\b(MD|M\.D\.|DO|D\.O\.|PhD|Ph\.D\.|DDS|D\.D\.S\.|DMD|D\.M\.D\.|"
+    r"RN|BSN|MSN|NP|APRN|MBA|MPH|PA-C|PA)\b", re.I
 )
+
 GRAD_FROM_RE = re.compile(
-    r"(?:graduated from|received (?:his|her|their) degree from|alumnus of|alumna of)\s+"
-    r"([A-Z][A-Za-z0-9&,\.\- ]{3,120}?)",
+    r"(?:graduated from|received (?:his|her|their) (?:medical )?degree from|"
+    r"alumnus of|alumna of|attended|studied at)\s+"
+    r"([A-Z][A-Za-z0-9&,\.\- ]{3,120}?(?:University|College|School|Institute))",
     re.I,
 )
+
 TRAINING_RE = re.compile(
-    r"(residency|fellowship|trained at|completed (?:a )?residency at)"
-    r"[:\s\-]+([A-Z][A-Za-z0-9&,\.\- ]{3,120}?)",
+    r"(?:residency|fellowship|internship|trained at|training at|completed (?:a |her |his |their )?"
+    r"(?:residency|fellowship|internship) at)[:\s\-]+"
+    r"([A-Z][A-Za-z0-9&,\.\- ]{3,120})",
     re.I,
 )
+
 SERVICES_SECTION_KEYWORDS = [
-    "service",
-    "what we offer",
-    "treatment",
-    "procedures",
-    "services include",
+    "service", "what we offer", "treatment", "procedures", "services include",
+    "we specialize in", "our services", "care we provide", "treatments offered"
+]
+
+AFFILIATION_PATTERNS = [
+    r"(?:affiliated with|affiliated to|affiliates with|affiliation|member of|"
+    r"part of|partners with|associated with)[:\s\-]+([A-Z][A-Za-z0-9 &,\.\-]{3,120})",
+    r"(?:practicing at|practices at|located at|practice location)[:\s\-]+([A-Z][A-Za-z0-9 &,\.\-]{3,120})",
+    r"(?:staff (?:member|physician|doctor) at|on staff at)[:\s\-]+([A-Z][A-Za-z0-9 &,\.\-]{3,120})",
 ]
 
 HEADERS = {"User-Agent": USER_AGENT}
-
-# simple in-memory cache so we do not repeat DDG lookups for same query
 _SEARCH_CACHE: Dict[str, Optional[str]] = {}
 
 
@@ -141,27 +148,33 @@ def _choose_site(name: str, address: str) -> Tuple[Optional[str], str]:
 
 
 def extract_education(soup: BeautifulSoup, text: str) -> Tuple[Optional[str], float]:
-    """Deterministic extraction for degree / school."""
+    """Enhanced education extraction with multiple patterns."""
+    # First, try to find degree with nearby context
     m = DEGREE_RE.search(text)
     if m:
-        span = text[max(0, m.start() - 60) : m.end() + 60].strip()
+        span = text[max(0, m.start() - 80) : m.end() + 80].strip()
         return span, 0.9
 
+    # Look for graduation/school patterns
     m2 = GRAD_FROM_RE.search(text)
     if m2:
         school = m2.group(1).strip()
         return school, 0.85
 
+    # Look for training patterns
     m3 = TRAINING_RE.search(text)
     if m3:
-        return m3.group(2).strip(), 0.75
+        return m3.group(1).strip(), 0.75
 
-    # very low-confidence fallback: look for "MD, <School>" pattern
-    m4 = re.search(
-        r"\b(MD|DO|PhD|DDS|DMD)[,]?\s+([A-Z][A-Za-z &\.]{3,120})", text
-    )
-    if m4:
-        return m4.group(0).strip(), 0.45
+    # Check for "Education" or "Background" sections
+    for heading in soup.find_all(["h2", "h3", "h4"]):
+        heading_text = heading.get_text(" ", strip=True).lower()
+        if any(kw in heading_text for kw in ["education", "background", "training", "credentials"]):
+            next_elem = heading.find_next_sibling()
+            if next_elem:
+                edu_text = next_elem.get_text(" ", strip=True)
+                if 10 < len(edu_text) < 300:
+                    return edu_text, 0.7
 
     return None, 0.05
 
@@ -170,10 +183,7 @@ def extract_specialty(
     soup: BeautifulSoup, text: str, validated_specialty: str
 ) -> Tuple[Optional[str], float]:
     """
-    Deterministic specialty extraction:
-    1. Use validated_specialty if meaningful.
-    2. Then check headings/title.
-    3. Then scan body text.
+    Enhanced specialty extraction with more keyword coverage.
     """
     # prefer validated_specialty if meaningful
     if validated_specialty and validated_specialty.strip().lower() != "unknown":
@@ -200,8 +210,7 @@ def extract_specialty(
 
 def extract_services(soup: BeautifulSoup, text: str) -> Tuple[List[str], float]:
     """
-    Find list of services deterministically from headings and nearby lists/paragraphs.
-    Returns (services_list, confidence).
+    Enhanced service extraction with better pattern matching.
     """
     services: List[str] = []
 
@@ -209,20 +218,28 @@ def extract_services(soup: BeautifulSoup, text: str) -> Tuple[List[str], float]:
     for h in soup.find_all(["h2", "h3", "h4", "h5"]):
         htxt = (h.get_text(" ", strip=True) or "").lower()
         if any(k in htxt for k in SERVICES_SECTION_KEYWORDS):
-            # look for a following <ul> or paragraphs
+            # look for a following <ul> or <div>
             sib = h.find_next_sibling()
             if not sib:
                 continue
+            
             if sib.name == "ul":
                 for li in sib.find_all("li"):
                     t = li.get_text(" ", strip=True)
                     if 4 < len(t) < 120:
                         services.append(t)
+            elif sib.name == "div":
+                # Look for lists within the div
+                for ul in sib.find_all("ul"):
+                    for li in ul.find_all("li"):
+                        t = li.get_text(" ", strip=True)
+                        if 4 < len(t) < 120:
+                            services.append(t)
             else:
                 # small paragraph parse
                 para = sib.get_text(" ", strip=True)
                 if para and len(para) < 1000:
-                    parts = re.split(r"\.|\;|\n|\u2022|\u2023|\-", para)
+                    parts = re.split(r"\.|\;|\n|\u2022|\u2023|\•", para)
                     for p in parts:
                         p = p.strip()
                         if 4 < len(p) < 120:
@@ -231,7 +248,7 @@ def extract_services(soup: BeautifulSoup, text: str) -> Tuple[List[str], float]:
     # fallback pattern search
     if not services:
         m = re.search(
-            r"services (?:include|offered|provided)[:\s\-]+"
+            r"services (?:include|offered|provided|available)[:\s\-]+"
             r"([A-Za-z0-9\.,; &\-\/]{10,500})",
             text,
             re.I,
@@ -241,35 +258,73 @@ def extract_services(soup: BeautifulSoup, text: str) -> Tuple[List[str], float]:
             services = [p.strip() for p in parts if 4 < len(p.strip()) < 120]
 
     # dedupe and limit
-    services = list(dict.fromkeys(services))[:8]
+    services = list(dict.fromkeys(services))[:10]
     conf = 0.8 if services else 0.15
     return services, conf
 
 
+def _is_likely_hospital(text: str) -> bool:
+    """Check if text contains hospital/medical facility indicators."""
+    lower = text.lower()
+    return any(indicator in lower for indicator in HOSPITAL_INDICATORS)
+
+
 def extract_affiliations(soup: BeautifulSoup, text: str) -> Tuple[List[str], float]:
     """
-    Deterministic hospital affiliation extraction using known list
-    and phrase matching.
+    Dynamic hospital affiliation extraction using pattern matching and context analysis.
     """
-    found: set = set()
-    lower = text.lower()
+    found: Set[str] = set()
 
-    for hosp in KNOWN_HOSPITALS:
-        if hosp.lower() in lower:
-            found.add(hosp)
+    # Method 1: Use multiple affiliation patterns
+    for pattern in AFFILIATION_PATTERNS:
+        matches = re.findall(pattern, text, re.I)
+        for match in matches:
+            match = match.strip()
+            if _is_likely_hospital(match) and 3 < len(match) < 100:
+                found.add(match)
 
-    # explicit phrases
-    matches = re.findall(
-        r"(?:affiliated with|affiliated to|affiliates with|member of)\s+"
-        r"([A-Z][A-Za-z0-9 &,\.\-]{3,120})",
-        text,
-        re.I,
+    # Method 2: Look for "Affiliations" or "Hospital Privileges" sections
+    for heading in soup.find_all(["h2", "h3", "h4", "h5"]):
+        heading_text = heading.get_text(" ", strip=True).lower()
+        if any(kw in heading_text for kw in ["affiliation", "hospital", "privileges", "network"]):
+            next_elem = heading.find_next_sibling()
+            if next_elem:
+                # Check for list items
+                if next_elem.name == "ul":
+                    for li in next_elem.find_all("li"):
+                        aff_text = li.get_text(" ", strip=True)
+                        if _is_likely_hospital(aff_text) and 3 < len(aff_text) < 100:
+                            found.add(aff_text)
+                else:
+                    # Parse paragraph
+                    aff_text = next_elem.get_text(" ", strip=True)
+                    # Split by common delimiters
+                    parts = re.split(r"[;\n\u2022\u2023•]", aff_text)
+                    for part in parts:
+                        part = part.strip()
+                        if _is_likely_hospital(part) and 3 < len(part) < 100:
+                            found.add(part)
+
+    # Method 3: Extract capitalized phrases that contain hospital indicators
+    capitalized_phrases = re.findall(
+        r"\b([A-Z][A-Za-z\s&,\.'-]{10,80}(?:Hospital|Medical Center|Health System|"
+        r"Healthcare|Clinic|Medical Group))\b",
+        text
     )
-    for x in matches:
-        found.add(x.strip())
+    for phrase in capitalized_phrases:
+        phrase = phrase.strip()
+        if 10 < len(phrase) < 100:
+            found.add(phrase)
 
-    conf = 0.85 if found else 0.12
-    return list(found), conf
+    # Clean up and dedupe
+    cleaned = []
+    for aff in found:
+        # Remove common false positives
+        if not any(skip in aff.lower() for skip in ["copyright", "all rights", "privacy policy", "terms"]):
+            cleaned.append(aff)
+
+    conf = 0.85 if cleaned else 0.12
+    return cleaned[:8], conf  # Limit to 8 affiliations
 
 
 def enrich_record(rec: Dict) -> Dict:
@@ -284,7 +339,7 @@ def enrich_record(rec: Dict) -> Dict:
     address = rec.get("address") or ""
 
     site_url, source_tag = _choose_site(name, address)
-    source_used = source_tag  # will be URL or search:...
+    source_used = source_tag
 
     enriched = {
         "education": {"value": None, "confidence": 0.0, "source": None},
@@ -305,12 +360,11 @@ def enrich_record(rec: Dict) -> Dict:
 
         # leave other fields None/empty with low confidence
         for k in ("education", "services", "affiliations"):
-            if enriched[k]["value"] is None or enriched[k]["value"] == []:
-                enriched[k] = {
-                    "value": enriched[k]["value"],
-                    "confidence": 0.05,
-                    "source": source_used,
-                }
+            enriched[k] = {
+                "value": enriched[k]["value"],
+                "confidence": 0.05,
+                "source": source_used,
+            }
 
         return {**rec, "enrichment": enriched}
 
@@ -379,7 +433,8 @@ def enrich_all(input_path: str = INPUT_JSON, output_path: str = OUTPUT_JSON) -> 
         try:
             e = enrich_record(r)
             enriched.append(e)
-        except Exception:
+        except Exception as ex:
+            print(f"⚠️  Error enriching {r.get('provider_id')}: {ex}")
             # deterministic fallback on error
             r["enrichment"] = {
                 "education": {"value": None, "confidence": 0.0, "source": None},
@@ -401,5 +456,3 @@ def enrich_all(input_path: str = INPUT_JSON, output_path: str = OUTPUT_JSON) -> 
 
 if __name__ == "__main__":
     enrich_all()
-
-    
