@@ -1,7 +1,7 @@
-import os
 import json
 import csv
 import sqlite3
+import os
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple
 
@@ -19,43 +19,85 @@ os.makedirs(PDF_FOLDER, exist_ok=True)
 
 
 def _connect_db(path: str) -> sqlite3.Connection:
-    """Create/connect to SQLite DB with enhanced schema."""
+    """Create/connect to SQLite DB with enhanced schema and perform simple migrations."""
     conn = sqlite3.connect(path)
-    
-    # Main providers table
-    conn.execute(
-        """
-        CREATE TABLE IF NOT EXISTS providers (
-            provider_id TEXT PRIMARY KEY,
-            name TEXT,
-            npi TEXT,
-            identity_status TEXT,
-            address TEXT,
-            phone TEXT,
-            specialty TEXT,
-            profile_confidence REAL,
-            decision TEXT,
-            latest_json TEXT NOT NULL,
-            last_updated TEXT NOT NULL
+    cur = conn.cursor()
+
+    # If providers table does not exist, create full schema
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='providers'")
+    if not cur.fetchone():
+        cur.execute(
+            """
+            CREATE TABLE providers (
+                provider_id TEXT PRIMARY KEY,
+                name TEXT,
+                npi TEXT,
+                identity_status TEXT,
+                address TEXT,
+                phone TEXT,
+                specialty TEXT,
+                profile_confidence REAL,
+                decision TEXT,
+                latest_json TEXT NOT NULL,
+                last_updated TEXT NOT NULL
+            )
+            """
         )
-        """
-    )
-    
-    # Version history table
-    conn.execute(
-        """
-        CREATE TABLE IF NOT EXISTS versions (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            provider_id TEXT NOT NULL,
-            version_ts TEXT NOT NULL,
-            record_json TEXT NOT NULL,
-            change_summary TEXT
+        conn.commit()
+    else:
+        # Perform idempotent migration: add any missing columns expected by current schema
+        expected = {
+            "provider_id": "TEXT",
+            "name": "TEXT",
+            "npi": "TEXT",
+            "identity_status": "TEXT",
+            "address": "TEXT",
+            "phone": "TEXT",
+            "specialty": "TEXT",
+            "profile_confidence": "REAL",
+            "decision": "TEXT",
+            "latest_json": "TEXT",
+            "last_updated": "TEXT",
+        }
+        cur.execute("PRAGMA table_info(providers)")
+        existing_cols = {row[1] for row in cur.fetchall()}
+        for col, ctype in expected.items():
+            if col not in existing_cols:
+                try:
+                    cur.execute(f"ALTER TABLE providers ADD COLUMN {col} {ctype}")
+                except sqlite3.OperationalError:
+                    # If column addition fails for any reason, continue deterministically
+                    pass
+        conn.commit()
+
+    # Ensure versions table exists and has expected columns (safe migration)
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='versions'")
+    if not cur.fetchone():
+        cur.execute(
+            """
+            CREATE TABLE versions (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                provider_id TEXT NOT NULL,
+                version_ts TEXT NOT NULL,
+                record_json TEXT NOT NULL,
+                change_summary TEXT
+            )
+            """
         )
-        """
-    )
-    
-    # Metadata table for pipeline runs
-    conn.execute(
+        conn.commit()
+    else:
+        # Check for missing columns in versions and add them if needed
+        cur.execute("PRAGMA table_info(versions)")
+        existing_versions_cols = {row[1] for row in cur.fetchall()}
+        if "change_summary" not in existing_versions_cols:
+            try:
+                cur.execute("ALTER TABLE versions ADD COLUMN change_summary TEXT")
+            except sqlite3.OperationalError:
+                pass
+        conn.commit()
+
+    # Create/support pipeline_runs table if missing
+    cur.execute(
         """
         CREATE TABLE IF NOT EXISTS pipeline_runs (
             run_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -68,13 +110,17 @@ def _connect_db(path: str) -> sqlite3.Connection:
         )
         """
     )
-    
-    # Create indexes for common queries
-    conn.execute("CREATE INDEX IF NOT EXISTS idx_provider_npi ON providers(npi)")
-    conn.execute("CREATE INDEX IF NOT EXISTS idx_provider_specialty ON providers(specialty)")
-    conn.execute("CREATE INDEX IF NOT EXISTS idx_provider_decision ON providers(decision)")
-    conn.execute("CREATE INDEX IF NOT EXISTS idx_version_provider ON versions(provider_id)")
-    
+
+    # Create indexes (safe after migrations)
+    try:
+        cur.execute("CREATE INDEX IF NOT EXISTS idx_provider_npi ON providers(npi)")
+        cur.execute("CREATE INDEX IF NOT EXISTS idx_provider_specialty ON providers(specialty)")
+        cur.execute("CREATE INDEX IF NOT EXISTS idx_provider_decision ON providers(decision)")
+        cur.execute("CREATE INDEX IF NOT EXISTS idx_version_provider ON versions(provider_id)")
+    except sqlite3.OperationalError:
+        # In case of unexpected schema state, skip index creation deterministically
+        pass
+
     conn.commit()
     return conn
 
