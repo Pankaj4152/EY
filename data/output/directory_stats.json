@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-12-07T14:00:42.657028Z",
-  "total_processed": 10,
+  "timestamp": "2025-12-08T05:42:17.267936Z",
+  "total_processed": 1,
   "by_decision": {
     "AUTO": 0,
     "REVIEW": 0,
-    "HOLD": 10
+    "HOLD": 1
   },
   "by_decision_percentage": {
     "AUTO": 0.0,
@@ -18,6 +18,6 @@
     "low (<0.75)": 0
   },
   "avg_confidence_by_decision": {
-    "HOLD": 0.474
+    "HOLD": 0.583
   }
 }

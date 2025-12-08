@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provider Directory Validation Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #666;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-value.auto { color: #10b981; }
+        .stat-value.review { color: #f59e0b; }
+        .stat-value.hold { color: #ef4444; }
+        .stat-value.total { color: #667eea; }
+
+        .stat-change {
+            font-size: 14px;
+            color: #10b981;
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .chart-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .chart-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .table-container {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #f9fafb;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        th {
+            font-weight: 600;
+            color: #374151;
+        }
+
+        .status-badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .status-badge.auto {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .status-badge.review {
+            background: #fed7aa;
+            color: #92400e;
+        }
+
+        .status-badge.hold {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .confidence-bar {
+            width: 100%;
+            height: 6px;
+            background: #e5e7eb;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.3s;
+        }
+
+        .confidence-fill.high { background: #10b981; }
+        .confidence-fill.medium { background: #f59e0b; }
+        .confidence-fill.low { background: #ef4444; }
+
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #5a67d8;
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏥 Provider Directory Validation Dashboard</h1>
+            <p>Real-time monitoring of automated provider data validation pipeline</p>
+        </div>
+
+        <div class="actions">
+            <button class="btn" onclick="loadData()">🔄 Refresh Data</button>
+            <button class="btn" onclick="exportData()">📥 Export Report</button>
+            <button class="btn" onclick="viewLogs()">📋 View Logs</button>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Total Processed</div>
+                <div class="stat-value total" id="total-providers">200</div>
+                <div class="stat-change">Last updated: 2 mins ago</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Auto-Approved</div>
+                <div class="stat-value auto" id="auto-approved">120</div>
+                <div class="stat-change">✓ 60% success rate</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Manual Review</div>
+                <div class="stat-value review" id="manual-review">50</div>
+                <div class="stat-change">⚠ 25% need attention</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">On Hold</div>
+                <div class="stat-value hold" id="on-hold">30</div>
+                <div class="stat-change">⏸ 15% pending contact</div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">Decision Distribution</div>
+                <canvas id="decisionChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">Confidence Score Distribution</div>
+                <canvas id="confidenceChart"></canvas>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">Top Specialties Validated</div>
+                <canvas id="specialtyChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">Processing Time by Stage</div>
+                <canvas id="timeChart"></canvas>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <div class="chart-title">Recent Provider Updates</div>
+            <table id="providers-table">
+                <thead>
+                    <tr>
+                        <th>Provider ID</th>
+                        <th>Name</th>
+                        <th>NPI</th>
+                        <th>Specialty</th>
+                        <th>Confidence</th>
+                        <th>Decision</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="providers-tbody">
+                    <!-- Data will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Sample data - in production, this would come from API/JSON files
+        const dashboardData = {
+            total: 200,
+            auto: 120,
+            review: 50,
+            hold: 30,
+            confidence: {
+                high: 125,
+                medium: 45,
+                low: 30
+            },
+            specialties: {
+                'Family Medicine': 35,
+                'Internal Medicine': 28,
+                'Pediatrics': 22,
+                'Cardiology': 18,
+                'Dermatology': 15,
+                'Orthopedics': 12,
+                'Psychiatry': 10,
+                'Others': 60
+            },
+            processingTime: {
+                validation: 8.5,
+                enrichment: 12.3,
+                qa: 5.2,
+                directory: 3.8
+            },
+            providers: [
+                { id: 'PROV_0001', name: 'Dr. Sarah Johnson', npi: '1447268107', specialty: 'Family Medicine', confidence: 0.95, decision: 'AUTO' },
+                { id: 'PROV_0002', name: 'Dr. Michael Chen', npi: '1013900436', specialty: 'Cardiology', confidence: 0.92, decision: 'AUTO' },
+                { id: 'PROV_0003', name: 'Dr. Emily Rodriguez', npi: '', specialty: 'Pediatrics', confidence: 0.68, decision: 'REVIEW' },
+                { id: 'PROV_0004', name: 'Healthcare Clinic Inc', npi: '1234567890', specialty: 'Unknown', confidence: 0.45, decision: 'HOLD' },
+                { id: 'PROV_0005', name: 'Dr. James Wilson', npi: '1528070886', specialty: 'Internal Medicine', confidence: 0.88, decision: 'AUTO' }
+            ]
+        };
+
+        // Initialize charts
+        function initCharts() {
+            // Decision Distribution Pie Chart
+            new Chart(document.getElementById('decisionChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['Auto-Approved', 'Manual Review', 'On Hold'],
+                    datasets: [{
+                        data: [dashboardData.auto, dashboardData.review, dashboardData.hold],
+                        backgroundColor: ['#10b981', '#f59e0b', '#ef4444']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+
+            // Confidence Distribution Bar Chart
+            new Chart(document.getElementById('confidenceChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['High (≥90%)', 'Medium (75-89%)', 'Low (<75%)'],
+                    datasets: [{
+                        label: 'Providers',
+                        data: [dashboardData.confidence.high, dashboardData.confidence.medium, dashboardData.confidence.low],
+                        backgroundColor: ['#10b981', '#f59e0b', '#ef4444']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            // Specialty Chart
+            new Chart(document.getElementById('specialtyChart'), {
+                type: 'horizontalBar',
+                data: {
+                    labels: Object.keys(dashboardData.specialties),
+                    datasets: [{
+                        label: 'Providers',
+                        data: Object.values(dashboardData.specialties),
+                        backgroundColor: '#667eea'
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    scales: {
+                        x: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            // Processing Time Chart
+            new Chart(document.getElementById('timeChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['Validation', 'Enrichment', 'QA', 'Directory'],
+                    datasets: [{
+                        label: 'Time (seconds)',
+                        data: Object.values(dashboardData.processingTime),
+                        backgroundColor: '#667eea'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Seconds'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Populate providers table
+        function populateTable() {
+            const tbody = document.getElementById('providers-tbody');
+            tbody.innerHTML = '';
+
+            dashboardData.providers.forEach(provider => {
+                const row = document.createElement('tr');
+                
+                const confidenceClass = provider.confidence >= 0.9 ? 'high' : 
+                                       provider.confidence >= 0.75 ? 'medium' : 'low';
+                
+                const decisionClass = provider.decision.toLowerCase();
+                
+                row.innerHTML = `
+                    <td>${provider.id}</td>
+                    <td>${provider.name}</td>
+                    <td>${provider.npi || 'N/A'}</td>
+                    <td>${provider.specialty}</td>
+                    <td>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <span>${(provider.confidence * 100).toFixed(0)}%</span>
+                            <div class="confidence-bar" style="flex: 1;">
+                                <div class="confidence-fill ${confidenceClass}" style="width: ${provider.confidence * 100}%"></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><span class="status-badge ${decisionClass}">${provider.decision}</span></td>
+                    <td><button class="btn" onclick="viewDetails('${provider.id}')">View</button></td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+        }
+
+        // Action functions
+        function loadData() {
+            alert('Refreshing data from latest pipeline run...');
+            // In production: fetch from API or reload JSON files
+            location.reload();
+        }
+
+        function exportData() {
+            alert('Exporting comprehensive report to PDF...');
+            // In production: trigger report generation
+        }
+
+        function viewLogs() {
+            alert('Opening pipeline execution logs...');
+            // In production: open logs viewer
+        }
+
+        function viewDetails(providerId) {
+            alert(`Viewing detailed information for ${providerId}...`);
+            // In production: open provider detail modal
+        }
+
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', function() {
+            initCharts();
+            populateTable();
+        });
+    </script>
+</body>
+</html>
