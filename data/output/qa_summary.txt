@@ -1,29 +1,12 @@
-
 QA SUMMARY REPORT
-======================================================================
+============================================================
 
-Total Providers: 1
+Total Providers: 5
 
 DECISIONS:
-  AUTO:     0 (  0.0%) - Ready for production
-  REVIEW:   0 (  0.0%) - Manual review needed
-  HOLD:     1 (100.0%) - Contact provider required
+  AUTO:   1 (20.0%)
+  REVIEW: 4 (80.0%)
+  HOLD:   0 (0.0%)
 
-CONFIDENCE METRICS:
-  Average Profile Confidence: 0.583
-  
-  Component Averages:
-    Identity:     0.900 (weight: 40%)
-    Address:      0.600 (weight: 15%)
-    Phone:        0.600 (weight: 10%)
-    Specialty:    0.600 (weight: 10%)
-    Education:    0.050 (weight:  5%)
-    Services:     0.050 (weight: 10%)
-    Affiliations: 0.050 (weight: 10%)
+Average Profile Confidence: 0.630
 
-TOP ISSUES:
-  - low_education_info            :   1 providers (100.0%)
-  - no_services_listed            :   1 providers (100.0%)
-  - no_affiliations               :   1 providers (100.0%)
-
-======================================================================

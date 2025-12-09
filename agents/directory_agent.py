@@ -4,6 +4,7 @@ import sqlite3
 import os
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple
+import logging
 
 INPUT_QA = "data/output/qa.json"
 DB_PATH = "data/provider_directory.db"
@@ -17,15 +18,19 @@ STATS_JSON = "data/output/directory_stats.json"
 os.makedirs(os.path.dirname(EXPORT_JSON), exist_ok=True)
 os.makedirs(PDF_FOLDER, exist_ok=True)
 
+logger = logging.getLogger(__name__)
+
 
 def _connect_db(path: str) -> sqlite3.Connection:
     """Create/connect to SQLite DB with enhanced schema and perform simple migrations."""
+    logger.info("Connecting to DB at %s", path)
     conn = sqlite3.connect(path)
     cur = conn.cursor()
 
     # If providers table does not exist, create full schema
     cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='providers'")
     if not cur.fetchone():
+        logger.info("Creating providers table")
         cur.execute(
             """
             CREATE TABLE providers (
@@ -69,10 +74,13 @@ def _connect_db(path: str) -> sqlite3.Connection:
                     # If column addition fails for any reason, continue deterministically
                     pass
         conn.commit()
+        logger.info("Providers table exists; performing migrations if needed")
+        logger.debug("Finished provider table migrations")
 
     # Ensure versions table exists and has expected columns (safe migration)
     cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='versions'")
     if not cur.fetchone():
+        logger.info("Creating versions table")
         cur.execute(
             """
             CREATE TABLE versions (
@@ -95,6 +103,7 @@ def _connect_db(path: str) -> sqlite3.Connection:
             except sqlite3.OperationalError:
                 pass
         conn.commit()
+        logger.debug("Versions table present; ensured columns")
 
     # Create/support pipeline_runs table if missing
     cur.execute(
@@ -111,6 +120,7 @@ def _connect_db(path: str) -> sqlite3.Connection:
         """
     )
 
+    logger.debug("Ensuring indexes")
     # Create indexes (safe after migrations)
     try:
         cur.execute("CREATE INDEX IF NOT EXISTS idx_provider_npi ON providers(npi)")
@@ -118,10 +128,9 @@ def _connect_db(path: str) -> sqlite3.Connection:
         cur.execute("CREATE INDEX IF NOT EXISTS idx_provider_decision ON providers(decision)")
         cur.execute("CREATE INDEX IF NOT EXISTS idx_version_provider ON versions(provider_id)")
     except sqlite3.OperationalError:
-        # In case of unexpected schema state, skip index creation deterministically
-        pass
-
+        logger.warning("Index creation encountered an issue")
     conn.commit()
+    logger.info("DB ready")
     return conn
 
 
@@ -153,58 +162,63 @@ def _get_change_summary(old_rec: Optional[Dict], new_rec: Dict) -> str:
 
 
 def _upsert_provider(conn: sqlite3.Connection, provider_id: str, record: Dict):
-    """Insert or update provider with versioning."""
-    now = datetime.utcnow().isoformat() + "Z"
-    rec_json = json.dumps(record, ensure_ascii=False)
-    
-    # Get old record if exists
-    cur = conn.cursor()
-    cur.execute("SELECT latest_json FROM providers WHERE provider_id = ?", (provider_id,))
-    row = cur.fetchone()
-    old_rec = json.loads(row[0]) if row else None
-    
-    change_summary = _get_change_summary(old_rec, record)
-    
-    # Extract searchable fields
-    name = record.get("name", "")
-    npi = record.get("npi", "")
-    identity_status = record.get("identity_status", "")
-    address = record.get("address", "")
-    phone = record.get("phone", "")
-    
-    # Get specialty from enrichment or validation
-    specialty = (
-        record.get("enrichment", {}).get("specialty", {}).get("value")
-        or record.get("specialty")
-        or "Unknown"
-    )
-    
-    profile_confidence = record.get("qa", {}).get("profile_confidence", 0.0)
-    decision = record.get("qa", {}).get("decision", "HOLD")
-    
-    # Upsert providers table
-    conn.execute(
-        """
-        INSERT OR REPLACE INTO providers(
-            provider_id, name, npi, identity_status, address, phone, 
-            specialty, profile_confidence, decision, latest_json, last_updated
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        """,
-        (provider_id, name, npi, identity_status, address, phone, 
-         specialty, profile_confidence, decision, rec_json, now),
-    )
-    
-    # Insert version entry
-    conn.execute(
-        "INSERT INTO versions(provider_id, version_ts, record_json, change_summary) VALUES (?, ?, ?, ?)",
-        (provider_id, now, rec_json, change_summary),
-    )
-    
-    conn.commit()
+    logger.info("Upserting provider %s", provider_id)
+    try:
+        now = datetime.utcnow().isoformat() + "Z"
+        rec_json = json.dumps(record, ensure_ascii=False)
+        
+        # Get old record if exists
+        cur = conn.cursor()
+        cur.execute("SELECT latest_json FROM providers WHERE provider_id = ?", (provider_id,))
+        row = cur.fetchone()
+        old_rec = json.loads(row[0]) if row else None
+        
+        change_summary = _get_change_summary(old_rec, record)
+        
+        # Extract searchable fields
+        name = record.get("name", "")
+        npi = record.get("npi", "")
+        identity_status = record.get("identity_status", "")
+        address = record.get("address", "")
+        phone = record.get("phone", "")
+        
+        # Get specialty from enrichment or validation
+        specialty = (
+            record.get("enrichment", {}).get("specialty", {}).get("value")
+            or record.get("specialty")
+            or "Unknown"
+        )
+        
+        profile_confidence = record.get("qa", {}).get("profile_confidence", 0.0)
+        decision = record.get("qa", {}).get("decision", "HOLD")
+        
+        # Upsert providers table
+        conn.execute(
+            """
+            INSERT OR REPLACE INTO providers(
+                provider_id, name, npi, identity_status, address, phone, 
+                specialty, profile_confidence, decision, latest_json, last_updated
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (provider_id, name, npi, identity_status, address, phone, 
+             specialty, profile_confidence, decision, rec_json, now),
+        )
+        
+        # Insert version entry
+        conn.execute(
+            "INSERT INTO versions(provider_id, version_ts, record_json, change_summary) VALUES (?, ?, ?, ?)",
+            (provider_id, now, rec_json, change_summary),
+        )
+        
+        conn.commit()
+        logger.debug("Upsert complete for %s (change_summary: %s)", provider_id, (change_summary or "")[:120])
+    except Exception as exc:
+        logger.exception("Failed to upsert provider %s: %s", provider_id, exc)
+        raise
 
 
 def _export_db_to_json_csv(conn: sqlite3.Connection, json_path: str, csv_path: str):
-    """Export current directory to JSON and CSV formats."""
+    logger.info("Exporting DB to json=%s csv=%s", json_path, csv_path)
     cur = conn.cursor()
     cur.execute(
         """
@@ -251,6 +265,7 @@ def _export_db_to_json_csv(conn: sqlite3.Connection, json_path: str, csv_path: s
             writer = csv.DictWriter(cf, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(csv_rows)
+    logger.info("Export complete: wrote %d records to %s", len(records), json_path)
 
 
 def _generate_stats(conn: sqlite3.Connection, records: List[Dict]) -> Dict:
@@ -318,7 +333,7 @@ def _generate_stats(conn: sqlite3.Connection, records: List[Dict]) -> Dict:
         },
         "top_specialties": top_specialties,
         "confidence_distribution": {
-            "high (≥0.90)": conf_dist[0] if conf_dist else 0,
+            "high (>=0.90)": conf_dist[0] if conf_dist else 0,
             "medium (0.75-0.89)": conf_dist[1] if conf_dist else 0,
             "low (<0.75)": conf_dist[2] if conf_dist else 0,
         },
@@ -455,7 +470,7 @@ def _generate_simple_pdf(rec: Dict, out_path: str):
 
 
 def run(input_path: str = INPUT_QA):
-    """Main directory agent execution."""
+    logger.info("Directory agent run starting; input=%s", input_path)
     # Load QA output
     try:
         with open(input_path, "r", encoding="utf-8") as f:
@@ -544,19 +559,19 @@ def run(input_path: str = INPUT_QA):
     print(f"  AUTO:   {stats['by_decision']['AUTO']:3d} ({stats['by_decision_percentage']['AUTO']:5.1f}%)")
     print(f"  REVIEW: {stats['by_decision']['REVIEW']:3d} ({stats['by_decision_percentage']['REVIEW']:5.1f}%)")
     print(f"  HOLD:   {stats['by_decision']['HOLD']:3d} ({stats['by_decision_percentage']['HOLD']:5.1f}%)")
-    print(f"\n✅ Directory exports:")
+    print(f"\n>= Directory exports:")
     print(f"   - JSON: {EXPORT_JSON}")
     print(f"   - CSV:  {EXPORT_CSV}")
     print(f"   - Stats: {STATS_JSON}")
     
     if review_rows:
-        print(f"\n✅ Review queue: {REVIEW_CSV} ({len(review_rows)} providers)")
+        print(f"\n>= Review queue: {REVIEW_CSV} ({len(review_rows)} providers)")
     if hold_rows:
-        print(f"✅ Hold queue: {HOLD_CSV} ({len(hold_rows)} providers)")
+        print(f">= Hold queue: {HOLD_CSV} ({len(hold_rows)} providers)")
     if pdf_count > 0:
-        print(f"✅ PDFs generated: {pdf_count} in {PDF_FOLDER}/")
+        print(f">= PDFs generated: {pdf_count} in {PDF_FOLDER}/")
     
-    print(f"\n✅ SQLite DB: {DB_PATH}")
+    print(f"\n>= SQLite DB: {DB_PATH}")
     print("="*70 + "\n")
 
 

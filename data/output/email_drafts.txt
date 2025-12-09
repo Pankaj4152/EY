@@ -1,18 +1,36 @@
-Subject: HOLD - Provider P001 requires verification
+Subject: HOLD - Provider P0001 requires verification
 
-Provider: 10 PARK PHARMACY INC.
-NPI: 1447268107
+Provider: DAVID WIEBE
+NPI: 1679576722
 Identity Status: NPI_VERIFIED
-Profile Confidence: 0.583
+Profile Confidence: 0.57
 Issues: low_education_info, no_services_listed, no_affiliations
 
 Action Required:
 Please contact the provider to verify their information and request missing documentation.
 
 Contact Info:
-  Phone: +12127213883
-  Address: 10 Park Ave, New York, NY 10016, USA
+Phone: 0124 409 0700
+Address: Central Ave SE, New Mexico, USA
 
 
-----------------------------------------------------------------------
+------------------------------------------------------------
+
+Subject: HOLD - Provider P0005 requires verification
+
+Provider: SUSAN WORTSMAN
+NPI: 1841293990
+Identity Status: NPI_VERIFIED
+Profile Confidence: 0.585
+Issues: low_education_info, no_services_listed, no_affiliations
+
+Action Required:
+Please contact the provider to verify their information and request missing documentation.
+
+Contact Info:
+Phone: +12124814464
+Address: 425 E 25th St, Tacoma, WA 98421, USA
+
+
+------------------------------------------------------------
 

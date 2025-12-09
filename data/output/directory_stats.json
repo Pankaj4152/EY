@@ -1,23 +1,26 @@
 {
-  "timestamp": "2025-12-08T05:42:17.267936Z",
-  "total_processed": 1,
+  "timestamp": "2025-12-08T18:53:42.427037Z",
+  "total_processed": 5,
   "by_decision": {
-    "AUTO": 0,
-    "REVIEW": 0,
-    "HOLD": 1
+    "AUTO": 1,
+    "REVIEW": 5,
+    "HOLD": 0
   },
   "by_decision_percentage": {
-    "AUTO": 0.0,
-    "REVIEW": 0.0,
-    "HOLD": 100.0
+    "AUTO": 20.0,
+    "REVIEW": 100.0,
+    "HOLD": 0.0
   },
-  "top_specialties": {},
+  "top_specialties": {
+    "Internal Medicine, Cardiovascular Disease": 1
+  },
   "confidence_distribution": {
-    "high (\u22650.90)": 0,
-    "medium (0.75-0.89)": 0,
+    "high (>=0.90)": 0,
+    "medium (0.75-0.89)": 1,
     "low (<0.75)": 0
   },
   "avg_confidence_by_decision": {
-    "HOLD": 0.583
+    "AUTO": 0.75,
+    "REVIEW": 0.621
   }
 }

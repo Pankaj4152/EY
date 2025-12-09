@@ -1,14 +1,94 @@
 [
     {
-        "provider_id": "P001",
-        "npi": "1447268107",
-        "name": "10 PARK PHARMACY INC.",
-        "address": "10 Park Ave, New York, NY 10016, USA",
-        "phone": "+12127213883",
-        "specialty": "Pharmacist",
+        "provider_id": "P0001",
+        "npi": "1679576722",
+        "name": "DAVID WIEBE",
+        "address": "Central Ave SE, New Mexico, USA",
+        "phone": "0124 409 0700",
+        "specialty": "Orthopaedic Surgery",
         "confidence": {
             "address": 0.6,
             "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0002",
+        "npi": "1588667638",
+        "name": "WILLIAM PILCHER",
+        "address": "1824 KING STREET, SUITE 300, JACKSONVILLE, FL, 322044736",
+        "phone": "+19043881820",
+        "specialty": "Internal Medicine, Cardiovascular Disease",
+        "confidence": {
+            "address": 0.75,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": false,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0003",
+        "npi": "1215930367",
+        "name": "LAURENT GRESSOT",
+        "address": "17323 Red Oak Dr, Houston, TX 77090, USA",
+        "phone": "+12814405006",
+        "specialty": "Internal Medicine, Hematology & Oncology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0004",
+        "npi": "1932102084",
+        "name": "RAVI ADUSUMILLI",
+        "address": "2940 N McCord Rd, Toledo, OH 43615, USA",
+        "phone": "+14198423000",
+        "specialty": "Internal Medicine, Cardiovascular Disease",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0005",
+        "npi": "1841293990",
+        "name": "SUSAN WORTSMAN",
+        "address": "425 E 25th St, Tacoma, WA 98421, USA",
+        "phone": "+12124814464",
+        "specialty": "Audiologist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
             "identity": 0.9
         },
         "sources": {

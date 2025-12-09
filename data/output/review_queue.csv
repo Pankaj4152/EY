@@ -1,3 +1,5 @@
 provider_id,name,npi,identity_status,profile_confidence,reasons
 P0001,DAVID WIEBE,1679576722,NPI_VERIFIED,0.57,low_education_info|no_services_listed|no_affiliations
+P0003,LAURENT GRESSOT,1215930367,NPI_VERIFIED,0.62,low_education_info|no_services_listed|no_affiliations
+P0004,RAVI ADUSUMILLI,1932102084,NPI_VERIFIED,0.624,low_education_info|no_services_listed|no_affiliations|semantic_specialty_boost
 P0005,SUSAN WORTSMAN,1841293990,NPI_VERIFIED,0.585,low_education_info|no_services_listed|no_affiliations

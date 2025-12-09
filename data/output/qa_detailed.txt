@@ -1,22 +1,75 @@
-P001 | 10 PARK PHARMACY INC. | decision=HOLD | score=0.583 | identity=NPI_VERIFIED | npi=1447268107
-Provider: P001 - 10 PARK PHARMACY INC.
-  NPI: 1447268107  |  Identity: NPI_VERIFIED
-  Address: 10 Park Ave, New York, NY 10016, USA
-  Phone: +12127213883
-  Profile Confidence: 0.583
-  Component Scores:
-    - identity       : 0.900
-    - address        : 0.600
-    - phone          : 0.600
-    - specialty      : 0.600
-    - education      : 0.050
-    - services       : 0.050
-    - affiliations   : 0.050
+P0001 | DAVID WIEBE | decision=REVIEW | score=0.57 | identity=NPI_VERIFIED | npi=1679576722 | address=Central Ave SE, New Mexico, USA | phone=0124 409 0700
+Provider: P0001 - DAVID WIEBE
+  NPI: 1679576722  Identity: NPI_VERIFIED
+  Address: Central Ave SE, New Mexico, USA
+  Phone: 0124 409 0700
+  Profile Confidence: 0.57
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
   Top Reasons: low_education_info, no_services_listed, no_affiliations
   Enrichment Highlights:
-    Education: N/A (conf: 0.05)
-    Specialty: Pharmacist (conf: 0.45)
-    Services: 0 found (sample: [])
-    Affiliations: 0 found (sample: [])
-----------------------------------------------------------------------
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0002 | WILLIAM PILCHER | decision=AUTO | score=0.75 | identity=NPI_VERIFIED | npi=1588667638 | address=1824 KING STREET, SUITE 300, JACKSONVILLE, FL, 322044736 | phone=+19043881820
+Provider: P0002 - WILLIAM PILCHER
+  NPI: 1588667638  Identity: NPI_VERIFIED
+  Address: 1824 KING STREET, SUITE 300, JACKSONVILLE, FL, 322044736
+  Phone: +19043881820
+  Profile Confidence: 0.75
+  Component Scores: {'identity': 0.9, 'address': 0.75, 'phone': 0.75, 'specialty': 0.6, 'education': 0.85, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: no_services_listed
+  Enrichment Highlights:
+    Education: {'value': 'Medical Education Medical College of Georgia Fellowship', 'confidence': 0.85, 'source': 'https://healthcare.ascension.org/find-care/provider/1588667638/william-pilcher?utm_campaign=gmb-website&utm_medium=organic&utm_source=google'}
+    Specialty: {'value': 'Internal Medicine, Cardiovascular Disease', 'confidence': 0.6, 'source': 'https://healthcare.ascension.org/find-care/provider/1588667638/william-pilcher?utm_campaign=gmb-website&utm_medium=organic&utm_source=google'}
+    Services Sample: []
+    Affiliations Sample: ['Medical Education Medical College of Georgia Fellowship']
+------------------------------------------------------------
+
+P0003 | LAURENT GRESSOT | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1215930367 | address=17323 Red Oak Dr, Houston, TX 77090, USA | phone=+12814405006
+Provider: P0003 - LAURENT GRESSOT
+  NPI: 1215930367  Identity: NPI_VERIFIED
+  Address: 17323 Red Oak Dr, Houston, TX 77090, USA
+  Phone: +12814405006
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=13775531947151095634'}
+    Specialty: {'value': 'Internal Medicine, Hematology & Oncology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=13775531947151095634'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0004 | RAVI ADUSUMILLI | decision=REVIEW | score=0.624 | identity=NPI_VERIFIED | npi=1932102084 | address=2940 N McCord Rd, Toledo, OH 43615, USA | phone=+14198423000
+Provider: P0004 - RAVI ADUSUMILLI
+  NPI: 1932102084  Identity: NPI_VERIFIED
+  Address: 2940 N McCord Rd, Toledo, OH 43615, USA
+  Phone: +14198423000
+  Profile Confidence: 0.624
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6380994126200676, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.promedica.org/our-doctors/RaviAdusumilliMD/WP-24ZfNlStyfrsQedYg4GQtBfA-3D-3D-24V9W92qfI7zmumaaMTrBuMPvmdi0Jn6as5tKegYSla-2BE-3D'}
+    Specialty: {'value': 'Internal Medicine, Cardiovascular Disease', 'confidence': 0.6, 'source': 'https://www.promedica.org/our-doctors/RaviAdusumilliMD/WP-24ZfNlStyfrsQedYg4GQtBfA-3D-3D-24V9W92qfI7zmumaaMTrBuMPvmdi0Jn6as5tKegYSla-2BE-3D'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0005 | SUSAN WORTSMAN | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1841293990 | address=425 E 25th St, Tacoma, WA 98421, USA | phone=+12124814464
+Provider: P0005 - SUSAN WORTSMAN
+  NPI: 1841293990  Identity: NPI_VERIFIED
+  Address: 425 E 25th St, Tacoma, WA 98421, USA
+  Phone: +12124814464
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
 

@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "provider_id": "P0002",
+    "npi": "1588667638",
+    "name": "WILLIAM PILCHER",
+    "address": "1824 KING STREET, SUITE 300, JACKSONVILLE, FL, 322044736",
+    "phone": "+19043881820",
+    "specialty": "Internal Medicine, Cardiovascular Disease",
+    "confidence": {
+      "address": 0.75,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": false,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "Medical Education Medical College of Georgia Fellowship",
+        "confidence": 0.85,
+        "source": "https://healthcare.ascension.org/find-care/provider/1588667638/william-pilcher?utm_campaign=gmb-website&utm_medium=organic&utm_source=google"
+      },
+      "specialty": {
+        "value": "Internal Medicine, Cardiovascular Disease",
+        "confidence": 0.6,
+        "source": "https://healthcare.ascension.org/find-care/provider/1588667638/william-pilcher?utm_campaign=gmb-website&utm_medium=organic&utm_source=google"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://healthcare.ascension.org/find-care/provider/1588667638/william-pilcher?utm_campaign=gmb-website&utm_medium=organic&utm_source=google"
+      },
+      "affiliations": {
+        "value": [
+          "Medical Education Medical College of Georgia Fellowship"
+        ],
+        "confidence": 0.85,
+        "source": "https://healthcare.ascension.org/find-care/provider/1588667638/william-pilcher?utm_campaign=gmb-website&utm_medium=organic&utm_source=google"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.75,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.75,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.85,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "no_services_listed"
+      ],
+      "description": "P0002 | WILLIAM PILCHER | decision=AUTO | score=0.75 | identity=NPI_VERIFIED | npi=1588667638 | address=1824 KING STREET, SUITE 300, JACKSONVILLE, FL, 322044736 | phone=+19043881820",
+      "explainable_summary": {
+        "provider_id": "P0002",
+        "name": "WILLIAM PILCHER",
+        "npi": "1588667638",
+        "identity_status": "NPI_VERIFIED",
+        "address": "1824 KING STREET, SUITE 300, JACKSONVILLE, FL, 322044736",
+        "phone": "+19043881820",
+        "profile_confidence": 0.75,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.75,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.85,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "Medical Education Medical College of Georgia Fellowship",
+            "confidence": 0.85,
+            "source": "https://healthcare.ascension.org/find-care/provider/1588667638/william-pilcher?utm_campaign=gmb-website&utm_medium=organic&utm_source=google"
+          },
+          "specialty": {
+            "value": "Internal Medicine, Cardiovascular Disease",
+            "confidence": 0.6,
+            "source": "https://healthcare.ascension.org/find-care/provider/1588667638/william-pilcher?utm_campaign=gmb-website&utm_medium=organic&utm_source=google"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Medical Education Medical College of Georgia Fellowship"
+          ]
+        }
+      }
+    }
+  }
+]

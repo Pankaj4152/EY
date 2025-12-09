@@ -81,11 +81,12 @@ def find_place(name: str, city: str):
 
 def fetch_place_details(place_id: str):
     """
-    Fetch full business details including phone.
+    Fetch full business details including phone and website.
     """
     params = {
         "place_id": place_id,
-        "fields": "name,formatted_address,formatted_phone_number,types",
+        # added 'website' and 'url' fields so we can get provider website when available
+        "fields": "name,formatted_address,formatted_phone_number,types,website,url",
         "key": GOOGLE_API_KEY
     }
 
@@ -107,6 +108,7 @@ def fetch_place_details(place_id: str):
             "address": result.get("formatted_address"),
             "phone": result.get("formatted_phone_number"),
             "types": result.get("types"),
+            "website": result.get("website") or result.get("url"),
             "source": "Google Places"
         }
 
