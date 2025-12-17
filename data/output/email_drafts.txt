@@ -1,35 +1,17 @@
-Subject: HOLD - Provider P0001 requires verification
+Subject: HOLD - Provider P0069 requires verification
 
-Provider: DAVID WIEBE
-NPI: 1679576722
-Identity Status: NPI_VERIFIED
-Profile Confidence: 0.57
-Issues: low_education_info, no_services_listed, no_affiliations
-
-Action Required:
-Please contact the provider to verify their information and request missing documentation.
-
-Contact Info:
-Phone: 0124 409 0700
-Address: Central Ave SE, New Mexico, USA
-
-
-------------------------------------------------------------
-
-Subject: HOLD - Provider P0005 requires verification
-
-Provider: SUSAN WORTSMAN
-NPI: 1841293990
-Identity Status: NPI_VERIFIED
-Profile Confidence: 0.585
-Issues: low_education_info, no_services_listed, no_affiliations
+Provider: 
+NPI: 1730182767
+Identity Status: NPI_PROVIDED_UNVERIFIED
+Profile Confidence: 0.44
+Issues: low_identity_confidence, low_education_info, no_services_listed, no_affiliations
 
 Action Required:
 Please contact the provider to verify their information and request missing documentation.
 
 Contact Info:
-Phone: +12124814464
-Address: 425 E 25th St, Tacoma, WA 98421, USA
+Phone: 8056821394.0
+Address: 222 W Pueblo St, Santa Barbara, CA 93105, USA
 
 
 ------------------------------------------------------------

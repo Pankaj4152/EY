@@ -8,5 +8,5 @@ ENRICH_MAX_SEARCH_ATTEMPTS = 1
 ENRICH_ONLY_DDG=0
 
 # Thresholds (can be overridden via environment variables TH_AUTO / TH_REVIEW)
-TH_AUTO = float(os.getenv("TH_AUTO", "0.90"))
-TH_REVIEW = float(os.getenv("TH_REVIEW", "0.60"))
+TH_AUTO = float(os.getenv("TH_AUTO", "0.65"))
+TH_REVIEW = float(os.getenv("TH_REVIEW", "0.45"))

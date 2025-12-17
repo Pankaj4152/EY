@@ -58,11 +58,2336 @@ Provider: P0004 - RAVI ADUSUMILLI
     Affiliations Sample: []
 ------------------------------------------------------------
 
-P0005 | SUSAN WORTSMAN | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1841293990 | address=425 E 25th St, Tacoma, WA 98421, USA | phone=+12124814464
+P0005 | SUSAN WORTSMAN | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1841293990 | address=425 E 25th St, Los Angeles, CA 90011, USA | phone=+12124814464
 Provider: P0005 - SUSAN WORTSMAN
   NPI: 1841293990  Identity: NPI_VERIFIED
-  Address: 425 E 25th St, Tacoma, WA 98421, USA
+  Address: 425 E 25th St, Los Angeles, CA 90011, USA
   Phone: +12124814464
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0006 | ROBERT BISBEE | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1750384806 | address=808 Joliet Ave #120, Lubbock, TX 79415, USA | phone=+18067610540
+Provider: P0006 - ROBERT BISBEE
+  NPI: 1750384806  Identity: NPI_VERIFIED
+  Address: 808 Joliet Ave #120, Lubbock, TX 79415, USA
+  Phone: +18067610540
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0007 | BIN SUNG | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1669475711 | address=7629 Tiki Dr, Fulshear, TX 77441, USA | phone=+12813460018
+Provider: P0007 - BIN SUNG
+  NPI: 1669475711  Identity: NPI_VERIFIED
+  Address: 7629 Tiki Dr, Fulshear, TX 77441, USA
+  Phone: +12813460018
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0008 | WARREN KUIPERS | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1578566626 | address=1205 S 7th Ave, Sioux Falls, SD 57105, USA | phone=+16023446600
+Provider: P0008 - WARREN KUIPERS
+  NPI: 1578566626  Identity: NPI_VERIFIED
+  Address: 1205 S 7th Ave, Sioux Falls, SD 57105, USA
+  Phone: +16023446600
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0009 | ALLISON HUEBERT | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1487657532 | address=4444 E 41st St, Tulsa, OK 74135, USA | phone=+19186194400
+Provider: P0009 - ALLISON HUEBERT
+  NPI: 1487657532  Identity: NPI_VERIFIED
+  Address: 4444 E 41st St, Tulsa, OK 74135, USA
+  Phone: +19186194400
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=17098589442219528249'}
+    Specialty: {'value': 'Obstetrics & Gynecology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=17098589442219528249'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0010 | CYNTHIA YOUNG-MAYKA | decision=REVIEW | score=0.628 | identity=NPI_VERIFIED | npi=1396748448 | address=806 WEST BROADWAY ASSOCIATED MEDICAL PROFESSIONALS, FULTON, NY, 13069 | phone=+17172912499
+Provider: P0010 - CYNTHIA YOUNG-MAYKA
+  NPI: 1396748448  Identity: NPI_VERIFIED
+  Address: 806 WEST BROADWAY ASSOCIATED MEDICAL PROFESSIONALS, FULTON, NY, 13069
+  Phone: +17172912499
+  Profile Confidence: 0.628
+  Component Scores: {'identity': 0.9, 'address': 0.75, 'phone': 0.6, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=3973790724753830795'}
+    Specialty: {'value': 'Physician Assistant', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=3973790724753830795'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0011 | EMIL DIFILIPPO | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1205839354 | address=9323 Phoenix Village Pkwy, O'Fallon, MO 63368, USA | phone=+16365615030
+Provider: P0011 - EMIL DIFILIPPO
+  NPI: 1205839354  Identity: NPI_VERIFIED
+  Address: 9323 Phoenix Village Pkwy, O'Fallon, MO 63368, USA
+  Phone: +16365615030
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0012 | RICHARD THACKER | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1114920261 | address=2770 Capital Medical Blvd, Tallahassee, FL 32308, USA | phone=+18508788235
+Provider: P0012 - RICHARD THACKER
+  NPI: 1114920261  Identity: NPI_VERIFIED
+  Address: 2770 Capital Medical Blvd, Tallahassee, FL 32308, USA
+  Phone: +18508788235
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0013 | MARK ROTHSTEIN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1932102985 | address=75 Hospital Dr, Columbia, MO 65212, USA | phone=+17405924491
+Provider: P0013 - MARK ROTHSTEIN
+  NPI: 1932102985  Identity: NPI_VERIFIED
+  Address: 75 Hospital Dr, Columbia, MO 65212, USA
+  Phone: +17405924491
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=11274636412658721217'}
+    Specialty: {'value': 'Family Medicine', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=11274636412658721217'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0014 | ELMER GIBBS | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1841293891 | address=49 Cleveland St, Greenville, SC 29601, USA | phone=+19317871232
+Provider: P0014 - ELMER GIBBS
+  NPI: 1841293891  Identity: NPI_VERIFIED
+  Address: 49 Cleveland St, Greenville, SC 29601, USA
+  Phone: +19317871232
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0015 | ALAN MARKMAN | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1750384707 | address=8100 Northland Dr, Bloomington, MN 55431, USA | phone=+19528318742
+Provider: P0015 - ALAN MARKMAN
+  NPI: 1750384707  Identity: NPI_VERIFIED
+  Address: 8100 Northland Dr, Bloomington, MN 55431, USA
+  Phone: +19528318742
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0016 | DEBRA TROTCHIE | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1669475612 | address=8876 Spanish Ridge Ave #103, Las Vegas, NV 89148, USA | phone=+17023420858
+Provider: P0016 - DEBRA TROTCHIE
+  NPI: 1669475612  Identity: NPI_VERIFIED
+  Address: 8876 Spanish Ridge Ave #103, Las Vegas, NV 89148, USA
+  Phone: +17023420858
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0017 | GEORGE GRUNERT | decision=AUTO | score=0.72 | identity=NPI_VERIFIED | npi=1396748349 | address=2500 Fondren Rd Suite 300, Houston, TX 77063, USA | phone=+17137302229
+Provider: P0017 - GEORGE GRUNERT
+  NPI: 1396748349  Identity: NPI_VERIFIED
+  Address: 2500 Fondren Rd Suite 300, Houston, TX 77063, USA
+  Phone: +17137302229
+  Profile Confidence: 0.72
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.8, 'services': 0.8, 'affiliations': 0.15}
+  Top Reasons: no_affiliations
+  Enrichment Highlights:
+    Education: {'value': 'MD | Fertility Doctor in Houston, TX Skip To Content Patient Portal Referring Providers LGBTQ+ (713)', 'confidence': 0.8, 'source': 'https://www.aspirehfi.com/fertility-specialists/dr-george-grunert?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-HFIPP'}
+    Specialty: {'value': 'Obstetrics & Gynecology, Reproductive Endocrinology', 'confidence': 0.6, 'source': 'https://www.aspirehfi.com/fertility-specialists/dr-george-grunert?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-HFIPP'}
+    Services Sample: ['Fertility Treatment', 'Fertility Evaluation', 'Houston IVF']
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0018 | STEVEN GOLDBERG | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1205839255 | address=1010 Northern Blvd, Great Neck, NY 11021, USA | phone=+15163902430
+Provider: P0018 - STEVEN GOLDBERG
+  NPI: 1205839255  Identity: NPI_VERIFIED
+  Address: 1010 Northern Blvd, Great Neck, NY 11021, USA
+  Phone: +15163902430
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0019 | JON DUBOSE | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1114920162 | address=111 Hospital Dr, Utica, NY 13502, USA | phone=+12526417700
+Provider: P0019 - JON DUBOSE
+  NPI: 1114920162  Identity: NPI_VERIFIED
+  Address: 111 Hospital Dr, Utica, NY 13502, USA
+  Phone: +12526417700
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0020 | TERESA ANDERSON-KRULL | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1922001973 | address=E Main St, Ohio, USA | phone=+15073770107
+Provider: P0020 - TERESA ANDERSON-KRULL
+  NPI: 1922001973  Identity: NPI_VERIFIED
+  Address: E Main St, Ohio, USA
+  Phone: +15073770107
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6014911711215973, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.theandersonclinic.net/'}
+    Specialty: {'value': 'Social Worker, Clinical', 'confidence': 0.6, 'source': 'https://www.theandersonclinic.net/'}
+    Services Sample: []
+    Affiliations Sample: ['Anderson Clinic Services']
+------------------------------------------------------------
+
+P0021 | CRAIG COE | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1831192889 | address=210 Westside Dr, Dothan, AL 36303, USA | phone=+13347935074
+Provider: P0021 - CRAIG COE
+  NPI: 1831192889  Identity: NPI_VERIFIED
+  Address: 210 Westside Dr, Dothan, AL 36303, USA
+  Phone: +13347935074
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0022 | WENDY OBERDICK | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1659374601 | address=105 W Stone Dr, Kingsport, TN 37660, USA | phone=+14232302420
+Provider: P0022 - WENDY OBERDICK
+  NPI: 1659374601  Identity: NPI_VERIFIED
+  Address: 105 W Stone Dr, Kingsport, TN 37660, USA
+  Phone: +14232302420
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.holstonmedicalgroup.com/'}
+    Specialty: {'value': 'Family Medicine', 'confidence': 0.6, 'source': 'https://www.holstonmedicalgroup.com/'}
+    Services Sample: []
+    Affiliations Sample: ['Holston Medical Group', 'Health & Wellness', 'Audiology Clinical Research Der']
+------------------------------------------------------------
+
+P0023 | RAWN SALENGER | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1568465516 | address=7505 Osler Dr, Towson, MD 21204, USA | phone=+14103371783
+Provider: P0023 - RAWN SALENGER
+  NPI: 1568465516  Identity: NPI_VERIFIED
+  Address: 7505 Osler Dr, Towson, MD 21204, USA
+  Phone: +14103371783
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=7478823048064599720'}
+    Specialty: {'value': 'Thoracic Surgery (Cardiothoracic Vascular Surgery)', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=7478823048064599720'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0024 | STEVEN ROTH | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1477556421 | address=1107 Mantua Pike, West Deptford, NJ 08051, USA | phone=+18564649000
+Provider: P0024 - STEVEN ROTH
+  NPI: 1477556421  Identity: NPI_VERIFIED
+  Address: 1107 Mantua Pike, West Deptford, NJ 08051, USA
+  Phone: +18564649000
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=9760685350204064433'}
+    Specialty: {'value': 'Optometrist', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=9760685350204064433'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0025 | RICHARD SOUCIER | decision=REVIEW | score=0.57 | identity=NPI_VERIFIED | npi=1255334207 | address=Woodland St, Sherborn, MA 01770, USA | phone=+18605475000
+Provider: P0025 - RICHARD SOUCIER
+  NPI: 1255334207  Identity: NPI_VERIFIED
+  Address: Woodland St, Sherborn, MA 01770, USA
+  Phone: +18605475000
+  Profile Confidence: 0.57
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0026 | BRIAN ISETTS | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1164425112 | address=308 Harvard St SE, Bandon, OR 97411, USA | phone=+16126242140
+Provider: P0026 - BRIAN ISETTS
+  NPI: 1164425112  Identity: NPI_VERIFIED
+  Address: 308 Harvard St SE, Bandon, OR 97411, USA
+  Phone: +16126242140
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0027 | JOHN CHANG | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1073516027 | address=169 N Middletown Rd, Nanuet, NY 10954, USA | phone=+18457355666
+Provider: P0027 - JOHN CHANG
+  NPI: 1073516027  Identity: NPI_VERIFIED
+  Address: 169 N Middletown Rd, Nanuet, NY 10954, USA
+  Phone: +18457355666
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.spinakeyes.com/'}
+    Specialty: {'value': 'Ophthalmology', 'confidence': 0.6, 'source': 'https://www.spinakeyes.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0028 | LISA FRIEDMAN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1619970662 | address=333 N Santa Rosa St, San Antonio, TX 78207, USA | phone=+12107042190
+Provider: P0028 - LISA FRIEDMAN
+  NPI: 1619970662  Identity: NPI_VERIFIED
+  Address: 333 N Santa Rosa St, San Antonio, TX 78207, USA
+  Phone: +12107042190
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=4316676201293511996'}
+    Specialty: {'value': 'Nurse Practitioner, Pediatrics', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=4316676201293511996'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0029 | JILL POTTS | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1245233295 | address=335 Parrish St, Canandaigua, NY 14424, USA | phone=+15853932845
+Provider: P0029 - JILL POTTS
+  NPI: 1245233295  Identity: NPI_VERIFIED
+  Address: 335 Parrish St, Canandaigua, NY 14424, USA
+  Phone: +15853932845
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=1498626933443079298'}
+    Specialty: {'value': 'Internal Medicine', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=1498626933443079298'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0030 | TIMOTHY WOLTER | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1871596825 | address=716 W Columbia St, Evansville, IN 47710, USA | phone=+17157261963
+Provider: P0030 - TIMOTHY WOLTER
+  NPI: 1871596825  Identity: NPI_VERIFIED
+  Address: 716 W Columbia St, Evansville, IN 47710, USA
+  Phone: +17157261963
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0031 | ARLENE STAUBSINGER | decision=REVIEW | score=0.605 | identity=NPI_VERIFIED | npi=1780687731 | address=8100 Oswego Rd, Liverpool, NY 13090, USA | phone=0151 264 2500
+Provider: P0031 - ARLENE STAUBSINGER
+  NPI: 1780687731  Identity: NPI_VERIFIED
+  Address: 8100 Oswego Rd, Liverpool, NY 13090, USA
+  Phone: 0151 264 2500
+  Profile Confidence: 0.605
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=1454745998650555578'}
+    Specialty: {'value': 'Psychologist', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=1454745998650555578'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0032 | LEE VAN HOUTEN-SAUTER | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1508869553 | address=220 Pine St, Knobel, AR 72435, USA | phone=+18566297436
+Provider: P0032 - LEE VAN HOUTEN-SAUTER
+  NPI: 1508869553  Identity: NPI_VERIFIED
+  Address: 220 Pine St, Knobel, AR 72435, USA
+  Phone: +18566297436
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.pinestreetfamilypractice.com/'}
+    Specialty: {'value': 'Family Medicine', 'confidence': 0.6, 'source': 'https://www.pinestreetfamilypractice.com/'}
+    Services Sample: []
+    Affiliations Sample: ['##cine Clinic']
+------------------------------------------------------------
+
+P0033 | JOHN GARCIA | decision=AUTO | score=0.713 | identity=NPI_VERIFIED | npi=1417950460 | address=4200 Beckner Rd, Santa Fe, NM 87507, USA | phone=+15059556200
+Provider: P0033 - JOHN GARCIA
+  NPI: 1417950460  Identity: NPI_VERIFIED
+  Address: 4200 Beckner Rd, Santa Fe, NM 87507, USA
+  Phone: +15059556200
+  Profile Confidence: 0.713
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.85, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: no_services_listed
+  Enrichment Highlights:
+    Education: {'value': 'University of Texas Southwestern Medical School', 'confidence': 0.85, 'source': 'https://nexushealth-nm.com/john-garcia/'}
+    Specialty: {'value': 'Orthopaedic Surgery', 'confidence': 0.6, 'source': 'https://nexushealth-nm.com/john-garcia/'}
+    Services Sample: []
+    Affiliations Sample: ['##us Health Nexus Health', 'Nexus Health Primary Care', 'Nexus Health Physical Therapy']
+------------------------------------------------------------
+
+P0034 | JOHN SHEPHERD | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1225031271 | address=293 Olmsted Blvd, Pinehurst, NC 28374, USA | phone=+19102953344
+Provider: P0034 - JOHN SHEPHERD
+  NPI: 1225031271  Identity: NPI_VERIFIED
+  Address: 293 Olmsted Blvd, Pinehurst, NC 28374, USA
+  Phone: +19102953344
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0035 | CHERYL RUDNICKE | decision=AUTO | score=0.728 | identity=NPI_VERIFIED | npi=1134122187 | address=250 25th Ave N, Nashville, TN 37203, USA | phone=+16153205090
+Provider: P0035 - CHERYL RUDNICKE
+  NPI: 1134122187  Identity: NPI_VERIFIED
+  Address: 250 25th Ave N, Nashville, TN 37203, USA
+  Phone: +16153205090
+  Profile Confidence: 0.728
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.85, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: no_services_listed
+  Enrichment Highlights:
+    Education: {'value': 'McKay Institute', 'confidence': 0.85, 'source': 'https://tnoncology.com/'}
+    Specialty: {'value': 'Nurse Practitioner', 'confidence': 0.6, 'source': 'https://tnoncology.com/'}
+    Services Sample: []
+    Affiliations Sample: ['Services Trials Services Primary Services Medical Oncology', 'Breast Center Center for', 'Medical Oncology Pharmacy Ra']
+------------------------------------------------------------
+
+P0036 | ALFRED VASTA | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1952304909 | address=99 N West End Blvd, Quakertown, PA 18951, USA | phone=+12155380202
+Provider: P0036 - ALFRED VASTA
+  NPI: 1952304909  Identity: NPI_VERIFIED
+  Address: 99 N West End Blvd, Quakertown, PA 18951, USA
+  Phone: +12155380202
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0037 | FRANCISCO SMITH | decision=AUTO | score=0.655 | identity=NPI_VERIFIED | npi=1861495814 | address=Royal Plam Medical Building, 1660 Medical Blvd, Naples, FL 34110, USA | phone=+12395961995
+Provider: P0037 - FRANCISCO SMITH
+  NPI: 1861495814  Identity: NPI_VERIFIED
+  Address: Royal Plam Medical Building, 1660 Medical Blvd, Naples, FL 34110, USA
+  Phone: +12395961995
+  Profile Confidence: 0.655
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.8, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': 'MD, MPH Mark B. Frenkel, MD, MA Mark Gerber, MD Christopher Govea, MD F. Desmond Hussey III, MD Howa', 'confidence': 0.8, 'source': 'https://nasamri.com/'}
+    Specialty: {'value': 'Obstetrics & Gynecology, Gynecologic Oncology', 'confidence': 0.6, 'source': 'https://nasamri.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0038 | STEPHEN DURITSCH | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1689677635 | address=1 Medical Center Dr, Morgantown, WV 26506, USA | phone=+15134281131
+Provider: P0038 - STEPHEN DURITSCH
+  NPI: 1689677635  Identity: NPI_VERIFIED
+  Address: 1 Medical Center Dr, Morgantown, WV 26506, USA
+  Phone: +15134281131
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0039 | BERTHA ARENAS | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1598768541 | address=1702 N Alamo St, San Antonio, TX 78215, USA | phone=+12102241823
+Provider: P0039 - BERTHA ARENAS
+  NPI: 1598768541  Identity: NPI_VERIFIED
+  Address: 1702 N Alamo St, San Antonio, TX 78215, USA
+  Phone: +12102241823
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=627551168179946323'}
+    Specialty: {'value': 'Nurse Practitioner, Family', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=627551168179946323'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0040 | THOMAS MAGNIFICO | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1407859457 | address=4021 Cascade Rd SE, Grand Rapids, MI 49546, USA | phone=+16169749792
+Provider: P0040 - THOMAS MAGNIFICO
+  NPI: 1407859457  Identity: NPI_VERIFIED
+  Address: 4021 Cascade Rd SE, Grand Rapids, MI 49546, USA
+  Phone: +16169749792
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0041 | GEETHA CONJEEVARAM | decision=AUTO | score=0.728 | identity=NPI_VERIFIED | npi=1316940364 | address=75 Hospital Dr, Columbia, MO 65212, USA | phone=+17405924491
+Provider: P0041 - GEETHA CONJEEVARAM
+  NPI: 1316940364  Identity: NPI_VERIFIED
+  Address: 75 Hospital Dr, Columbia, MO 65212, USA
+  Phone: +17405924491
+  Profile Confidence: 0.728
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.85, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: no_services_listed
+  Enrichment Highlights:
+    Education: {'value': 'OhioHealth Research Institute', 'confidence': 0.85, 'source': 'https://www.ohiohealth.com/'}
+    Specialty: {'value': 'Internal Medicine', 'confidence': 0.6, 'source': 'https://www.ohiohealth.com/'}
+    Services Sample: []
+    Affiliations Sample: ['OhioHealth', "OhioHealth Women ' s Center", 'OhioHealth Listen']
+------------------------------------------------------------
+
+P0042 | DANA TRIPPI | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1124021175 | address=3100 N Tenaya Wy, Las Vegas, NV 89128, USA | phone=+17026716845
+Provider: P0042 - DANA TRIPPI
+  NPI: 1124021175  Identity: NPI_VERIFIED
+  Address: 3100 N Tenaya Wy, Las Vegas, NV 89128, USA
+  Phone: +17026716845
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.premierweightloss.com/?utm_source=gmb_auth'}
+    Specialty: {'value': 'Emergency Medicine', 'confidence': 0.6, 'source': 'https://www.premierweightloss.com/?utm_source=gmb_auth'}
+    Services Sample: []
+    Affiliations Sample: ['Health Care Quarterly']
+------------------------------------------------------------
+
+P0043 | JOHN FOGARTY | decision=AUTO | score=0.655 | identity=NPI_VERIFIED | npi=1033112081 | address=1850 W Arlington Blvd, Greenville, NC 27834, USA | phone=+12527526101
+Provider: P0043 - JOHN FOGARTY
+  NPI: 1033112081  Identity: NPI_VERIFIED
+  Address: 1850 W Arlington Blvd, Greenville, NC 27834, USA
+  Phone: +12527526101
+  Profile Confidence: 0.655
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.8, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': 'MD Location : 1850 W Arlington Blvd, Greenville, NC 27834, USA View Map Arlington Campus Entrance: E', 'confidence': 0.8, 'source': 'https://www.physicianseast.com/physician/john-fogarty/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU1NjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D'}
+    Specialty: {'value': 'Internal Medicine, Pulmonary Disease', 'confidence': 0.6, 'source': 'https://www.physicianseast.com/physician/john-fogarty/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU1NjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0044 | JACQUELINE MYERS | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1942203997 | address=618 Pleasantville Rd, Lancaster, OH 43130, USA | phone=+17406819020
+Provider: P0044 - JACQUELINE MYERS
+  NPI: 1942203997  Identity: NPI_VERIFIED
+  Address: 618 Pleasantville Rd, Lancaster, OH 43130, USA
+  Phone: +17406819020
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=15921970018073238385'}
+    Specialty: {'value': 'Nurse Practitioner, Adult Health', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=15921970018073238385'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0045 | SPENCE HARPER | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1851394803 | address=190 N Main St, Glen Carbon, IL 62034, USA | phone=+14356570329
+Provider: P0045 - SPENCE HARPER
+  NPI: 1851394803  Identity: NPI_VERIFIED
+  Address: 190 N Main St, Glen Carbon, IL 62034, USA
+  Phone: +14356570329
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0046 | ROSE ANN RENOUF | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1649273681 | address=1401 Henderson St, Fort Worth, TX 76102, USA | phone=+18173327664
+Provider: P0046 - ROSE ANN RENOUF
+  NPI: 1649273681  Identity: NPI_VERIFIED
+  Address: 1401 Henderson St, Fort Worth, TX 76102, USA
+  Phone: +18173327664
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=2255589829959645166'}
+    Specialty: {'value': 'Nurse Anesthetist, Certified Registered', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=2255589829959645166'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0047 | TANVEER AKBAR | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1558364596 | address=10620 Southern Highlands Pkwy, Las Vegas, NV 89141, USA | phone=+17029216829
+Provider: P0047 - TANVEER AKBAR
+  NPI: 1558364596  Identity: NPI_VERIFIED
+  Address: 10620 Southern Highlands Pkwy, Las Vegas, NV 89141, USA
+  Phone: +17029216829
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=17952169575455413503'}
+    Specialty: {'value': 'Internal Medicine', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=17952169575455413503'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0048 | SCOTT MCCOY | decision=REVIEW | score=0.605 | identity=NPI_VERIFIED | npi=1467455402 | address=3050 N Litchfield Rd, Goodyear, AZ 85395, USA | phone=098290 27867
+Provider: P0048 - SCOTT MCCOY
+  NPI: 1467455402  Identity: NPI_VERIFIED
+  Address: 3050 N Litchfield Rd, Goodyear, AZ 85395, USA
+  Phone: 098290 27867
+  Profile Confidence: 0.605
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=15978417404480161481'}
+    Specialty: {'value': 'Occupational Therapist, Hand', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=15978417404480161481'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0049 | MAURICE ALLGEIER | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1376546317 | address=6425 Bardstown Rd, Louisville, KY 40291, USA | phone=+15027620498
+Provider: P0049 - MAURICE ALLGEIER
+  NPI: 1376546317  Identity: NPI_VERIFIED
+  Address: 6425 Bardstown Rd, Louisville, KY 40291, USA
+  Phone: +15027620498
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=6892313067136679235'}
+    Specialty: {'value': 'Pediatrics', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=6892313067136679235'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0050 | STEVEN LOWRY | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1285637223 | address=220 Pine St, Knobel, AR 72435, USA | phone=+18566297436
+Provider: P0050 - STEVEN LOWRY
+  NPI: 1285637223  Identity: NPI_VERIFIED
+  Address: 220 Pine St, Knobel, AR 72435, USA
+  Phone: +18566297436
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0051 | SUSAN STEWART | decision=REVIEW | score=0.608 | identity=NPI_VERIFIED | npi=1194728139 | address=MAUI MEDICAL GROUP, 2180 MAIN STREET, WAILUKU, HI, 96793 | phone=+18082426464
+Provider: P0051 - SUSAN STEWART
+  NPI: 1194728139  Identity: NPI_VERIFIED
+  Address: MAUI MEDICAL GROUP, 2180 MAIN STREET, WAILUKU, HI, 96793
+  Phone: +18082426464
+  Profile Confidence: 0.608
+  Component Scores: {'identity': 0.9, 'address': 0.75, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0052 | BARBARA NYLANDER | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1003819046 | address=TriStar Centennial Professional Plaza, 345 23rd Ave N, Nashville, TN 37203, USA | phone=+16153299082
+Provider: P0052 - BARBARA NYLANDER
+  NPI: 1003819046  Identity: NPI_VERIFIED
+  Address: TriStar Centennial Professional Plaza, 345 23rd Ave N, Nashville, TN 37203, USA
+  Phone: +16153299082
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=837415187562603382'}
+    Specialty: {'value': 'Obstetrics & Gynecology, Gynecology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=837415187562603382'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0053 | STEPHEN KAUFFMAN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1912900952 | address=3450 N Beauregard St, Alexandria, VA 22302, USA | phone=+17038207000
+Provider: P0053 - STEPHEN KAUFFMAN
+  NPI: 1912900952  Identity: NPI_VERIFIED
+  Address: 3450 N Beauregard St, Alexandria, VA 22302, USA
+  Phone: +17038207000
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.beauregardmedicalctr.com/'}
+    Specialty: {'value': 'General Practice', 'confidence': 0.6, 'source': 'https://www.beauregardmedicalctr.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0054 | ERIC TOWNSEND | decision=AUTO | score=0.797 | identity=NPI_VERIFIED | npi=1306849336 | address=105 Solana Rd, Ponte Vedra Beach, FL 32082, USA | phone=+19042857711
+Provider: P0054 - ERIC TOWNSEND
+  NPI: 1306849336  Identity: NPI_VERIFIED
+  Address: 105 Solana Rd, Ponte Vedra Beach, FL 32082, USA
+  Phone: +19042857711
+  Profile Confidence: 0.797
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6408076614141465, 'education': 0.85, 'services': 0.8, 'affiliations': 0.85}
+  Top Reasons: semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': 'University of Florida', 'confidence': 0.85, 'source': 'https://www.pvcompletedentistry.com/meet-dr-townsend.html'}
+    Specialty: {'value': 'Dentist, General Practice', 'confidence': 0.6, 'source': 'https://www.pvcompletedentistry.com/meet-dr-townsend.html'}
+    Services Sample: ['Checkups & Cleanings', 'Periodontal Therapy', 'TMJ/TMD Therapy']
+    Affiliations Sample: ['Change Healthcare', 'Medical College of Virginia School of Dentist']
+------------------------------------------------------------
+
+P0055 | ANDREW VINCENT | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1215930243 | address=650 Cedar Creek Grade Ste 108, Winchester, VA 22601, USA | phone=+15406673338
+Provider: P0055 - ANDREW VINCENT
+  NPI: 1215930243  Identity: NPI_VERIFIED
+  Address: 650 Cedar Creek Grade Ste 108, Winchester, VA 22601, USA
+  Phone: +15406673338
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://drandrewvincent.com/'}
+    Specialty: {'value': 'Podiatrist, Foot & Ankle Surgery', 'confidence': 0.6, 'source': 'https://drandrewvincent.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0056 | TAMARA HELFER | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1932102969 | address=101 W University Ave, Urbana, IL 61801, USA | phone=+12173661255
+Provider: P0056 - TAMARA HELFER
+  NPI: 1932102969  Identity: NPI_VERIFIED
+  Address: 101 W University Ave, Urbana, IL 61801, USA
+  Phone: +12173661255
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://drfletcherexpertwitness.com/?utm_source=GMB&utm_medium=GMB%20Organic&utm_campaign=GMB'}
+    Specialty: {'value': 'Obstetrics & Gynecology', 'confidence': 0.6, 'source': 'https://drfletcherexpertwitness.com/?utm_source=GMB&utm_medium=GMB%20Organic&utm_campaign=GMB'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0057 | ANDREA MARTIN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1841293875 | address=8144 Walnut Hill Ln, Dallas, TX 75231, USA | phone=+12145400700
+Provider: P0057 - ANDREA MARTIN
+  NPI: 1841293875  Identity: NPI_VERIFIED
+  Address: 8144 Walnut Hill Ln, Dallas, TX 75231, USA
+  Phone: +12145400700
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=11091860650401384213'}
+    Specialty: {'value': 'Nurse Practitioner, Adult Health', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=11091860650401384213'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0058 | JULIE PERRIGIN | decision=REVIEW | score=0.57 | identity=NPI_VERIFIED | npi=1750384780 | address=219 Church St, Toronto, ON M5B 1Y7, Canada | phone=0120 473 7200
+Provider: P0058 - JULIE PERRIGIN
+  NPI: 1750384780  Identity: NPI_VERIFIED
+  Address: 219 Church St, Toronto, ON M5B 1Y7, Canada
+  Phone: 0120 473 7200
+  Profile Confidence: 0.57
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0059 | LYNN MCMAHAN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1669475695 | address=1420 S 28th Ave, Hattiesburg, MS 39402, USA | phone=+16012643937
+Provider: P0059 - LYNN MCMAHAN
+  NPI: 1669475695  Identity: NPI_VERIFIED
+  Address: 1420 S 28th Ave, Hattiesburg, MS 39402, USA
+  Phone: +16012643937
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=5163986903309230693'}
+    Specialty: {'value': 'Ophthalmology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=5163986903309230693'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0060 | BAO QUOC LA | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1578566501 | address=915 Gessner Rd, Houston, TX 77024, USA | phone=+12815890156
+Provider: P0060 - BAO QUOC LA
+  NPI: 1578566501  Identity: NPI_VERIFIED
+  Address: 915 Gessner Rd, Houston, TX 77024, USA
+  Phone: +12815890156
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://doctorla.com/'}
+    Specialty: {'value': 'Obstetrics & Gynecology', 'confidence': 0.6, 'source': 'https://doctorla.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0061 | DANIEL CAREY | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1487657417 | address=850 N Harrison St, Warsaw, IN 46580, USA | phone=+15742677169
+Provider: P0061 - DANIEL CAREY
+  NPI: 1487657417  Identity: NPI_VERIFIED
+  Address: 850 N Harrison St, Warsaw, IN 46580, USA
+  Phone: +15742677169
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.bowenhealth.org/'}
+    Specialty: {'value': 'Social Worker, Clinical', 'confidence': 0.6, 'source': 'https://www.bowenhealth.org/'}
+    Services Sample: []
+    Affiliations Sample: ['Bowen Health']
+------------------------------------------------------------
+
+P0062 | LAURA CAMPBELL | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1396748323 | address=272 W Hwy 11E, New Market, TN 37820, USA | phone=+14232356263
+Provider: P0062 - LAURA CAMPBELL
+  NPI: 1396748323  Identity: NPI_VERIFIED
+  Address: 272 W Hwy 11E, New Market, TN 37820, USA
+  Phone: +14232356263
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0063 | RICHARD PRESLEY | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1922001957 | address=2011 Murphy Ave, Nashville, TN 37203, USA | phone=+16152842929
+Provider: P0063 - RICHARD PRESLEY
+  NPI: 1922001957  Identity: NPI_VERIFIED
+  Address: 2011 Murphy Ave, Nashville, TN 37203, USA
+  Phone: +16152842929
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=8828518472868629056'}
+    Specialty: {'value': 'Obstetrics & Gynecology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=8828518472868629056'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0064 | EMMANUEL JAVIER | decision=REVIEW | score=0.605 | identity=NPI_VERIFIED | npi=1740283779 | address=1000 Asylum Ave, Hartford, CT 06105, USA | phone=+18605475000
+Provider: P0064 - EMMANUEL JAVIER
+  NPI: 1740283779  Identity: NPI_VERIFIED
+  Address: 1000 Asylum Ave, Hartford, CT 06105, USA
+  Phone: +18605475000
+  Profile Confidence: 0.605
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=1311430574746650977'}
+    Specialty: {'value': 'Internal Medicine, Endocrinology, Diabetes & Metabolism', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=1311430574746650977'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0065 | CHARLES LINSENMEYER | decision=REVIEW | score=0.606 | identity=NPI_VERIFIED | npi=1477556405 | address=400 1st Capitol Dr, St Charles, MO 63301, USA | phone=097694 08574
+Provider: P0065 - CHARLES LINSENMEYER
+  NPI: 1477556405  Identity: NPI_VERIFIED
+  Address: 400 1st Capitol Dr, St Charles, MO 63301, USA
+  Phone: 097694 08574
+  Profile Confidence: 0.606
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6063064888119698, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.cataractandeye.com/'}
+    Specialty: {'value': 'Orthopaedic Surgery', 'confidence': 0.6, 'source': 'https://www.cataractandeye.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0066 | JOHN DAY | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1295738227 | address=Tower Rd NE, Coldsprings Township, MI 49646, USA | phone=+17704275717
+Provider: P0066 - JOHN DAY
+  NPI: 1295738227  Identity: NPI_VERIFIED
+  Address: Tower Rd NE, Coldsprings Township, MI 49646, USA
+  Phone: +17704275717
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0067 | RANDALL FALCONER | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1104829134 | address=1728 N Eastman Rd, Kingsport, TN 37664, USA | phone=+14232306532
+Provider: P0067 - RANDALL FALCONER
+  NPI: 1104829134  Identity: NPI_VERIFIED
+  Address: 1728 N Eastman Rd, Kingsport, TN 37664, USA
+  Phone: +14232306532
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0068 | DOMINICK DETOMMASO | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1013910041 | address=7601 W Jefferson Blvd, Fort Wayne, IN 46804, USA | phone=+12604368686
+Provider: P0068 - DOMINICK DETOMMASO
+  NPI: 1013910041  Identity: NPI_VERIFIED
+  Address: 7601 W Jefferson Blvd, Fort Wayne, IN 46804, USA
+  Phone: +12604368686
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.fwortho.com/'}
+    Specialty: {'value': 'Podiatrist, Foot & Ankle Surgery', 'confidence': 0.6, 'source': 'https://www.fwortho.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0069 |  | decision=HOLD | score=0.44 | identity=NPI_PROVIDED_UNVERIFIED | npi=1730182767 | address=222 W Pueblo St, Santa Barbara, CA 93105, USA | phone=8056821394.0
+Provider: P0069 - 
+  NPI: 1730182767  Identity: NPI_PROVIDED_UNVERIFIED
+  Address: 222 W Pueblo St, Santa Barbara, CA 93105, USA
+  Phone: 8056821394.0
+  Profile Confidence: 0.44
+  Component Scores: {'identity': 0.6, 'address': 0.7, 'phone': 0.4, 'specialty': 0.2, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_identity_confidence, low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=7366699382947219455'}
+    Specialty: {'value': None, 'confidence': 0.2, 'source': 'https://www.google.com/maps?cid=7366699382947219455'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0070 | TODD KOPCZYNSKI | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1649273673 | address=3311 Beam Rd, Charlotte, NC 28217, USA | phone=+17044680137
+Provider: P0070 - TODD KOPCZYNSKI
+  NPI: 1649273673  Identity: NPI_VERIFIED
+  Address: 3311 Beam Rd, Charlotte, NC 28217, USA
+  Phone: +17044680137
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0071 | SARAH ZICHELLA | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1801899836 | address=2801 K St, Sacramento, CA 95816, USA | phone=+19167338277
+Provider: P0071 - SARAH ZICHELLA
+  NPI: 1801899836  Identity: NPI_VERIFIED
+  Address: 2801 K St, Sacramento, CA 95816, USA
+  Phone: +19167338277
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=13541086106351899225'}
+    Specialty: {'value': 'Physician Assistant, Medical', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=13541086106351899225'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0072 | EVAN ALLEN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1710980743 | address=1701 N Green Valley Pkwy #5C, Henderson, NV 89074, USA | phone=+17025418240
+Provider: P0072 - EVAN ALLEN
+  NPI: 1710980743  Identity: NPI_VERIFIED
+  Address: 1701 N Green Valley Pkwy #5C, Henderson, NV 89074, USA
+  Phone: +17025418240
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.theclaybakers.com/contact'}
+    Specialty: {'value': 'Family Medicine', 'confidence': 0.6, 'source': 'https://www.theclaybakers.com/contact'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0073 | STEVEN FISHER | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1437152469 | address=7601 W Jefferson Blvd, Fort Wayne, IN 46804, USA | phone=+12604368686
+Provider: P0073 - STEVEN FISHER
+  NPI: 1437152469  Identity: NPI_VERIFIED
+  Address: 7601 W Jefferson Blvd, Fort Wayne, IN 46804, USA
+  Phone: +12604368686
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=6608514785404353940'}
+    Specialty: {'value': 'Orthopaedic Surgery, Adult Reconstructive Orthopaedic Surgery', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=6608514785404353940'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0074 | JAMES HENSARLING | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1255334280 | address=4436 Mangum Dr, Flowood, MS 39232, USA | phone=+16019827363
+Provider: P0074 - JAMES HENSARLING
+  NPI: 1255334280  Identity: NPI_VERIFIED
+  Address: 4436 Mangum Dr, Flowood, MS 39232, USA
+  Phone: +16019827363
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.lsc-ms.com/?utm_source=gmb_auth'}
+    Specialty: {'value': 'Internal Medicine, Rheumatology', 'confidence': 0.6, 'source': 'https://www.lsc-ms.com/?utm_source=gmb_auth'}
+    Services Sample: []
+    Affiliations Sample: ['Center', '##land Surgical Clinic']
+------------------------------------------------------------
+
+P0075 | MARIE JARBATH | decision=REVIEW | score=0.57 | identity=NPI_VERIFIED | npi=1164425195 | address=17448 State Hwy 3, Webster, TX 77598, USA | phone=+18605215362
+Provider: P0075 - MARIE JARBATH
+  NPI: 1164425195  Identity: NPI_VERIFIED
+  Address: 17448 State Hwy 3, Webster, TX 77598, USA
+  Phone: +18605215362
+  Profile Confidence: 0.57
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0076 | DAVID ROSS | decision=AUTO | score=0.675 | identity=NPI_VERIFIED | npi=1073516001 | address=127 Crestview Park Dr, Dickson, TN 37055, USA | phone=0120 473 7200
+Provider: P0076 - DAVID ROSS
+  NPI: 1073516001  Identity: NPI_VERIFIED
+  Address: 127 Crestview Park Dr, Dickson, TN 37055, USA
+  Phone: 0120 473 7200
+  Profile Confidence: 0.675
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://dicksonmd.com/'}
+    Specialty: {'value': 'Internal Medicine', 'confidence': 0.6, 'source': 'https://dicksonmd.com/'}
+    Services Sample: []
+    Affiliations Sample: ['Dickson Medical Associates']
+------------------------------------------------------------
+
+P0077 | FREDERICK ROWLAND | decision=AUTO | score=0.75 | identity=NPI_VERIFIED | npi=1982607917 | address=1200 CENTRE ST, DEPARTMENT OF MEDICINE, ROSLINDALE, MA, 021311000 | phone=+16173638293
+Provider: P0077 - FREDERICK ROWLAND
+  NPI: 1982607917  Identity: NPI_VERIFIED
+  Address: 1200 CENTRE ST, DEPARTMENT OF MEDICINE, ROSLINDALE, MA, 021311000
+  Phone: +16173638293
+  Profile Confidence: 0.75
+  Component Scores: {'identity': 0.9, 'address': 0.75, 'phone': 0.75, 'specialty': 0.6, 'education': 0.85, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: no_services_listed
+  Enrichment Highlights:
+    Education: {'value': 'Harvard Medical School', 'confidence': 0.85, 'source': 'https://www.hebrewseniorlife.org/'}
+    Specialty: {'value': 'Internal Medicine, Geriatric Medicine', 'confidence': 0.6, 'source': 'https://www.hebrewseniorlife.org/'}
+    Services Sample: []
+    Affiliations Sample: ['Health', 'Harvard Medical School']
+------------------------------------------------------------
+
+P0078 | KENNETH WEISS | decision=AUTO | score=0.728 | identity=NPI_VERIFIED | npi=1700889730 | address=6286 Briarcrest Ave #200, Memphis, TN 38120, USA | phone=+19016413000
+Provider: P0078 - KENNETH WEISS
+  NPI: 1700889730  Identity: NPI_VERIFIED
+  Address: 6286 Briarcrest Ave #200, Memphis, TN 38120, USA
+  Phone: +19016413000
+  Profile Confidence: 0.728
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.85, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: no_services_listed
+  Enrichment Highlights:
+    Education: {'value': 'Lausanne Collegiate School', 'confidence': 0.85, 'source': 'https://orthosouth.org/our-specialists/kenneth-s-weiss-md?utm_source=GMBSocialClimb&utm_medium=KennethS.Weiss%2CMD&scct=PNc4be719d8097cdf3af03e197a0088501'}
+    Specialty: {'value': 'Orthopaedic Surgery, Sports Medicine', 'confidence': 0.6, 'source': 'https://orthosouth.org/our-specialists/kenneth-s-weiss-md?utm_source=GMBSocialClimb&utm_medium=KennethS.Weiss%2CMD&scct=PNc4be719d8097cdf3af03e197a0088501'}
+    Services Sample: []
+    Affiliations Sample: ['Cells and Spine Health', 'Church Health']
+------------------------------------------------------------
+
+P0079 | JAYME LOTT | decision=AUTO | score=0.675 | identity=NPI_VERIFIED | npi=1619970647 | address=736 S 900 E, Salt Lake City, UT 84102, USA | phone=070603 11770
+Provider: P0079 - JAYME LOTT
+  NPI: 1619970647  Identity: NPI_VERIFIED
+  Address: 736 S 900 E, Salt Lake City, UT 84102, USA
+  Phone: 070603 11770
+  Profile Confidence: 0.675
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://entcenterutah.com/'}
+    Specialty: {'value': 'Physician Assistant', 'confidence': 0.6, 'source': 'https://entcenterutah.com/'}
+    Services Sample: []
+    Affiliations Sample: ['Center']
+------------------------------------------------------------
+
+P0080 | RICHARD SCHWARTZ | decision=AUTO | score=0.699 | identity=NPI_VERIFIED | npi=1326041476 | address=Professional Building, 1500 N Dixie Hwy, West Palm Beach, FL 33401, USA | phone=+15618334022
+Provider: P0080 - RICHARD SCHWARTZ
+  NPI: 1326041476  Identity: NPI_VERIFIED
+  Address: Professional Building, 1500 N Dixie Hwy, West Palm Beach, FL 33401, USA
+  Phone: +15618334022
+  Profile Confidence: 0.699
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6898915648460389, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.pbplasticsurgery.com/'}
+    Specialty: {'value': 'Plastic Surgery', 'confidence': 0.6, 'source': 'https://www.pbplasticsurgery.com/'}
+    Services Sample: []
+    Affiliations Sample: ['Surgery Center']
+------------------------------------------------------------
+
+P0081 | WILLIAM WALKER | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1235132382 | address=402 S Cox St, Asheboro, NC 27203, USA | phone=+13366254359
+Provider: P0081 - WILLIAM WALKER
+  NPI: 1235132382  Identity: NPI_VERIFIED
+  Address: 402 S Cox St, Asheboro, NC 27203, USA
+  Phone: +13366254359
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.walkereyecare.com/'}
+    Specialty: {'value': 'Optometrist', 'confidence': 0.6, 'source': 'https://www.walkereyecare.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0082 | KIRBY SMITH | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1144223298 | address=80 Humphreys Center Suite 330, Memphis, TN 38120, USA | phone=+19017526131
+Provider: P0082 - KIRBY SMITH
+  NPI: 1144223298  Identity: NPI_VERIFIED
+  Address: 80 Humphreys Center Suite 330, Memphis, TN 38120, USA
+  Phone: +19017526131
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=8959574979038512660'}
+    Specialty: {'value': 'Internal Medicine, Hematology & Oncology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=8959574979038512660'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0083 | RAMON UNGAB | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1053314104 | address=2851 Stage Center Dr, Bartlett, TN 38134, USA | phone=+19013887711
+Provider: P0083 - RAMON UNGAB
+  NPI: 1053314104  Identity: NPI_VERIFIED
+  Address: 2851 Stage Center Dr, Bartlett, TN 38134, USA
+  Phone: +19013887711
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.methodisthealth.org/locations/methodist-medical-group-primary-care-appling?utm_source=pg-google&utm_medium=organic&utm_campaign=pg-listings'}
+    Specialty: {'value': 'Internal Medicine', 'confidence': 0.6, 'source': 'https://www.methodisthealth.org/locations/methodist-medical-group-primary-care-appling?utm_source=pg-google&utm_medium=organic&utm_campaign=pg-listings'}
+    Services Sample: []
+    Affiliations Sample: ['Methodist Medical Group', 'Methodist Le Bonheur Healthcare', 'Medical Services Neurology & Neurosurgery']
+------------------------------------------------------------
+
+P0084 | ANWAR HAMAMI | decision=REVIEW | score=0.57 | identity=NPI_VERIFIED | npi=1962405019 | address=5700 Darrow Rd, Hudson, OH 44236, USA | phone=080874 51874
+Provider: P0084 - ANWAR HAMAMI
+  NPI: 1962405019  Identity: NPI_VERIFIED
+  Address: 5700 Darrow Rd, Hudson, OH 44236, USA
+  Phone: 080874 51874
+  Profile Confidence: 0.57
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0085 | PHILIP O'DONNELL | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1871596924 | address=104 Selma Dr, Winchester, VA 22601, USA | phone=+15406782800
+Provider: P0085 - PHILIP O'DONNELL
+  NPI: 1871596924  Identity: NPI_VERIFIED
+  Address: 104 Selma Dr, Winchester, VA 22601, USA
+  Phone: +15406782800
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.selmamed.com/'}
+    Specialty: {'value': 'Internal Medicine, Cardiovascular Disease', 'confidence': 0.6, 'source': 'https://www.selmamed.com/'}
+    Services Sample: []
+    Affiliations Sample: ['Selma Medical Associates, Inc', 'Medical', 'Medical Associates']
+------------------------------------------------------------
+
+P0086 | VENK MANI | decision=REVIEW | score=0.605 | identity=NPI_VERIFIED | npi=1780687830 | address=127 Crestview Park Dr, Dickson, TN 37055, USA | phone=0120 473 7200
+Provider: P0086 - VENK MANI
+  NPI: 1780687830  Identity: NPI_VERIFIED
+  Address: 127 Crestview Park Dr, Dickson, TN 37055, USA
+  Phone: 0120 473 7200
+  Profile Confidence: 0.605
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=958904579672917192'}
+    Specialty: {'value': 'Pathology, Cytopathology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=958904579672917192'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0087 | LESLIE COOPERMAN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1699778746 | address=1010 Northern Blvd, Great Neck, NY 11021, USA | phone=+15163902420
+Provider: P0087 - LESLIE COOPERMAN
+  NPI: 1699778746  Identity: NPI_VERIFIED
+  Address: 1010 Northern Blvd, Great Neck, NY 11021, USA
+  Phone: +15163902420
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=4758576477899485484'}
+    Specialty: {'value': 'Internal Medicine, Cardiovascular Disease', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=4758576477899485484'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0088 | GLENN JOHNSON | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1417950569 | address=901 Montgomery St, Alexandria, VA 22314, USA | phone=+15633822911
+Provider: P0088 - GLENN JOHNSON
+  NPI: 1417950569  Identity: NPI_VERIFIED
+  Address: 901 Montgomery St, Alexandria, VA 22314, USA
+  Phone: +15633822911
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0089 | NENA SY | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1225031370 | address=350 Boulevard, Passaic, NJ 07055, USA | phone=+19733654300
+Provider: P0089 - NENA SY
+  NPI: 1225031370  Identity: NPI_VERIFIED
+  Address: 350 Boulevard, Passaic, NJ 07055, USA
+  Phone: +19733654300
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'http://www.smh-passaic.org/'}
+    Specialty: {'value': 'Specialist', 'confidence': 0.6, 'source': 'http://www.smh-passaic.org/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0090 | TRACEY ROESING | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1134122286 | address=500 Old York Rd, Jenkintown, PA 19046, USA | phone=+12154812725
+Provider: P0090 - TRACEY ROESING
+  NPI: 1134122286  Identity: NPI_VERIFIED
+  Address: 500 Old York Rd, Jenkintown, PA 19046, USA
+  Phone: +12154812725
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.jeffersonhealth.org/find-a-doctor/r/roesing-tracey-l'}
+    Specialty: {'value': 'Family Medicine', 'confidence': 0.6, 'source': 'https://www.jeffersonhealth.org/find-a-doctor/r/roesing-tracey-l'}
+    Services Sample: []
+    Affiliations Sample: ['Jefferson Health']
+------------------------------------------------------------
+
+P0091 | ROBERT LEA | decision=REVIEW | score=0.643 | identity=NPI_VERIFIED | npi=1861495913 | address=24509 COUNTY HIGHWAY I, CHIPPEWA FALLS, WI, 54729 | phone=+17157239138
+Provider: P0091 - ROBERT LEA
+  NPI: 1861495913  Identity: NPI_VERIFIED
+  Address: 24509 COUNTY HIGHWAY I, CHIPPEWA FALLS, WI, 54729
+  Phone: +17157239138
+  Profile Confidence: 0.643
+  Component Scores: {'identity': 0.9, 'address': 0.75, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=14678177043024640245'}
+    Specialty: {'value': 'Family Medicine', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=14678177043024640245'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0092 | GHAITH MITRI | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1770586828 | address=655 8th St W, Jacksonville, FL 32209, USA | phone=+19043831005
+Provider: P0092 - GHAITH MITRI
+  NPI: 1770586828  Identity: NPI_VERIFIED
+  Address: 655 8th St W, Jacksonville, FL 32209, USA
+  Phone: +19043831005
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=325422730304297915'}
+    Specialty: {'value': 'Internal Medicine, Rheumatology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=325422730304297915'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0093 | MELODY MARTIN | decision=REVIEW | score=0.623 | identity=NPI_VERIFIED | npi=1689677734 | address=4720 W Waco Dr, Waco, TX 76710, USA | phone=+12547329741
+Provider: P0093 - MELODY MARTIN
+  NPI: 1689677734  Identity: NPI_VERIFIED
+  Address: 4720 W Waco Dr, Waco, TX 76710, USA
+  Phone: +12547329741
+  Profile Confidence: 0.623
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6349972665309906, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.hearusa.com'}
+    Specialty: {'value': 'Audiologist', 'confidence': 0.6, 'source': 'https://www.hearusa.com'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0094 | NEWTON PETERS | decision=AUTO | score=0.72 | identity=NPI_VERIFIED | npi=1407859556 | address=155 Borthwick Ave, Portsmouth, NH 03801, USA | phone=+16035015000
+Provider: P0094 - NEWTON PETERS
+  NPI: 1407859556  Identity: NPI_VERIFIED
+  Address: 155 Borthwick Ave, Portsmouth, NH 03801, USA
+  Phone: +16035015000
+  Profile Confidence: 0.72
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.8, 'services': 0.8, 'affiliations': 0.15}
+  Top Reasons: no_affiliations
+  Enrichment Highlights:
+    Education: {'value': 'MD has been taking care of people in the New Hampshire Seacoast and surrounding areas since 1995.   ', 'confidence': 0.8, 'source': 'https://www.eyesightnh.com/'}
+    Specialty: {'value': 'Ophthalmology', 'confidence': 0.6, 'source': 'https://www.eyesightnh.com/'}
+    Services Sample: ['Cornea, Cataract, and Premium Cataract Surgery', 'Glaucoma Diagnosis and Management', 'Cosmetic and functional Eyelid Surgery']
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0095 | JORGE DIEZ | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1316940463 | address=893 Main St #202, East Hartford, CT 06118, USA | phone=+18602472137
+Provider: P0095 - JORGE DIEZ
+  NPI: 1316940463  Identity: NPI_VERIFIED
+  Address: 893 Main St #202, East Hartford, CT 06118, USA
+  Phone: +18602472137
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0096 | STEVEN TIPPS | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1033112180 | address=6015 Shallowford Rd, Chattanooga, TN 37421, USA | phone=+14238933333
+Provider: P0096 - STEVEN TIPPS
+  NPI: 1033112180  Identity: NPI_VERIFIED
+  Address: 6015 Shallowford Rd, Chattanooga, TN 37421, USA
+  Phone: +14238933333
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=7911995604268500799'}
+    Specialty: {'value': 'Oral & Maxillofacial Surgery', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=7911995604268500799'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0097 | STACIA MOORE | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1851394902 | address=10 Three Mile Dr, Kalispell, MT 59901, USA | phone=+14062572273
+Provider: P0097 - STACIA MOORE
+  NPI: 1851394902  Identity: NPI_VERIFIED
+  Address: 10 Three Mile Dr, Kalispell, MT 59901, USA
+  Phone: +14062572273
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=13595623444619009579'}
+    Specialty: {'value': 'Audiologist', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=13595623444619009579'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0098 | SAM MORAN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1760485817 | address=329 21st Ave N, Nashville, TN 37203, USA | phone=+16153299333
+Provider: P0098 - SAM MORAN
+  NPI: 1760485817  Identity: NPI_VERIFIED
+  Address: 329 21st Ave N, Nashville, TN 37203, USA
+  Phone: +16153299333
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=2814336062125331579'}
+    Specialty: {'value': 'Obstetrics & Gynecology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=2814336062125331579'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0099 | EDWARD PETRUSCH | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1386647337 | address=444 Collett Bridge Rd, Alvaton, KY 42122, USA | phone=+12708420433
+Provider: P0099 - EDWARD PETRUSCH
+  NPI: 1386647337  Identity: NPI_VERIFIED
+  Address: 444 Collett Bridge Rd, Alvaton, KY 42122, USA
+  Phone: +12708420433
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0100 | JOHN FIORE | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1013910066 | address=2207 S 3rd St W, Missoula, MT 59801, USA | phone=+14065495283
+Provider: P0100 - JOHN FIORE
+  NPI: 1013910066  Identity: NPI_VERIFIED
+  Address: 2207 S 3rd St W, Missoula, MT 59801, USA
+  Phone: +14065495283
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.sapphirephysicaltherapy.com/'}
+    Specialty: {'value': 'Physical Therapist', 'confidence': 0.6, 'source': 'https://www.sapphirephysicaltherapy.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0101 | SUSAN HASKELL | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1821091877 | address=155 Borthwick Ave, Portsmouth, NH 03801, USA | phone=+16034361773
+Provider: P0101 - SUSAN HASKELL
+  NPI: 1821091877  Identity: NPI_VERIFIED
+  Address: 155 Borthwick Ave, Portsmouth, NH 03801, USA
+  Phone: +16034361773
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=12505462932698961989'}
+    Specialty: {'value': 'Optometrist', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=12505462932698961989'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0102 | ANDREW SPINAK | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1558364505 | address=169 N Middletown Rd, Nanuet, NY 10954, USA | phone=+18457355666
+Provider: P0102 - ANDREW SPINAK
+  NPI: 1558364505  Identity: NPI_VERIFIED
+  Address: 169 N Middletown Rd, Nanuet, NY 10954, USA
+  Phone: +18457355666
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.spinakeyes.com/'}
+    Specialty: {'value': 'Ophthalmology', 'confidence': 0.6, 'source': 'https://www.spinakeyes.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0103 | GEORGE STRATIGOPOULOS | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1467455410 | address=4808 Clairemont Mesa Blvd, San Diego, CA 92117, USA | phone=+18582777200
+Provider: P0103 - GEORGE STRATIGOPOULOS
+  NPI: 1467455410  Identity: NPI_VERIFIED
+  Address: 4808 Clairemont Mesa Blvd, San Diego, CA 92117, USA
+  Phone: +18582777200
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0104 | CARLOS LOPEZ | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1285637231 | address=275 Collier Rd NW, Atlanta, GA 30309, USA | phone=+14043553161
+Provider: P0104 - CARLOS LOPEZ
+  NPI: 1285637231  Identity: NPI_VERIFIED
+  Address: 275 Collier Rd NW, Atlanta, GA 30309, USA
+  Phone: +14043553161
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0105 | THOMAS LACLAIR | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1003819053 | address=436 Hinsdale Rd, Camillus, NY 13031, USA | phone=+13154880996
+Provider: P0105 - THOMAS LACLAIR
+  NPI: 1003819053  Identity: NPI_VERIFIED
+  Address: 436 Hinsdale Rd, Camillus, NY 13031, USA
+  Phone: +13154880996
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0106 | TODD THOMASON | decision=REVIEW | score=0.643 | identity=NPI_VERIFIED | npi=1912900960 | address=2350 N UNIVERSITY DR UNIT 841423, PEMBROKE PINES, FL, 330844106 | phone=+19543838836
+Provider: P0106 - TODD THOMASON
+  NPI: 1912900960  Identity: NPI_VERIFIED
+  Address: 2350 N UNIVERSITY DR UNIT 841423, PEMBROKE PINES, FL, 330844106
+  Phone: +19543838836
+  Profile Confidence: 0.643
+  Component Scores: {'identity': 0.9, 'address': 0.75, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=16486418890507530202'}
+    Specialty: {'value': 'Nurse Practitioner', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=16486418890507530202'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0107 | RICHARD WAYNE | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1720081771 | address=961 Canal St, New Orleans, LA 70112, USA | phone=+13154781977
+Provider: P0107 - RICHARD WAYNE
+  NPI: 1720081771  Identity: NPI_VERIFIED
+  Address: 961 Canal St, New Orleans, LA 70112, USA
+  Phone: +13154781977
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0108 | MICHAEL ROPPOLO | decision=AUTO | score=0.696 | identity=NPI_VERIFIED | npi=1639172687 | address=5131 O'Donovan Dr Suite 100, Baton Rouge, LA 70808, USA | phone=+12257674893
+Provider: P0108 - MICHAEL ROPPOLO
+  NPI: 1639172687  Identity: NPI_VERIFIED
+  Address: 5131 O'Donovan Dr Suite 100, Baton Rouge, LA 70808, USA
+  Phone: +12257674893
+  Profile Confidence: 0.696
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.663542452454567, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.renalassociates.com/'}
+    Specialty: {'value': 'Internal Medicine, Nephrology', 'confidence': 0.6, 'source': 'https://www.renalassociates.com/'}
+    Services Sample: []
+    Affiliations Sample: ['##eHealth Services', '##Chart Portal TeleHealth']
+------------------------------------------------------------
+
+P0109 | PEDRO ESTORQUE | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1548263593 | address=500 Fort Worth Dr Ste 140, Denton, TX 76201, USA | phone=+19403200505
+Provider: P0109 - PEDRO ESTORQUE
+  NPI: 1548263593  Identity: NPI_VERIFIED
+  Address: 500 Fort Worth Dr Ste 140, Denton, TX 76201, USA
+  Phone: +19403200505
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0110 | LIN-LIN LIU | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1457354409 | address=Parking lot, 21216 Northwest Fwy, Cypress, TX 77429, USA | phone=+18324032219
+Provider: P0110 - LIN-LIN LIU
+  NPI: 1457354409  Identity: NPI_VERIFIED
+  Address: Parking lot, 21216 Northwest Fwy, Cypress, TX 77429, USA
+  Phone: +18324032219
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=7734722914664305090'}
+    Specialty: {'value': 'Internal Medicine, Medical Oncology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=7734722914664305090'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0111 | KEVIN NETTESHEIM | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1366445314 | address=4305 Butler Hill Rd B, St. Louis, MO 63128, USA | phone=+13148499009
+Provider: P0111 - KEVIN NETTESHEIM
+  NPI: 1366445314  Identity: NPI_VERIFIED
+  Address: 4305 Butler Hill Rd B, St. Louis, MO 63128, USA
+  Phone: +13148499009
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.mercy.net/search/doctor/'}
+    Specialty: {'value': 'Podiatrist, Foot & Ankle Surgery', 'confidence': 0.6, 'source': 'https://www.mercy.net/search/doctor/'}
+    Services Sample: []
+    Affiliations Sample: ['Hospital']
+------------------------------------------------------------
+
+P0112 | IZIK YITZHAKI | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1902809957 | address=525 Union Blvd, Totowa, NJ 07512, USA | phone=+19739285360
+Provider: P0112 - IZIK YITZHAKI
+  NPI: 1902809957  Identity: NPI_VERIFIED
+  Address: 525 Union Blvd, Totowa, NJ 07512, USA
+  Phone: +19739285360
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'http://www.smh-passaic.org/'}
+    Specialty: {'value': 'Anesthesiology', 'confidence': 0.6, 'source': 'http://www.smh-passaic.org/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0113 | JAMES GULLETT | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1811990864 | address=7900 Fannin St # 4000, Houston, TX 77054, USA | phone=+17135127500
+Provider: P0113 - JAMES GULLETT
+  NPI: 1811990864  Identity: NPI_VERIFIED
+  Address: 7900 Fannin St # 4000, Houston, TX 77054, USA
+  Phone: +17135127500
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.myprivia.com/obgynmedicalcenter/providers/dr-james-r-gullett'}
+    Specialty: {'value': 'Obstetrics & Gynecology', 'confidence': 0.6, 'source': 'https://www.myprivia.com/obgynmedicalcenter/providers/dr-james-r-gullett'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0114 | ALEX SNEIDERS | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1629071675 | address=300 State Ave, Tonganoxie, KS 66086, USA | phone=+15073333200
+Provider: P0114 - ALEX SNEIDERS
+  NPI: 1629071675  Identity: NPI_VERIFIED
+  Address: 300 State Ave, Tonganoxie, KS 66086, USA
+  Phone: +15073333200
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0115 | SCOTT NAEGELE | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1447253497 | address=830 Pennsylvania Ave, Charleston, WV 25302, USA | phone=+13043448368
+Provider: P0115 - SCOTT NAEGELE
+  NPI: 1447253497  Identity: NPI_VERIFIED
+  Address: 830 Pennsylvania Ave, Charleston, WV 25302, USA
+  Phone: +13043448368
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=17546401220152199042'}
+    Specialty: {'value': 'Obstetrics & Gynecology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=17546401220152199042'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0116 | CAREY LEEDS | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1265435218 | address=803 E Lincoln Ave, Olivia, MN 56277, USA | phone=+15098371550
+Provider: P0116 - CAREY LEEDS
+  NPI: 1265435218  Identity: NPI_VERIFIED
+  Address: 803 E Lincoln Ave, Olivia, MN 56277, USA
+  Phone: +15098371550
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0117 | EDWARD HOEHN-SARIC | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1174526123 | address=293 Olmsted Blvd #7, Pinehurst, NC 28374, USA | phone=+19102953344
+Provider: P0117 - EDWARD HOEHN-SARIC
+  NPI: 1174526123  Identity: NPI_VERIFIED
+  Address: 293 Olmsted Blvd #7, Pinehurst, NC 28374, USA
+  Phone: +19102953344
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=12811635208964660492'}
+    Specialty: {'value': 'Internal Medicine, Nephrology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=12811635208964660492'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0118 | DEBORAH STANLEY | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1083617039 | address=700 Friedman Ave, Las Vegas, NM 87701, USA | phone=+15054545125
+Provider: P0118 - DEBORAH STANLEY
+  NPI: 1083617039  Identity: NPI_VERIFIED
+  Address: 700 Friedman Ave, Las Vegas, NM 87701, USA
+  Phone: +15054545125
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0119 | ROBERT FERRIS | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1801899851 | address=1241 W Stadium Blvd, Jefferson City, MO 65109, USA | phone=+15735567717
+Provider: P0119 - ROBERT FERRIS
+  NPI: 1801899851  Identity: NPI_VERIFIED
+  Address: 1241 W Stadium Blvd, Jefferson City, MO 65109, USA
+  Phone: +15735567717
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0120 | JOHN ORTMAN | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1710980768 | address=75 Hospital Dr, Columbia, MO 65212, USA | phone=+17405924491
+Provider: P0120 - JOHN ORTMAN
+  NPI: 1710980768  Identity: NPI_VERIFIED
+  Address: 75 Hospital Dr, Columbia, MO 65212, USA
+  Phone: +17405924491
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0121 | NEIL WENSINK | decision=AUTO | score=0.697 | identity=NPI_VERIFIED | npi=1528061579 | address=28821 Lorain Rd, North Olmsted, OH 44070, USA | phone=+14407168400
+Provider: P0121 - NEIL WENSINK
+  NPI: 1528061579  Identity: NPI_VERIFIED
+  Address: 28821 Lorain Rd, North Olmsted, OH 44070, USA
+  Phone: +14407168400
+  Profile Confidence: 0.697
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6682269081473351, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://superiorspinecare.com/'}
+    Specialty: {'value': 'Chiropractor', 'confidence': 0.6, 'source': 'https://superiorspinecare.com/'}
+    Services Sample: []
+    Affiliations Sample: ['Partners Health Services', 'Health']
+------------------------------------------------------------
+
+P0122 | LISA MORGAN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1437152485 | address=2201 Murphy Ave, Nashville, TN 37203, USA | phone=+16153409530
+Provider: P0122 - LISA MORGAN
+  NPI: 1437152485  Identity: NPI_VERIFIED
+  Address: 2201 Murphy Ave, Nashville, TN 37203, USA
+  Phone: +16153409530
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=14227331760106684985'}
+    Specialty: {'value': 'Obstetrics & Gynecology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=14227331760106684985'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0123 | JAMES HOOVER | decision=REVIEW | score=0.643 | identity=NPI_VERIFIED | npi=1346243391 | address=998 S Dorset Rd, Troy, OH 45373, USA | phone=097733 14333
+Provider: P0123 - JAMES HOOVER
+  NPI: 1346243391  Identity: NPI_VERIFIED
+  Address: 998 S Dorset Rd, Troy, OH 45373, USA
+  Phone: 097733 14333
+  Profile Confidence: 0.643
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.85, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': 'Ashland University', 'confidence': 0.85, 'source': 'https://www.rehabmedhandh.com/our-practice'}
+    Specialty: {'value': 'Physical Medicine & Rehabilitation', 'confidence': 0.6, 'source': 'https://www.rehabmedhandh.com/our-practice'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0124 | D BROOKS | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1063415016 | address=1700 Hospital S Dr #502, Austell, GA 30106, USA | phone=+19432027070
+Provider: P0124 - D BROOKS
+  NPI: 1063415016  Identity: NPI_VERIFIED
+  Address: 1700 Hospital S Dr #502, Austell, GA 30106, USA
+  Phone: +19432027070
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=4266977281889055377'}
+    Specialty: {'value': 'Orthopaedic Surgery', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=4266977281889055377'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0125 | DUNCAN FAGUNDUS | decision=AUTO | score=0.655 | identity=NPI_VERIFIED | npi=1972506921 | address=1850 W Arlington Blvd, Greenville, NC 27834, USA | phone=+12527526101
+Provider: P0125 - DUNCAN FAGUNDUS
+  NPI: 1972506921  Identity: NPI_VERIFIED
+  Address: 1850 W Arlington Blvd, Greenville, NC 27834, USA
+  Phone: +12527526101
+  Profile Confidence: 0.655
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.8, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': 'MD Location : 1850 W Arlington Blvd, Greenville, NC 27834, USA View Map Arlington Campus Entrance: E', 'confidence': 0.8, 'source': 'https://www.physicianseast.com/physician/duncan-fagundus/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D'}
+    Specialty: {'value': 'Internal Medicine, Rheumatology', 'confidence': 0.6, 'source': 'https://www.physicianseast.com/physician/duncan-fagundus/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0126 | GLENDA PETROFF | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1609879659 | address=22070 AL-59, Robertsdale, AL 36567, USA | phone=+19858920879
+Provider: P0126 - GLENDA PETROFF
+  NPI: 1609879659  Identity: NPI_VERIFIED
+  Address: 22070 AL-59, Robertsdale, AL 36567, USA
+  Phone: +19858920879
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0127 | JOHN IRWIN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1518960566 | address=7900 Fannin St # 4000, Houston, TX 77054, USA | phone=+17135127500
+Provider: P0127 - JOHN IRWIN
+  NPI: 1518960566  Identity: NPI_VERIFIED
+  Address: 7900 Fannin St # 4000, Houston, TX 77054, USA
+  Phone: +17135127500
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=7183231905859039862'}
+    Specialty: {'value': 'Obstetrics & Gynecology, Gynecology', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=7183231905859039862'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0128 | CHARLES HEATON | decision=REVIEW | score=0.643 | identity=NPI_VERIFIED | npi=1326041377 | address=3355 Earl Campbell Pkwy, Tyler, TX 75701, USA | phone=+16236884327
+Provider: P0128 - CHARLES HEATON
+  NPI: 1326041377  Identity: NPI_VERIFIED
+  Address: 3355 Earl Campbell Pkwy, Tyler, TX 75701, USA
+  Phone: +16236884327
+  Profile Confidence: 0.643
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.85, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': 'The University of Texas at Austin', 'confidence': 0.85, 'source': 'https://heatoneye.com/doctors/charles-l-heaton-m-d/'}
+    Specialty: {'value': 'Ophthalmology', 'confidence': 0.6, 'source': 'https://heatoneye.com/doctors/charles-l-heaton-m-d/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0129 | RHONDA BUTTLEMAN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1235132283 | address=6425 Bardstown Rd, Louisville, KY 40291, USA | phone=+15027620498
+Provider: P0129 - RHONDA BUTTLEMAN
+  NPI: 1235132283  Identity: NPI_VERIFIED
+  Address: 6425 Bardstown Rd, Louisville, KY 40291, USA
+  Phone: +15027620498
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=16920831234001267610'}
+    Specialty: {'value': 'Pediatrics', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=16920831234001267610'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0130 | CLIFFORD SALES | decision=AUTO | score=0.656 | identity=NPI_VERIFIED | npi=1053314005 | address=433 Central Ave, Jersey City, NJ 07307, USA | phone=020 3371 2300
+Provider: P0130 - CLIFFORD SALES
+  NPI: 1053314005  Identity: NPI_VERIFIED
+  Address: 433 Central Ave, Jersey City, NJ 07307, USA
+  Phone: 020 3371 2300
+  Profile Confidence: 0.656
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.734197424352169, 'education': 0.85, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: no_services_listed, no_affiliations, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': 'Vein Institute of New', 'confidence': 0.85, 'source': 'https://tcvcg.com/providers/clifford-m-sales/'}
+    Specialty: {'value': 'Cardiology', 'confidence': 0.7, 'source': 'https://tcvcg.com/providers/clifford-m-sales/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0131 | SHELBY WHITE | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1306849344 | address=333 S 3rd St, Philadelphia, PA 19106, USA | phone=+18592368730
+Provider: P0131 - SHELBY WHITE
+  NPI: 1306849344  Identity: NPI_VERIFIED
+  Address: 333 S 3rd St, Philadelphia, PA 19106, USA
+  Phone: +18592368730
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0132 | KIMBERLY PAGE | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1215930250 | address=1388 Court St, Brooklyn, NY 11231, USA | phone=+15302462207
+Provider: P0132 - KIMBERLY PAGE
+  NPI: 1215930250  Identity: NPI_VERIFIED
+  Address: 1388 Court St, Brooklyn, NY 11231, USA
+  Phone: +15302462207
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0133 | WALTER LETIEN | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1023011061 | address=266 Cabot St, Beverly, MA 01915, USA | phone=+19789221888
+Provider: P0133 - WALTER LETIEN
+  NPI: 1023011061  Identity: NPI_VERIFIED
+  Address: 266 Cabot St, Beverly, MA 01915, USA
+  Phone: +19789221888
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0134 | NABIN SHARMA | decision=REVIEW | score=0.605 | identity=NPI_VERIFIED | npi=1932102977 | address=Parking lot, 1400 S Dobson Rd, Mesa, AZ 85202, USA | phone=098182 98675
+Provider: P0134 - NABIN SHARMA
+  NPI: 1932102977  Identity: NPI_VERIFIED
+  Address: Parking lot, 1400 S Dobson Rd, Mesa, AZ 85202, USA
+  Phone: 098182 98675
+  Profile Confidence: 0.605
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=18149813087315175861'}
+    Specialty: {'value': 'Internal Medicine', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=18149813087315175861'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0135 | HANNA VON HARDENBERG | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1750384798 | address=293 Olmsted Blvd, Pinehurst, NC 28374, USA | phone=+19102953344
+Provider: P0135 - HANNA VON HARDENBERG
+  NPI: 1750384798  Identity: NPI_VERIFIED
+  Address: 293 Olmsted Blvd, Pinehurst, NC 28374, USA
+  Phone: +19102953344
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0136 | JOHN SPANN | decision=AUTO | score=0.657 | identity=NPI_VERIFIED | npi=1578566519 | address=6015 Shallowford Rd, Chattanooga, TN 37421, USA | phone=+14238933333
+Provider: P0136 - JOHN SPANN
+  NPI: 1578566519  Identity: NPI_VERIFIED
+  Address: 6015 Shallowford Rd, Chattanooga, TN 37421, USA
+  Phone: +14238933333
+  Profile Confidence: 0.657
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6247195631265641, 'education': 0.8, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: no_services_listed, no_affiliations, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': 'DDS | Chattanooga, TN Center for Oral Facial & Implant Surgery Skip to Content chevron-left chevron-', 'confidence': 0.8, 'source': 'https://www.chattanoogaoms.com/meet-us/dr-john-a-spann-dds/'}
+    Specialty: {'value': 'Oral & Maxillofacial Surgery', 'confidence': 0.6, 'source': 'https://www.chattanoogaoms.com/meet-us/dr-john-a-spann-dds/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0137 | MICHAEL SORENSEN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1396748331 | address=1223 Willow Creek Rd, Prescott, AZ 86301, USA | phone=+19287779950
+Provider: P0137 - MICHAEL SORENSEN
+  NPI: 1396748331  Identity: NPI_VERIFIED
+  Address: 1223 Willow Creek Rd, Prescott, AZ 86301, USA
+  Phone: +19287779950
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=7997851581965619865'}
+    Specialty: {'value': 'Physical Medicine & Rehabilitation', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=7997851581965619865'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0138 | JAMES HOLLANDSWORTH | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1205839248 | address=1124 Fox Meadows Blvd #3, Sevierville, TN 37862, USA | phone=+14232395141
+Provider: P0138 - JAMES HOLLANDSWORTH
+  NPI: 1205839248  Identity: NPI_VERIFIED
+  Address: 1124 Fox Meadows Blvd #3, Sevierville, TN 37862, USA
+  Phone: +14232395141
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://integratedhealthconcepts.org/'}
+    Specialty: {'value': 'Family Medicine', 'confidence': 0.6, 'source': 'https://integratedhealthconcepts.org/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0139 | DAVID COWDEN | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1831192871 | address=105 W Stone Dr, Kingsport, TN 37660, USA | phone=+14233926299
+Provider: P0139 - DAVID COWDEN
+  NPI: 1831192871  Identity: NPI_VERIFIED
+  Address: 105 W Stone Dr, Kingsport, TN 37660, USA
+  Phone: +14233926299
+  Profile Confidence: 0.69
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.holstonmedicalgroup.com/'}
+    Specialty: {'value': 'Otolaryngology', 'confidence': 0.6, 'source': 'https://www.holstonmedicalgroup.com/'}
+    Services Sample: []
+    Affiliations Sample: ['Holston Medical Group', 'Health & Wellness', 'Audiology Clinical Research Der']
+------------------------------------------------------------
+
+P0140 | JENNIFER ROST | decision=REVIEW | score=0.624 | identity=NPI_VERIFIED | npi=1568465508 | address=2200 NE Neff Rd, Bend, OR 97701, USA | phone=+15413887738
+Provider: P0140 - JENNIFER ROST
+  NPI: 1568465508  Identity: NPI_VERIFIED
+  Address: 2200 NE Neff Rd, Bend, OR 97701, USA
+  Phone: +15413887738
+  Profile Confidence: 0.624
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6353832513093949, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://reclaim-balance.com/'}
+    Specialty: {'value': 'Physical Therapist', 'confidence': 0.6, 'source': 'https://reclaim-balance.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0141 | MELISSA SIROIS | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1477556413 | address=6310 Fort King Rd, Zephyrhills, FL 33542, USA | phone=+18134064400
+Provider: P0141 - MELISSA SIROIS
+  NPI: 1477556413  Identity: NPI_VERIFIED
+  Address: 6310 Fort King Rd, Zephyrhills, FL 33542, USA
+  Phone: +18134064400
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=7156018100941280672'}
+    Specialty: {'value': 'Audiologist-Hearing Aid Fitter', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=7156018100941280672'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0142 | SCOTT LANCASTER | decision=REVIEW | score=0.57 | identity=NPI_VERIFIED | npi=1386647329 | address=4519 N Garfield St, Midland, TX 79705, USA | phone=080041 06000
+Provider: P0142 - SCOTT LANCASTER
+  NPI: 1386647329  Identity: NPI_VERIFIED
+  Address: 4519 N Garfield St, Midland, TX 79705, USA
+  Phone: 080041 06000
+  Profile Confidence: 0.57
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0143 | KRISHNA RAGOTHAMAN | decision=AUTO | score=0.716 | identity=NPI_VERIFIED | npi=1295738235 | address=128 N LOCUST ST, OAK HARBOR, OH, 434491358 | phone=+14198988124
+Provider: P0143 - KRISHNA RAGOTHAMAN
+  NPI: 1295738235  Identity: NPI_VERIFIED
+  Address: 128 N LOCUST ST, OAK HARBOR, OH, 434491358
+  Phone: +14198988124
+  Profile Confidence: 0.716
+  Component Scores: {'identity': 0.9, 'address': 0.75, 'phone': 0.75, 'specialty': 0.6394326195120812, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.mercy.com/find-a-doctor/physicians/krishna-m-ragothaman/206704'}
+    Specialty: {'value': 'Family Medicine', 'confidence': 0.6, 'source': 'https://www.mercy.com/find-a-doctor/physicians/krishna-m-ragothaman/206704'}
+    Services Sample: []
+    Affiliations Sample: ['Health Care Services', 'Aetna Better Health OH Aetna Commercial & Aetna Me', 'Aetna Whole Health ACO OH Align Senior Care']
+------------------------------------------------------------
+
+P0144 | HENRY TRIPP | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1104829142 | address=3734 Reynolda Rd, Winston-Salem, NC 27106, USA | phone=+13366640333
+Provider: P0144 - HENRY TRIPP
+  NPI: 1104829142  Identity: NPI_VERIFIED
+  Address: 3734 Reynolda Rd, Winston-Salem, NC 27106, USA
+  Phone: +13366640333
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=385690928606923244'}
+    Specialty: {'value': 'Family Medicine, Geriatric Medicine', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=385690928606923244'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0145 | PAOLA BASS | decision=AUTO | score=0.793 | identity=NPI_VERIFIED | npi=1821091869 | address=210 Westside Dr, Dothan, AL 36303, USA | phone=+13347935074
+Provider: P0145 - PAOLA BASS
+  NPI: 1821091869  Identity: NPI_VERIFIED
+  Address: 210 Westside Dr, Dothan, AL 36303, USA
+  Phone: +13347935074
+  Profile Confidence: 0.793
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6024017773568631, 'education': 0.85, 'services': 0.8, 'affiliations': 0.85}
+  Top Reasons: semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': '##s & Education Medical School', 'confidence': 0.85, 'source': 'https://www.flowersmedicalgroup.com/doctors-providers/bass-paola-r-md-5873?utm_source=gmb&utm_medium=homepage&utm_campaign=biz-listings'}
+    Specialty: {'value': 'Internal Medicine', 'confidence': 0.6, 'source': 'https://www.flowersmedicalgroup.com/doctors-providers/bass-paola-r-md-5873?utm_source=gmb&utm_medium=homepage&utm_campaign=biz-listings'}
+    Services Sample: ['View All Services', 'Bariatric Surgery', 'Cardiology']
+    Affiliations Sample: ['Flowers Medical Group', '##s & Education Medical School']
+------------------------------------------------------------
+
+P0146 | ROBERT NEE | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1730182775 | address=8901 Rockville Pike, Bethesda, MD 20889, USA | phone=+13012954331
+Provider: P0146 - ROBERT NEE
+  NPI: 1730182775  Identity: NPI_VERIFIED
+  Address: 8901 Rockville Pike, Bethesda, MD 20889, USA
+  Phone: +13012954331
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0147 | ORRIN SCOTT SWAYZE | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1588667521 | address=Tower Rd NE, Coldsprings Township, MI 49646, USA | phone=+17704275717
+Provider: P0147 - ORRIN SCOTT SWAYZE
+  NPI: 1588667521  Identity: NPI_VERIFIED
+  Address: Tower Rd NE, Coldsprings Township, MI 49646, USA
+  Phone: +17704275717
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0148 | BRIAN STEPHENS | decision=AUTO | score=0.73 | identity=NPI_VERIFIED | npi=1760485718 | address=12455 E 100th St N #350, Owasso, OK 74055, USA | phone=+19182475555
+Provider: P0148 - BRIAN STEPHENS
+  NPI: 1760485718  Identity: NPI_VERIFIED
+  Address: 12455 E 100th St N #350, Owasso, OK 74055, USA
+  Phone: +19182475555
+  Profile Confidence: 0.73
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6297027498483658, 'education': 0.85, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: no_services_listed, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': 'University of Oklahoma College of Medicine', 'confidence': 0.85, 'source': 'https://healthcare.ascension.org/find-care/provider/1760485718/brian-stephens'}
+    Specialty: {'value': 'Specialist', 'confidence': 0.6, 'source': 'https://healthcare.ascension.org/find-care/provider/1760485718/brian-stephens'}
+    Services Sample: []
+    Affiliations Sample: ['Ascension Medical Group', "Women ' s Health"]
+------------------------------------------------------------
+
+P0149 | BARRY ZALLEN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1588667539 | address=300 Longwood Ave, Boston, MA 02115, USA | phone=+16179196263
+Provider: P0149 - BARRY ZALLEN
+  NPI: 1588667539  Identity: NPI_VERIFIED
+  Address: 300 Longwood Ave, Boston, MA 02115, USA
+  Phone: +16179196263
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=4919146905950921960'}
+    Specialty: {'value': 'Pediatrics', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=4919146905950921960'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0150 | JOHN MORSE | decision=AUTO | score=0.678 | identity=NPI_VERIFIED | npi=1497758445 | address=127 Crestview Park Dr, Dickson, TN 37055, USA | phone=0120 473 7200
+Provider: P0150 - JOHN MORSE
+  NPI: 1497758445  Identity: NPI_VERIFIED
+  Address: 127 Crestview Park Dr, Dickson, TN 37055, USA
+  Phone: 0120 473 7200
+  Profile Confidence: 0.678
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6304656818509102, 'education': 0.1, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: low_education_info, no_services_listed, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://dicksonmd.com/'}
+    Specialty: {'value': 'Family Medicine', 'confidence': 0.6, 'source': 'https://dicksonmd.com/'}
+    Services Sample: []
+    Affiliations Sample: ['Dickson Medical Associates']
+------------------------------------------------------------
+
+P0151 | CHARLES YEN | decision=AUTO | score=0.729 | identity=NPI_VERIFIED | npi=1215930268 | address=17323 Red Oak Dr, Houston, TX 77090, USA | phone=+12814405006
+Provider: P0151 - CHARLES YEN
+  NPI: 1215930268  Identity: NPI_VERIFIED
+  Address: 17323 Red Oak Dr, Houston, TX 77090, USA
+  Phone: +12814405006
+  Profile Confidence: 0.729
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6180300891399384, 'education': 0.85, 'services': 0.15, 'affiliations': 0.85}
+  Top Reasons: no_services_listed, semantic_specialty_boost
+  Enrichment Highlights:
+    Education: {'value': 'University of Texas Austin', 'confidence': 0.85, 'source': 'https://www.texasoncology.com/providers/cancer-care/charles-yen'}
+    Specialty: {'value': 'Internal Medicine, Hematology & Oncology', 'confidence': 0.6, 'source': 'https://www.texasoncology.com/providers/cancer-care/charles-yen'}
+    Services Sample: []
+    Affiliations Sample: ['Medical Oncology', 'University of Texas Southwestern Medical School', 'University of Texas Medical Branch']
+------------------------------------------------------------
+
+P0152 | SUSAN DILLMUTH-MILLER | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1124021167 | address=1436 Oakcrest Ln, Coplay, PA 18037, USA | phone=+16105020821
+Provider: P0152 - SUSAN DILLMUTH-MILLER
+  NPI: 1124021167  Identity: NPI_VERIFIED
+  Address: 1436 Oakcrest Ln, Coplay, PA 18037, USA
+  Phone: +16105020821
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=12456184504978769897'}
+    Specialty: {'value': 'Audiologist', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=12456184504978769897'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0153 | DESIREE VAN BLARICOM | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1033112073 | address=435 S Crystal St, Butte, MT 59701, USA | phone=+14064963456
+Provider: P0153 - DESIREE VAN BLARICOM
+  NPI: 1033112073  Identity: NPI_VERIFIED
+  Address: 435 S Crystal St, Butte, MT 59701, USA
+  Phone: +14064963456
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=18390858497923617448'}
+    Specialty: {'value': 'Physical Therapist', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=18390858497923617448'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0154 | KENNETH GOODMAN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1851394894 | address=5925 Venture Park Dr, Kalamazoo, MI 49009, USA | phone=+12693533700
+Provider: P0154 - KENNETH GOODMAN
+  NPI: 1851394894  Identity: NPI_VERIFIED
+  Address: 5925 Venture Park Dr, Kalamazoo, MI 49009, USA
+  Phone: +12693533700
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.kalamazoosmiles.com/'}
+    Specialty: {'value': 'Dentist, General Practice', 'confidence': 0.6, 'source': 'https://www.kalamazoosmiles.com/'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0155 | DAVID GELBER | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1760485700 | address=3801 Vista Rd #450, Pasadena, TX 77504, USA | phone=+17139442240
+Provider: P0155 - DAVID GELBER
+  NPI: 1760485700  Identity: NPI_VERIFIED
+  Address: 3801 Vista Rd #450, Pasadena, TX 77504, USA
+  Phone: +17139442240
+  Profile Confidence: 0.585
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0156 | MICHAEL PUTLAND | decision=REVIEW | score=0.57 | identity=NPI_VERIFIED | npi=1679576615 | address=14200 W, 14200 Celebrate Life Way, Goodyear, AZ 85338, USA | phone=098290 27867
+Provider: P0156 - MICHAEL PUTLAND
+  NPI: 1679576615  Identity: NPI_VERIFIED
+  Address: 14200 W, 14200 Celebrate Life Way, Goodyear, AZ 85338, USA
+  Phone: 098290 27867
+  Profile Confidence: 0.57
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0157 | EWA HANSEN | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1235132275 | address=3740 W Sylvania Ave, Toledo, OH 43623, USA | phone=+14194736670
+Provider: P0157 - EWA HANSEN
+  NPI: 1235132275  Identity: NPI_VERIFIED
+  Address: 3740 W Sylvania Ave, Toledo, OH 43623, USA
+  Phone: +14194736670
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=17937062277409326378'}
+    Specialty: {'value': 'Pediatrics', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=17937062277409326378'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0158 | EUGENE LITTLE | decision=REVIEW | score=0.57 | identity=NPI_VERIFIED | npi=1144223181 | address=1013 E Spring St, New Albany, IN 47150, USA | phone=089561 96711
+Provider: P0158 - EUGENE LITTLE
+  NPI: 1144223181  Identity: NPI_VERIFIED
+  Address: 1013 E Spring St, New Albany, IN 47150, USA
+  Phone: 089561 96711
+  Profile Confidence: 0.57
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.6, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.0, 'source': None}
+    Specialty: {'value': None, 'confidence': 0.0, 'source': None}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0159 | SAMUEL MURRELL | decision=REVIEW | score=0.62 | identity=NPI_VERIFIED | npi=1053314096 | address=6286 Briarcrest Ave, Memphis, TN 38120, USA | phone=+19016413000
+Provider: P0159 - SAMUEL MURRELL
+  NPI: 1053314096  Identity: NPI_VERIFIED
+  Address: 6286 Briarcrest Ave, Memphis, TN 38120, USA
+  Phone: +19016413000
+  Profile Confidence: 0.62
+  Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.1, 'services': 0.15, 'affiliations': 0.15}
+  Top Reasons: low_education_info, no_services_listed, no_affiliations
+  Enrichment Highlights:
+    Education: {'value': None, 'confidence': 0.1, 'source': 'https://www.google.com/maps?cid=11649739335355518365'}
+    Specialty: {'value': 'Orthopaedic Surgery, Orthopaedic Surgery of the Spine', 'confidence': 0.6, 'source': 'https://www.google.com/maps?cid=11649739335355518365'}
+    Services Sample: []
+    Affiliations Sample: []
+------------------------------------------------------------
+
+P0160 | HOMER ABIAD | decision=REVIEW | score=0.585 | identity=NPI_VERIFIED | npi=1871596817 | address=15900 S Cicero Ave, Oak Forest, IL 60452, USA | phone=+17086334133
+Provider: P0160 - HOMER ABIAD
+  NPI: 1871596817  Identity: NPI_VERIFIED
+  Address: 15900 S Cicero Ave, Oak Forest, IL 60452, USA
+  Phone: +17086334133
   Profile Confidence: 0.585
   Component Scores: {'identity': 0.9, 'address': 0.6, 'phone': 0.75, 'specialty': 0.6, 'education': 0.0, 'services': 0.0, 'affiliations': 0.0}
   Top Reasons: low_education_info, no_services_listed, no_affiliations

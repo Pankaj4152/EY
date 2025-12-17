@@ -1,26 +1,36 @@
 {
-  "timestamp": "2025-12-08T18:53:42.427037Z",
-  "total_processed": 5,
+  "timestamp": "2025-12-17T17:42:50.447249Z",
+  "total_processed": 160,
   "by_decision": {
-    "AUTO": 1,
-    "REVIEW": 5,
-    "HOLD": 0
+    "AUTO": 35,
+    "REVIEW": 125,
+    "HOLD": 1
   },
   "by_decision_percentage": {
-    "AUTO": 20.0,
-    "REVIEW": 100.0,
-    "HOLD": 0.0
+    "AUTO": 21.9,
+    "REVIEW": 78.1,
+    "HOLD": 0.6
   },
   "top_specialties": {
-    "Internal Medicine, Cardiovascular Disease": 1
+    "Family Medicine": 5,
+    "Internal Medicine": 4,
+    "Social Worker, Clinical": 2,
+    "Internal Medicine, Rheumatology": 2,
+    "Internal Medicine, Cardiovascular Disease": 2,
+    "Specialist": 1,
+    "Podiatrist, Foot & Ankle Surgery": 1,
+    "Plastic Surgery": 1,
+    "Physician Assistant": 1,
+    "Otolaryngology": 1
   },
   "confidence_distribution": {
     "high (>=0.90)": 0,
-    "medium (0.75-0.89)": 1,
-    "low (<0.75)": 0
+    "medium (0.75-0.89)": 4,
+    "low (<0.75)": 31
   },
   "avg_confidence_by_decision": {
-    "AUTO": 0.75,
-    "REVIEW": 0.621
+    "AUTO": 0.703,
+    "HOLD": 0.44,
+    "REVIEW": 0.605
   }
 }

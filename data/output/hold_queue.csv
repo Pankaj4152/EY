@@ -1,3 +1,2 @@
 provider_id,name,npi,identity_status,profile_confidence,reasons
-P0001,DAVID WIEBE,1679576722,NPI_VERIFIED,0.57,low_education_info|no_services_listed|no_affiliations
-P0005,SUSAN WORTSMAN,1841293990,NPI_VERIFIED,0.585,low_education_info|no_services_listed|no_affiliations
+P0069,,1730182767,NPI_PROVIDED_UNVERIFIED,0.44,low_identity_confidence|low_education_info|no_services_listed|no_affiliations

@@ -3,13 +3,13 @@
 PIPELINE EXECUTION REPORT
 ================================================================================
 
-Total Execution Time: 227.42s (3.79 minutes)
+Total Execution Time: 1506.24s (25.10 minutes)
 
 Stage Breakdown:
-  Validation:      14.20s (  6.2%)
-  Enrichment:     203.08s ( 89.3%)
-  QA:               9.99s (  4.4%)
-  Directory:        0.15s (  0.1%)
+  Validation:     370.69s ( 24.6%)
+  Enrichment:     913.36s ( 60.6%)
+  QA:             219.56s ( 14.6%)
+  Directory:        2.62s (  0.2%)
 
 Output Files Generated:
    data/output/validated.json
@@ -26,7 +26,7 @@ Output Files Generated:
 
 Performance Metrics:
   Target: 200 providers in < 30 minutes
-  Achieved: Pipeline runs in ~3.8 minutes
+  Achieved: Pipeline runs in ~25.1 minutes
   Status: PASS
 
 ================================================================================

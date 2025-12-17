@@ -1,12 +1,12 @@
 QA SUMMARY REPORT
 ============================================================
 
-Total Providers: 5
+Total Providers: 160
 
 DECISIONS:
-  AUTO:   1 (20.0%)
-  REVIEW: 4 (80.0%)
-  HOLD:   0 (0.0%)
+  AUTO:   35 (21.9%)
+  REVIEW: 124 (77.5%)
+  HOLD:   1 (0.6%)
 
-Average Profile Confidence: 0.630
+Average Profile Confidence: 0.624
 

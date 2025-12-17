@@ -83,9 +83,3109 @@
         "provider_id": "P0005",
         "npi": "1841293990",
         "name": "SUSAN WORTSMAN",
-        "address": "425 E 25th St, Tacoma, WA 98421, USA",
+        "address": "425 E 25th St, Los Angeles, CA 90011, USA",
         "phone": "+12124814464",
         "specialty": "Audiologist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0006",
+        "npi": "1750384806",
+        "name": "ROBERT BISBEE",
+        "address": "808 Joliet Ave #120, Lubbock, TX 79415, USA",
+        "phone": "+18067610540",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0007",
+        "npi": "1669475711",
+        "name": "BIN SUNG",
+        "address": "7629 Tiki Dr, Fulshear, TX 77441, USA",
+        "phone": "+12813460018",
+        "specialty": "Pediatrics",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0008",
+        "npi": "1578566626",
+        "name": "WARREN KUIPERS",
+        "address": "1205 S 7th Ave, Sioux Falls, SD 57105, USA",
+        "phone": "+16023446600",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": false
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0009",
+        "npi": "1487657532",
+        "name": "ALLISON HUEBERT",
+        "address": "4444 E 41st St, Tulsa, OK 74135, USA",
+        "phone": "+19186194400",
+        "specialty": "Obstetrics & Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0010",
+        "npi": "1396748448",
+        "name": "CYNTHIA YOUNG-MAYKA",
+        "address": "806 WEST BROADWAY ASSOCIATED MEDICAL PROFESSIONALS, FULTON, NY, 13069",
+        "phone": "+17172912499",
+        "specialty": "Physician Assistant",
+        "confidence": {
+            "address": 0.75,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": false,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0011",
+        "npi": "1205839354",
+        "name": "EMIL DIFILIPPO",
+        "address": "9323 Phoenix Village Pkwy, O'Fallon, MO 63368, USA",
+        "phone": "+16365615030",
+        "specialty": "Orthopaedic Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0012",
+        "npi": "1114920261",
+        "name": "RICHARD THACKER",
+        "address": "2770 Capital Medical Blvd, Tallahassee, FL 32308, USA",
+        "phone": "+18508788235",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0013",
+        "npi": "1932102985",
+        "name": "MARK ROTHSTEIN",
+        "address": "75 Hospital Dr, Columbia, MO 65212, USA",
+        "phone": "+17405924491",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0014",
+        "npi": "1841293891",
+        "name": "ELMER GIBBS",
+        "address": "49 Cleveland St, Greenville, SC 29601, USA",
+        "phone": "+19317871232",
+        "specialty": "Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0015",
+        "npi": "1750384707",
+        "name": "ALAN MARKMAN",
+        "address": "8100 Northland Dr, Bloomington, MN 55431, USA",
+        "phone": "+19528318742",
+        "specialty": "Specialist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0016",
+        "npi": "1669475612",
+        "name": "DEBRA TROTCHIE",
+        "address": "8876 Spanish Ridge Ave #103, Las Vegas, NV 89148, USA",
+        "phone": "+17023420858",
+        "specialty": "Nurse Practitioner",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0017",
+        "npi": "1396748349",
+        "name": "GEORGE GRUNERT",
+        "address": "2500 Fondren Rd Suite 300, Houston, TX 77063, USA",
+        "phone": "+17137302229",
+        "specialty": "Obstetrics & Gynecology, Reproductive Endocrinology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0018",
+        "npi": "1205839255",
+        "name": "STEVEN GOLDBERG",
+        "address": "1010 Northern Blvd, Great Neck, NY 11021, USA",
+        "phone": "+15163902430",
+        "specialty": "Internal Medicine, Cardiovascular Disease",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0019",
+        "npi": "1114920162",
+        "name": "JON DUBOSE",
+        "address": "111 Hospital Dr, Utica, NY 13502, USA",
+        "phone": "+12526417700",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0020",
+        "npi": "1922001973",
+        "name": "TERESA ANDERSON-KRULL",
+        "address": "E Main St, Ohio, USA",
+        "phone": "+15073770107",
+        "specialty": "Social Worker, Clinical",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0021",
+        "npi": "1831192889",
+        "name": "CRAIG COE",
+        "address": "210 Westside Dr, Dothan, AL 36303, USA",
+        "phone": "+13347935074",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0022",
+        "npi": "1659374601",
+        "name": "WENDY OBERDICK",
+        "address": "105 W Stone Dr, Kingsport, TN 37660, USA",
+        "phone": "+14232302420",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0023",
+        "npi": "1568465516",
+        "name": "RAWN SALENGER",
+        "address": "7505 Osler Dr, Towson, MD 21204, USA",
+        "phone": "+14103371783",
+        "specialty": "Thoracic Surgery (Cardiothoracic Vascular Surgery)",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0024",
+        "npi": "1477556421",
+        "name": "STEVEN ROTH",
+        "address": "1107 Mantua Pike, West Deptford, NJ 08051, USA",
+        "phone": "+18564649000",
+        "specialty": "Optometrist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0025",
+        "npi": "1255334207",
+        "name": "RICHARD SOUCIER",
+        "address": "Woodland St, Sherborn, MA 01770, USA",
+        "phone": "+18605475000",
+        "specialty": "Internal Medicine, Cardiovascular Disease",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0026",
+        "npi": "1164425112",
+        "name": "BRIAN ISETTS",
+        "address": "308 Harvard St SE, Bandon, OR 97411, USA",
+        "phone": "+16126242140",
+        "specialty": "Pharmacist, Pharmacotherapy",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0027",
+        "npi": "1073516027",
+        "name": "JOHN CHANG",
+        "address": "169 N Middletown Rd, Nanuet, NY 10954, USA",
+        "phone": "+18457355666",
+        "specialty": "Ophthalmology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": false
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0028",
+        "npi": "1619970662",
+        "name": "LISA FRIEDMAN",
+        "address": "333 N Santa Rosa St, San Antonio, TX 78207, USA",
+        "phone": "+12107042190",
+        "specialty": "Nurse Practitioner, Pediatrics",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0029",
+        "npi": "1245233295",
+        "name": "JILL POTTS",
+        "address": "335 Parrish St, Canandaigua, NY 14424, USA",
+        "phone": "+15853932845",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0030",
+        "npi": "1871596825",
+        "name": "TIMOTHY WOLTER",
+        "address": "716 W Columbia St, Evansville, IN 47710, USA",
+        "phone": "+17157261963",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0031",
+        "npi": "1780687731",
+        "name": "ARLENE STAUBSINGER",
+        "address": "8100 Oswego Rd, Liverpool, NY 13090, USA",
+        "phone": "0151 264 2500",
+        "specialty": "Psychologist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0032",
+        "npi": "1508869553",
+        "name": "LEE VAN HOUTEN-SAUTER",
+        "address": "220 Pine St, Knobel, AR 72435, USA",
+        "phone": "+18566297436",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0033",
+        "npi": "1417950460",
+        "name": "JOHN GARCIA",
+        "address": "4200 Beckner Rd, Santa Fe, NM 87507, USA",
+        "phone": "+15059556200",
+        "specialty": "Orthopaedic Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0034",
+        "npi": "1225031271",
+        "name": "JOHN SHEPHERD",
+        "address": "293 Olmsted Blvd, Pinehurst, NC 28374, USA",
+        "phone": "+19102953344",
+        "specialty": "Internal Medicine, Nephrology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0035",
+        "npi": "1134122187",
+        "name": "CHERYL RUDNICKE",
+        "address": "250 25th Ave N, Nashville, TN 37203, USA",
+        "phone": "+16153205090",
+        "specialty": "Nurse Practitioner",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0036",
+        "npi": "1952304909",
+        "name": "ALFRED VASTA",
+        "address": "99 N West End Blvd, Quakertown, PA 18951, USA",
+        "phone": "+12155380202",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0037",
+        "npi": "1861495814",
+        "name": "FRANCISCO SMITH",
+        "address": "Royal Plam Medical Building, 1660 Medical Blvd, Naples, FL 34110, USA",
+        "phone": "+12395961995",
+        "specialty": "Obstetrics & Gynecology, Gynecologic Oncology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0038",
+        "npi": "1689677635",
+        "name": "STEPHEN DURITSCH",
+        "address": "1 Medical Center Dr, Morgantown, WV 26506, USA",
+        "phone": "+15134281131",
+        "specialty": "Physical Medicine & Rehabilitation",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0039",
+        "npi": "1598768541",
+        "name": "BERTHA ARENAS",
+        "address": "1702 N Alamo St, San Antonio, TX 78215, USA",
+        "phone": "+12102241823",
+        "specialty": "Nurse Practitioner, Family",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0040",
+        "npi": "1407859457",
+        "name": "THOMAS MAGNIFICO",
+        "address": "4021 Cascade Rd SE, Grand Rapids, MI 49546, USA",
+        "phone": "+16169749792",
+        "specialty": "Pharmacist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0041",
+        "npi": "1316940364",
+        "name": "GEETHA CONJEEVARAM",
+        "address": "75 Hospital Dr, Columbia, MO 65212, USA",
+        "phone": "+17405924491",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0042",
+        "npi": "1124021175",
+        "name": "DANA TRIPPI",
+        "address": "3100 N Tenaya Wy, Las Vegas, NV 89128, USA",
+        "phone": "+17026716845",
+        "specialty": "Emergency Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0043",
+        "npi": "1033112081",
+        "name": "JOHN FOGARTY",
+        "address": "1850 W Arlington Blvd, Greenville, NC 27834, USA",
+        "phone": "+12527526101",
+        "specialty": "Internal Medicine, Pulmonary Disease",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0044",
+        "npi": "1942203997",
+        "name": "JACQUELINE MYERS",
+        "address": "618 Pleasantville Rd, Lancaster, OH 43130, USA",
+        "phone": "+17406819020",
+        "specialty": "Nurse Practitioner, Adult Health",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0045",
+        "npi": "1851394803",
+        "name": "SPENCE HARPER",
+        "address": "190 N Main St, Glen Carbon, IL 62034, USA",
+        "phone": "+14356570329",
+        "specialty": "Podiatrist, Foot & Ankle Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0046",
+        "npi": "1649273681",
+        "name": "ROSE ANN RENOUF",
+        "address": "1401 Henderson St, Fort Worth, TX 76102, USA",
+        "phone": "+18173327664",
+        "specialty": "Nurse Anesthetist, Certified Registered",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0047",
+        "npi": "1558364596",
+        "name": "TANVEER AKBAR",
+        "address": "10620 Southern Highlands Pkwy, Las Vegas, NV 89141, USA",
+        "phone": "+17029216829",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0048",
+        "npi": "1467455402",
+        "name": "SCOTT MCCOY",
+        "address": "3050 N Litchfield Rd, Goodyear, AZ 85395, USA",
+        "phone": "098290 27867",
+        "specialty": "Occupational Therapist, Hand",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0049",
+        "npi": "1376546317",
+        "name": "MAURICE ALLGEIER",
+        "address": "6425 Bardstown Rd, Louisville, KY 40291, USA",
+        "phone": "+15027620498",
+        "specialty": "Pediatrics",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0050",
+        "npi": "1285637223",
+        "name": "STEVEN LOWRY",
+        "address": "220 Pine St, Knobel, AR 72435, USA",
+        "phone": "+18566297436",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0051",
+        "npi": "1194728139",
+        "name": "SUSAN STEWART",
+        "address": "MAUI MEDICAL GROUP, 2180 MAIN STREET, WAILUKU, HI, 96793",
+        "phone": "+18082426464",
+        "specialty": "Physician Assistant, Medical",
+        "confidence": {
+            "address": 0.75,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": false,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0052",
+        "npi": "1003819046",
+        "name": "BARBARA NYLANDER",
+        "address": "TriStar Centennial Professional Plaza, 345 23rd Ave N, Nashville, TN 37203, USA",
+        "phone": "+16153299082",
+        "specialty": "Obstetrics & Gynecology, Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0053",
+        "npi": "1912900952",
+        "name": "STEPHEN KAUFFMAN",
+        "address": "3450 N Beauregard St, Alexandria, VA 22302, USA",
+        "phone": "+17038207000",
+        "specialty": "General Practice",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0054",
+        "npi": "1306849336",
+        "name": "ERIC TOWNSEND",
+        "address": "105 Solana Rd, Ponte Vedra Beach, FL 32082, USA",
+        "phone": "+19042857711",
+        "specialty": "Dentist, General Practice",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0055",
+        "npi": "1215930243",
+        "name": "ANDREW VINCENT",
+        "address": "650 Cedar Creek Grade Ste 108, Winchester, VA 22601, USA",
+        "phone": "+15406673338",
+        "specialty": "Podiatrist, Foot & Ankle Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0056",
+        "npi": "1932102969",
+        "name": "TAMARA HELFER",
+        "address": "101 W University Ave, Urbana, IL 61801, USA",
+        "phone": "+12173661255",
+        "specialty": "Obstetrics & Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0057",
+        "npi": "1841293875",
+        "name": "ANDREA MARTIN",
+        "address": "8144 Walnut Hill Ln, Dallas, TX 75231, USA",
+        "phone": "+12145400700",
+        "specialty": "Nurse Practitioner, Adult Health",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0058",
+        "npi": "1750384780",
+        "name": "JULIE PERRIGIN",
+        "address": "219 Church St, Toronto, ON M5B 1Y7, Canada",
+        "phone": "0120 473 7200",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0059",
+        "npi": "1669475695",
+        "name": "LYNN MCMAHAN",
+        "address": "1420 S 28th Ave, Hattiesburg, MS 39402, USA",
+        "phone": "+16012643937",
+        "specialty": "Ophthalmology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0060",
+        "npi": "1578566501",
+        "name": "BAO QUOC LA",
+        "address": "915 Gessner Rd, Houston, TX 77024, USA",
+        "phone": "+12815890156",
+        "specialty": "Obstetrics & Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0061",
+        "npi": "1487657417",
+        "name": "DANIEL CAREY",
+        "address": "850 N Harrison St, Warsaw, IN 46580, USA",
+        "phone": "+15742677169",
+        "specialty": "Social Worker, Clinical",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0062",
+        "npi": "1396748323",
+        "name": "LAURA CAMPBELL",
+        "address": "272 W Hwy 11E, New Market, TN 37820, USA",
+        "phone": "+14232356263",
+        "specialty": "Pharmacist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0063",
+        "npi": "1922001957",
+        "name": "RICHARD PRESLEY",
+        "address": "2011 Murphy Ave, Nashville, TN 37203, USA",
+        "phone": "+16152842929",
+        "specialty": "Obstetrics & Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0064",
+        "npi": "1740283779",
+        "name": "EMMANUEL JAVIER",
+        "address": "1000 Asylum Ave, Hartford, CT 06105, USA",
+        "phone": "+18605475000",
+        "specialty": "Internal Medicine, Endocrinology, Diabetes & Metabolism",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0065",
+        "npi": "1477556405",
+        "name": "CHARLES LINSENMEYER",
+        "address": "400 1st Capitol Dr, St Charles, MO 63301, USA",
+        "phone": "097694 08574",
+        "specialty": "Orthopaedic Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0066",
+        "npi": "1295738227",
+        "name": "JOHN DAY",
+        "address": "Tower Rd NE, Coldsprings Township, MI 49646, USA",
+        "phone": "+17704275717",
+        "specialty": "Orthopaedic Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0067",
+        "npi": "1104829134",
+        "name": "RANDALL FALCONER",
+        "address": "1728 N Eastman Rd, Kingsport, TN 37664, USA",
+        "phone": "+14232306532",
+        "specialty": "Otolaryngology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0068",
+        "npi": "1013910041",
+        "name": "DOMINICK DETOMMASO",
+        "address": "7601 W Jefferson Blvd, Fort Wayne, IN 46804, USA",
+        "phone": "+12604368686",
+        "specialty": "Podiatrist, Foot & Ankle Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0069",
+        "npi": "1730182767",
+        "name": "",
+        "address": "222 W Pueblo St, Santa Barbara, CA 93105, USA",
+        "phone": "8056821394.0",
+        "specialty": "Unknown",
+        "confidence": {
+            "address": 0.7,
+            "phone": 0.4,
+            "identity": 0.6
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": false,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_PROVIDED_UNVERIFIED"
+    },
+    {
+        "provider_id": "P0070",
+        "npi": "1649273673",
+        "name": "TODD KOPCZYNSKI",
+        "address": "3311 Beam Rd, Charlotte, NC 28217, USA",
+        "phone": "+17044680137",
+        "specialty": "Obstetrics & Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0071",
+        "npi": "1801899836",
+        "name": "SARAH ZICHELLA",
+        "address": "2801 K St, Sacramento, CA 95816, USA",
+        "phone": "+19167338277",
+        "specialty": "Physician Assistant, Medical",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0072",
+        "npi": "1710980743",
+        "name": "EVAN ALLEN",
+        "address": "1701 N Green Valley Pkwy #5C, Henderson, NV 89074, USA",
+        "phone": "+17025418240",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": false
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0073",
+        "npi": "1437152469",
+        "name": "STEVEN FISHER",
+        "address": "7601 W Jefferson Blvd, Fort Wayne, IN 46804, USA",
+        "phone": "+12604368686",
+        "specialty": "Orthopaedic Surgery, Adult Reconstructive Orthopaedic Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0074",
+        "npi": "1255334280",
+        "name": "JAMES HENSARLING",
+        "address": "4436 Mangum Dr, Flowood, MS 39232, USA",
+        "phone": "+16019827363",
+        "specialty": "Internal Medicine, Rheumatology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0075",
+        "npi": "1164425195",
+        "name": "MARIE JARBATH",
+        "address": "17448 State Hwy 3, Webster, TX 77598, USA",
+        "phone": "+18605215362",
+        "specialty": "Physician Assistant, Surgical",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0076",
+        "npi": "1073516001",
+        "name": "DAVID ROSS",
+        "address": "127 Crestview Park Dr, Dickson, TN 37055, USA",
+        "phone": "0120 473 7200",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0077",
+        "npi": "1982607917",
+        "name": "FREDERICK ROWLAND",
+        "address": "1200 CENTRE ST, DEPARTMENT OF MEDICINE, ROSLINDALE, MA, 021311000",
+        "phone": "+16173638293",
+        "specialty": "Internal Medicine, Geriatric Medicine",
+        "confidence": {
+            "address": 0.75,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": false,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0078",
+        "npi": "1700889730",
+        "name": "KENNETH WEISS",
+        "address": "6286 Briarcrest Ave #200, Memphis, TN 38120, USA",
+        "phone": "+19016413000",
+        "specialty": "Orthopaedic Surgery, Sports Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0079",
+        "npi": "1619970647",
+        "name": "JAYME LOTT",
+        "address": "736 S 900 E, Salt Lake City, UT 84102, USA",
+        "phone": "070603 11770",
+        "specialty": "Physician Assistant",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0080",
+        "npi": "1326041476",
+        "name": "RICHARD SCHWARTZ",
+        "address": "Professional Building, 1500 N Dixie Hwy, West Palm Beach, FL 33401, USA",
+        "phone": "+15618334022",
+        "specialty": "Plastic Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0081",
+        "npi": "1235132382",
+        "name": "WILLIAM WALKER",
+        "address": "402 S Cox St, Asheboro, NC 27203, USA",
+        "phone": "+13366254359",
+        "specialty": "Optometrist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0082",
+        "npi": "1144223298",
+        "name": "KIRBY SMITH",
+        "address": "80 Humphreys Center Suite 330, Memphis, TN 38120, USA",
+        "phone": "+19017526131",
+        "specialty": "Internal Medicine, Hematology & Oncology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0083",
+        "npi": "1053314104",
+        "name": "RAMON UNGAB",
+        "address": "2851 Stage Center Dr, Bartlett, TN 38134, USA",
+        "phone": "+19013887711",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": false
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0084",
+        "npi": "1962405019",
+        "name": "ANWAR HAMAMI",
+        "address": "5700 Darrow Rd, Hudson, OH 44236, USA",
+        "phone": "080874 51874",
+        "specialty": "Emergency Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0085",
+        "npi": "1871596924",
+        "name": "PHILIP O'DONNELL",
+        "address": "104 Selma Dr, Winchester, VA 22601, USA",
+        "phone": "+15406782800",
+        "specialty": "Internal Medicine, Cardiovascular Disease",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0086",
+        "npi": "1780687830",
+        "name": "VENK MANI",
+        "address": "127 Crestview Park Dr, Dickson, TN 37055, USA",
+        "phone": "0120 473 7200",
+        "specialty": "Pathology, Cytopathology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0087",
+        "npi": "1699778746",
+        "name": "LESLIE COOPERMAN",
+        "address": "1010 Northern Blvd, Great Neck, NY 11021, USA",
+        "phone": "+15163902420",
+        "specialty": "Internal Medicine, Cardiovascular Disease",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0088",
+        "npi": "1417950569",
+        "name": "GLENN JOHNSON",
+        "address": "901 Montgomery St, Alexandria, VA 22314, USA",
+        "phone": "+15633822911",
+        "specialty": "Orthopaedic Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0089",
+        "npi": "1225031370",
+        "name": "NENA SY",
+        "address": "350 Boulevard, Passaic, NJ 07055, USA",
+        "phone": "+19733654300",
+        "specialty": "Specialist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0090",
+        "npi": "1134122286",
+        "name": "TRACEY ROESING",
+        "address": "500 Old York Rd, Jenkintown, PA 19046, USA",
+        "phone": "+12154812725",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0091",
+        "npi": "1861495913",
+        "name": "ROBERT LEA",
+        "address": "24509 COUNTY HIGHWAY I, CHIPPEWA FALLS, WI, 54729",
+        "phone": "+17157239138",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.75,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": false,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0092",
+        "npi": "1770586828",
+        "name": "GHAITH MITRI",
+        "address": "655 8th St W, Jacksonville, FL 32209, USA",
+        "phone": "+19043831005",
+        "specialty": "Internal Medicine, Rheumatology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0093",
+        "npi": "1689677734",
+        "name": "MELODY MARTIN",
+        "address": "4720 W Waco Dr, Waco, TX 76710, USA",
+        "phone": "+12547329741",
+        "specialty": "Audiologist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0094",
+        "npi": "1407859556",
+        "name": "NEWTON PETERS",
+        "address": "155 Borthwick Ave, Portsmouth, NH 03801, USA",
+        "phone": "+16035015000",
+        "specialty": "Ophthalmology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0095",
+        "npi": "1316940463",
+        "name": "JORGE DIEZ",
+        "address": "893 Main St #202, East Hartford, CT 06118, USA",
+        "phone": "+18602472137",
+        "specialty": "Internal Medicine, Endocrinology, Diabetes & Metabolism",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0096",
+        "npi": "1033112180",
+        "name": "STEVEN TIPPS",
+        "address": "6015 Shallowford Rd, Chattanooga, TN 37421, USA",
+        "phone": "+14238933333",
+        "specialty": "Oral & Maxillofacial Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0097",
+        "npi": "1851394902",
+        "name": "STACIA MOORE",
+        "address": "10 Three Mile Dr, Kalispell, MT 59901, USA",
+        "phone": "+14062572273",
+        "specialty": "Audiologist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0098",
+        "npi": "1760485817",
+        "name": "SAM MORAN",
+        "address": "329 21st Ave N, Nashville, TN 37203, USA",
+        "phone": "+16153299333",
+        "specialty": "Obstetrics & Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0099",
+        "npi": "1386647337",
+        "name": "EDWARD PETRUSCH",
+        "address": "444 Collett Bridge Rd, Alvaton, KY 42122, USA",
+        "phone": "+12708420433",
+        "specialty": "Nurse Anesthetist, Certified Registered",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0100",
+        "npi": "1013910066",
+        "name": "JOHN FIORE",
+        "address": "2207 S 3rd St W, Missoula, MT 59801, USA",
+        "phone": "+14065495283",
+        "specialty": "Physical Therapist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0101",
+        "npi": "1821091877",
+        "name": "SUSAN HASKELL",
+        "address": "155 Borthwick Ave, Portsmouth, NH 03801, USA",
+        "phone": "+16034361773",
+        "specialty": "Optometrist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0102",
+        "npi": "1558364505",
+        "name": "ANDREW SPINAK",
+        "address": "169 N Middletown Rd, Nanuet, NY 10954, USA",
+        "phone": "+18457355666",
+        "specialty": "Ophthalmology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0103",
+        "npi": "1467455410",
+        "name": "GEORGE STRATIGOPOULOS",
+        "address": "4808 Clairemont Mesa Blvd, San Diego, CA 92117, USA",
+        "phone": "+18582777200",
+        "specialty": "Dentist, General Practice",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0104",
+        "npi": "1285637231",
+        "name": "CARLOS LOPEZ",
+        "address": "275 Collier Rd NW, Atlanta, GA 30309, USA",
+        "phone": "+14043553161",
+        "specialty": "Internal Medicine, Infectious Disease",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0105",
+        "npi": "1003819053",
+        "name": "THOMAS LACLAIR",
+        "address": "436 Hinsdale Rd, Camillus, NY 13031, USA",
+        "phone": "+13154880996",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": false
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0106",
+        "npi": "1912900960",
+        "name": "TODD THOMASON",
+        "address": "2350 N UNIVERSITY DR UNIT 841423, PEMBROKE PINES, FL, 330844106",
+        "phone": "+19543838836",
+        "specialty": "Nurse Practitioner",
+        "confidence": {
+            "address": 0.75,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": false,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0107",
+        "npi": "1720081771",
+        "name": "RICHARD WAYNE",
+        "address": "961 Canal St, New Orleans, LA 70112, USA",
+        "phone": "+13154781977",
+        "specialty": "Physical Medicine & Rehabilitation",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0108",
+        "npi": "1639172687",
+        "name": "MICHAEL ROPPOLO",
+        "address": "5131 O'Donovan Dr Suite 100, Baton Rouge, LA 70808, USA",
+        "phone": "+12257674893",
+        "specialty": "Internal Medicine, Nephrology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0109",
+        "npi": "1548263593",
+        "name": "PEDRO ESTORQUE",
+        "address": "500 Fort Worth Dr Ste 140, Denton, TX 76201, USA",
+        "phone": "+19403200505",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0110",
+        "npi": "1457354409",
+        "name": "LIN-LIN LIU",
+        "address": "Parking lot, 21216 Northwest Fwy, Cypress, TX 77429, USA",
+        "phone": "+18324032219",
+        "specialty": "Internal Medicine, Medical Oncology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": false
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0111",
+        "npi": "1366445314",
+        "name": "KEVIN NETTESHEIM",
+        "address": "4305 Butler Hill Rd B, St. Louis, MO 63128, USA",
+        "phone": "+13148499009",
+        "specialty": "Podiatrist, Foot & Ankle Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0112",
+        "npi": "1902809957",
+        "name": "IZIK YITZHAKI",
+        "address": "525 Union Blvd, Totowa, NJ 07512, USA",
+        "phone": "+19739285360",
+        "specialty": "Anesthesiology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0113",
+        "npi": "1811990864",
+        "name": "JAMES GULLETT",
+        "address": "7900 Fannin St # 4000, Houston, TX 77054, USA",
+        "phone": "+17135127500",
+        "specialty": "Obstetrics & Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0114",
+        "npi": "1629071675",
+        "name": "ALEX SNEIDERS",
+        "address": "300 State Ave, Tonganoxie, KS 66086, USA",
+        "phone": "+15073333200",
+        "specialty": "Specialist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0115",
+        "npi": "1447253497",
+        "name": "SCOTT NAEGELE",
+        "address": "830 Pennsylvania Ave, Charleston, WV 25302, USA",
+        "phone": "+13043448368",
+        "specialty": "Obstetrics & Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0116",
+        "npi": "1265435218",
+        "name": "CAREY LEEDS",
+        "address": "803 E Lincoln Ave, Olivia, MN 56277, USA",
+        "phone": "+15098371550",
+        "specialty": "Obstetrics & Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0117",
+        "npi": "1174526123",
+        "name": "EDWARD HOEHN-SARIC",
+        "address": "293 Olmsted Blvd #7, Pinehurst, NC 28374, USA",
+        "phone": "+19102953344",
+        "specialty": "Internal Medicine, Nephrology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0118",
+        "npi": "1083617039",
+        "name": "DEBORAH STANLEY",
+        "address": "700 Friedman Ave, Las Vegas, NM 87701, USA",
+        "phone": "+15054545125",
+        "specialty": "Pharmacist, Psychiatric",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0119",
+        "npi": "1801899851",
+        "name": "ROBERT FERRIS",
+        "address": "1241 W Stadium Blvd, Jefferson City, MO 65109, USA",
+        "phone": "+15735567717",
+        "specialty": "Specialist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0120",
+        "npi": "1710980768",
+        "name": "JOHN ORTMAN",
+        "address": "75 Hospital Dr, Columbia, MO 65212, USA",
+        "phone": "+17405924491",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0121",
+        "npi": "1528061579",
+        "name": "NEIL WENSINK",
+        "address": "28821 Lorain Rd, North Olmsted, OH 44070, USA",
+        "phone": "+14407168400",
+        "specialty": "Chiropractor",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0122",
+        "npi": "1437152485",
+        "name": "LISA MORGAN",
+        "address": "2201 Murphy Ave, Nashville, TN 37203, USA",
+        "phone": "+16153409530",
+        "specialty": "Obstetrics & Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0123",
+        "npi": "1346243391",
+        "name": "JAMES HOOVER",
+        "address": "998 S Dorset Rd, Troy, OH 45373, USA",
+        "phone": "097733 14333",
+        "specialty": "Physical Medicine & Rehabilitation",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0124",
+        "npi": "1063415016",
+        "name": "D BROOKS",
+        "address": "1700 Hospital S Dr #502, Austell, GA 30106, USA",
+        "phone": "+19432027070",
+        "specialty": "Orthopaedic Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0125",
+        "npi": "1972506921",
+        "name": "DUNCAN FAGUNDUS",
+        "address": "1850 W Arlington Blvd, Greenville, NC 27834, USA",
+        "phone": "+12527526101",
+        "specialty": "Internal Medicine, Rheumatology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0126",
+        "npi": "1609879659",
+        "name": "GLENDA PETROFF",
+        "address": "22070 AL-59, Robertsdale, AL 36567, USA",
+        "phone": "+19858920879",
+        "specialty": "Nurse Practitioner",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0127",
+        "npi": "1518960566",
+        "name": "JOHN IRWIN",
+        "address": "7900 Fannin St # 4000, Houston, TX 77054, USA",
+        "phone": "+17135127500",
+        "specialty": "Obstetrics & Gynecology, Gynecology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0128",
+        "npi": "1326041377",
+        "name": "CHARLES HEATON",
+        "address": "3355 Earl Campbell Pkwy, Tyler, TX 75701, USA",
+        "phone": "+16236884327",
+        "specialty": "Ophthalmology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0129",
+        "npi": "1235132283",
+        "name": "RHONDA BUTTLEMAN",
+        "address": "6425 Bardstown Rd, Louisville, KY 40291, USA",
+        "phone": "+15027620498",
+        "specialty": "Pediatrics",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0130",
+        "npi": "1053314005",
+        "name": "CLIFFORD SALES",
+        "address": "433 Central Ave, Jersey City, NJ 07307, USA",
+        "phone": "020 3371 2300",
+        "specialty": null,
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0131",
+        "npi": "1306849344",
+        "name": "SHELBY WHITE",
+        "address": "333 S 3rd St, Philadelphia, PA 19106, USA",
+        "phone": "+18592368730",
+        "specialty": "Orthopaedic Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0132",
+        "npi": "1215930250",
+        "name": "KIMBERLY PAGE",
+        "address": "1388 Court St, Brooklyn, NY 11231, USA",
+        "phone": "+15302462207",
+        "specialty": "Neurological Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0133",
+        "npi": "1023011061",
+        "name": "WALTER LETIEN",
+        "address": "266 Cabot St, Beverly, MA 01915, USA",
+        "phone": "+19789221888",
+        "specialty": "Audiologist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0134",
+        "npi": "1932102977",
+        "name": "NABIN SHARMA",
+        "address": "Parking lot, 1400 S Dobson Rd, Mesa, AZ 85202, USA",
+        "phone": "098182 98675",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0135",
+        "npi": "1750384798",
+        "name": "HANNA VON HARDENBERG",
+        "address": "293 Olmsted Blvd, Pinehurst, NC 28374, USA",
+        "phone": "+19102953344",
+        "specialty": "Internal Medicine, Nephrology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0136",
+        "npi": "1578566519",
+        "name": "JOHN SPANN",
+        "address": "6015 Shallowford Rd, Chattanooga, TN 37421, USA",
+        "phone": "+14238933333",
+        "specialty": "Oral & Maxillofacial Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0137",
+        "npi": "1396748331",
+        "name": "MICHAEL SORENSEN",
+        "address": "1223 Willow Creek Rd, Prescott, AZ 86301, USA",
+        "phone": "+19287779950",
+        "specialty": "Physical Medicine & Rehabilitation",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0138",
+        "npi": "1205839248",
+        "name": "JAMES HOLLANDSWORTH",
+        "address": "1124 Fox Meadows Blvd #3, Sevierville, TN 37862, USA",
+        "phone": "+14232395141",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0139",
+        "npi": "1831192871",
+        "name": "DAVID COWDEN",
+        "address": "105 W Stone Dr, Kingsport, TN 37660, USA",
+        "phone": "+14233926299",
+        "specialty": "Otolaryngology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0140",
+        "npi": "1568465508",
+        "name": "JENNIFER ROST",
+        "address": "2200 NE Neff Rd, Bend, OR 97701, USA",
+        "phone": "+15413887738",
+        "specialty": "Physical Therapist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0141",
+        "npi": "1477556413",
+        "name": "MELISSA SIROIS",
+        "address": "6310 Fort King Rd, Zephyrhills, FL 33542, USA",
+        "phone": "+18134064400",
+        "specialty": "Audiologist-Hearing Aid Fitter",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0142",
+        "npi": "1386647329",
+        "name": "SCOTT LANCASTER",
+        "address": "4519 N Garfield St, Midland, TX 79705, USA",
+        "phone": "080041 06000",
+        "specialty": "Anesthesiology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0143",
+        "npi": "1295738235",
+        "name": "KRISHNA RAGOTHAMAN",
+        "address": "128 N LOCUST ST, OAK HARBOR, OH, 434491358",
+        "phone": "+14198988124",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.75,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": false,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0144",
+        "npi": "1104829142",
+        "name": "HENRY TRIPP",
+        "address": "3734 Reynolda Rd, Winston-Salem, NC 27106, USA",
+        "phone": "+13366640333",
+        "specialty": "Family Medicine, Geriatric Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0145",
+        "npi": "1821091869",
+        "name": "PAOLA BASS",
+        "address": "210 Westside Dr, Dothan, AL 36303, USA",
+        "phone": "+13347935074",
+        "specialty": "Internal Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0146",
+        "npi": "1730182775",
+        "name": "ROBERT NEE",
+        "address": "8901 Rockville Pike, Bethesda, MD 20889, USA",
+        "phone": "+13012954331",
+        "specialty": "Internal Medicine, Nephrology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0147",
+        "npi": "1588667521",
+        "name": "ORRIN SCOTT SWAYZE",
+        "address": "Tower Rd NE, Coldsprings Township, MI 49646, USA",
+        "phone": "+17704275717",
+        "specialty": "Orthopaedic Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0148",
+        "npi": "1760485718",
+        "name": "BRIAN STEPHENS",
+        "address": "12455 E 100th St N #350, Owasso, OK 74055, USA",
+        "phone": "+19182475555",
+        "specialty": "Specialist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0149",
+        "npi": "1588667539",
+        "name": "BARRY ZALLEN",
+        "address": "300 Longwood Ave, Boston, MA 02115, USA",
+        "phone": "+16179196263",
+        "specialty": "Pediatrics",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0150",
+        "npi": "1497758445",
+        "name": "JOHN MORSE",
+        "address": "127 Crestview Park Dr, Dickson, TN 37055, USA",
+        "phone": "0120 473 7200",
+        "specialty": "Family Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0151",
+        "npi": "1215930268",
+        "name": "CHARLES YEN",
+        "address": "17323 Red Oak Dr, Houston, TX 77090, USA",
+        "phone": "+12814405006",
+        "specialty": "Internal Medicine, Hematology & Oncology",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0152",
+        "npi": "1124021167",
+        "name": "SUSAN DILLMUTH-MILLER",
+        "address": "1436 Oakcrest Ln, Coplay, PA 18037, USA",
+        "phone": "+16105020821",
+        "specialty": "Audiologist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0153",
+        "npi": "1033112073",
+        "name": "DESIREE VAN BLARICOM",
+        "address": "435 S Crystal St, Butte, MT 59701, USA",
+        "phone": "+14064963456",
+        "specialty": "Physical Therapist",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0154",
+        "npi": "1851394894",
+        "name": "KENNETH GOODMAN",
+        "address": "5925 Venture Park Dr, Kalamazoo, MI 49009, USA",
+        "phone": "+12693533700",
+        "specialty": "Dentist, General Practice",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0155",
+        "npi": "1760485700",
+        "name": "DAVID GELBER",
+        "address": "3801 Vista Rd #450, Pasadena, TX 77504, USA",
+        "phone": "+17139442240",
+        "specialty": "Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0156",
+        "npi": "1679576615",
+        "name": "MICHAEL PUTLAND",
+        "address": "14200 W, 14200 Celebrate Life Way, Goodyear, AZ 85338, USA",
+        "phone": "098290 27867",
+        "specialty": "Family Medicine, Adult Medicine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0157",
+        "npi": "1235132275",
+        "name": "EWA HANSEN",
+        "address": "3740 W Sylvania Ave, Toledo, OH 43623, USA",
+        "phone": "+14194736670",
+        "specialty": "Pediatrics",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0158",
+        "npi": "1144223181",
+        "name": "EUGENE LITTLE",
+        "address": "1013 E Spring St, New Albany, IN 47150, USA",
+        "phone": "089561 96711",
+        "specialty": "Podiatrist, Foot & Ankle Surgery",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.6,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0159",
+        "npi": "1053314096",
+        "name": "SAMUEL MURRELL",
+        "address": "6286 Briarcrest Ave, Memphis, TN 38120, USA",
+        "phone": "+19016413000",
+        "specialty": "Orthopaedic Surgery, Orthopaedic Surgery of the Spine",
+        "confidence": {
+            "address": 0.6,
+            "phone": 0.75,
+            "identity": 0.9
+        },
+        "sources": {
+            "npi_provided": true,
+            "npi_verified": true,
+            "google_address": true,
+            "google_place": true
+        },
+        "identity_status": "NPI_VERIFIED"
+    },
+    {
+        "provider_id": "P0160",
+        "npi": "1871596817",
+        "name": "HOMER ABIAD",
+        "address": "15900 S Cicero Ave, Oak Forest, IL 60452, USA",
+        "phone": "+17086334133",
+        "specialty": "Internal Medicine, Infectious Disease",
         "confidence": {
             "address": 0.6,
             "phone": 0.75,

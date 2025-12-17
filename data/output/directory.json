@@ -1,5 +1,3556 @@
 [
   {
+    "provider_id": "P0148",
+    "npi": "1760485718",
+    "name": "BRIAN STEPHENS",
+    "address": "12455 E 100th St N #350, Owasso, OK 74055, USA",
+    "phone": "+19182475555",
+    "specialty": "Specialist",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "University of Oklahoma College of Medicine",
+        "confidence": 0.85,
+        "source": "https://healthcare.ascension.org/find-care/provider/1760485718/brian-stephens"
+      },
+      "specialty": {
+        "value": "Specialist",
+        "confidence": 0.6,
+        "source": "https://healthcare.ascension.org/find-care/provider/1760485718/brian-stephens"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://healthcare.ascension.org/find-care/provider/1760485718/brian-stephens"
+      },
+      "affiliations": {
+        "value": [
+          "Ascension Medical Group",
+          "Women ' s Health"
+        ],
+        "confidence": 0.85,
+        "source": "https://healthcare.ascension.org/find-care/provider/1760485718/brian-stephens"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.73,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6297027498483658,
+        "education": 0.85,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "no_services_listed",
+        "semantic_specialty_boost"
+      ],
+      "description": "P0148 | BRIAN STEPHENS | decision=AUTO | score=0.73 | identity=NPI_VERIFIED | npi=1760485718 | address=12455 E 100th St N #350, Owasso, OK 74055, USA | phone=+19182475555",
+      "explainable_summary": {
+        "provider_id": "P0148",
+        "name": "BRIAN STEPHENS",
+        "npi": "1760485718",
+        "identity_status": "NPI_VERIFIED",
+        "address": "12455 E 100th St N #350, Owasso, OK 74055, USA",
+        "phone": "+19182475555",
+        "profile_confidence": 0.73,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6297027498483658,
+          "education": 0.85,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "no_services_listed",
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "University of Oklahoma College of Medicine",
+            "confidence": 0.85,
+            "source": "https://healthcare.ascension.org/find-care/provider/1760485718/brian-stephens"
+          },
+          "specialty": {
+            "value": "Specialist",
+            "confidence": 0.6,
+            "source": "https://healthcare.ascension.org/find-care/provider/1760485718/brian-stephens"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Ascension Medical Group",
+            "Women ' s Health"
+          ]
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.03,
+          "similarity": 0.659
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0151",
+    "npi": "1215930268",
+    "name": "CHARLES YEN",
+    "address": "17323 Red Oak Dr, Houston, TX 77090, USA",
+    "phone": "+12814405006",
+    "specialty": "Internal Medicine, Hematology & Oncology",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "University of Texas Austin",
+        "confidence": 0.85,
+        "source": "https://www.texasoncology.com/providers/cancer-care/charles-yen"
+      },
+      "specialty": {
+        "value": "Internal Medicine, Hematology & Oncology",
+        "confidence": 0.6,
+        "source": "https://www.texasoncology.com/providers/cancer-care/charles-yen"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.texasoncology.com/providers/cancer-care/charles-yen"
+      },
+      "affiliations": {
+        "value": [
+          "Medical Oncology",
+          "University of Texas Southwestern Medical School",
+          "University of Texas Medical Branch"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.texasoncology.com/providers/cancer-care/charles-yen"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.729,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6180300891399384,
+        "education": 0.85,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "no_services_listed",
+        "semantic_specialty_boost"
+      ],
+      "description": "P0151 | CHARLES YEN | decision=AUTO | score=0.729 | identity=NPI_VERIFIED | npi=1215930268 | address=17323 Red Oak Dr, Houston, TX 77090, USA | phone=+12814405006",
+      "explainable_summary": {
+        "provider_id": "P0151",
+        "name": "CHARLES YEN",
+        "npi": "1215930268",
+        "identity_status": "NPI_VERIFIED",
+        "address": "17323 Red Oak Dr, Houston, TX 77090, USA",
+        "phone": "+12814405006",
+        "profile_confidence": 0.729,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6180300891399384,
+          "education": 0.85,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "no_services_listed",
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "University of Texas Austin",
+            "confidence": 0.85,
+            "source": "https://www.texasoncology.com/providers/cancer-care/charles-yen"
+          },
+          "specialty": {
+            "value": "Internal Medicine, Hematology & Oncology",
+            "confidence": 0.6,
+            "source": "https://www.texasoncology.com/providers/cancer-care/charles-yen"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Medical Oncology",
+            "University of Texas Southwestern Medical School",
+            "University of Texas Medical Branch"
+          ]
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.018,
+          "similarity": 0.636
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0035",
+    "npi": "1134122187",
+    "name": "CHERYL RUDNICKE",
+    "address": "250 25th Ave N, Nashville, TN 37203, USA",
+    "phone": "+16153205090",
+    "specialty": "Nurse Practitioner",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "McKay Institute",
+        "confidence": 0.85,
+        "source": "https://tnoncology.com/"
+      },
+      "specialty": {
+        "value": "Nurse Practitioner",
+        "confidence": 0.6,
+        "source": "https://tnoncology.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://tnoncology.com/"
+      },
+      "affiliations": {
+        "value": [
+          "Services Trials Services Primary Services Medical Oncology",
+          "Breast Center Center for",
+          "Medical Oncology Pharmacy Ra",
+          "Oncology Women ' s Health"
+        ],
+        "confidence": 0.85,
+        "source": "https://tnoncology.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.728,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.85,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "no_services_listed"
+      ],
+      "description": "P0035 | CHERYL RUDNICKE | decision=AUTO | score=0.728 | identity=NPI_VERIFIED | npi=1134122187 | address=250 25th Ave N, Nashville, TN 37203, USA | phone=+16153205090",
+      "explainable_summary": {
+        "provider_id": "P0035",
+        "name": "CHERYL RUDNICKE",
+        "npi": "1134122187",
+        "identity_status": "NPI_VERIFIED",
+        "address": "250 25th Ave N, Nashville, TN 37203, USA",
+        "phone": "+16153205090",
+        "profile_confidence": 0.728,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.85,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "McKay Institute",
+            "confidence": 0.85,
+            "source": "https://tnoncology.com/"
+          },
+          "specialty": {
+            "value": "Nurse Practitioner",
+            "confidence": 0.6,
+            "source": "https://tnoncology.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Services Trials Services Primary Services Medical Oncology",
+            "Breast Center Center for",
+            "Medical Oncology Pharmacy Ra"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0130",
+    "npi": "1053314005",
+    "name": "CLIFFORD SALES",
+    "address": "433 Central Ave, Jersey City, NJ 07307, USA",
+    "phone": "020 3371 2300",
+    "specialty": null,
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.6,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "Vein Institute of New",
+        "confidence": 0.85,
+        "source": "https://tcvcg.com/providers/clifford-m-sales/"
+      },
+      "specialty": {
+        "value": "Cardiology",
+        "confidence": 0.7,
+        "source": "https://tcvcg.com/providers/clifford-m-sales/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://tcvcg.com/providers/clifford-m-sales/"
+      },
+      "affiliations": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://tcvcg.com/providers/clifford-m-sales/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.656,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.6,
+        "specialty": 0.734197424352169,
+        "education": 0.85,
+        "services": 0.15,
+        "affiliations": 0.15
+      },
+      "reasons": [
+        "no_services_listed",
+        "no_affiliations",
+        "semantic_specialty_boost"
+      ],
+      "description": "P0130 | CLIFFORD SALES | decision=AUTO | score=0.656 | identity=NPI_VERIFIED | npi=1053314005 | address=433 Central Ave, Jersey City, NJ 07307, USA | phone=020 3371 2300",
+      "explainable_summary": {
+        "provider_id": "P0130",
+        "name": "CLIFFORD SALES",
+        "npi": "1053314005",
+        "identity_status": "NPI_VERIFIED",
+        "address": "433 Central Ave, Jersey City, NJ 07307, USA",
+        "phone": "020 3371 2300",
+        "profile_confidence": 0.656,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.6,
+          "specialty": 0.734197424352169,
+          "education": 0.85,
+          "services": 0.15,
+          "affiliations": 0.15
+        },
+        "top_reasons": [
+          "no_services_listed",
+          "no_affiliations",
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "Vein Institute of New",
+            "confidence": 0.85,
+            "source": "https://tcvcg.com/providers/clifford-m-sales/"
+          },
+          "specialty": {
+            "value": "Cardiology",
+            "confidence": 0.7,
+            "source": "https://tcvcg.com/providers/clifford-m-sales/"
+          },
+          "services_sample": [],
+          "affiliations_sample": []
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.034,
+          "similarity": 0.668
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0042",
+    "npi": "1124021175",
+    "name": "DANA TRIPPI",
+    "address": "3100 N Tenaya Wy, Las Vegas, NV 89128, USA",
+    "phone": "+17026716845",
+    "specialty": "Emergency Medicine",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.premierweightloss.com/?utm_source=gmb_auth"
+      },
+      "specialty": {
+        "value": "Emergency Medicine",
+        "confidence": 0.6,
+        "source": "https://www.premierweightloss.com/?utm_source=gmb_auth"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.premierweightloss.com/?utm_source=gmb_auth"
+      },
+      "affiliations": {
+        "value": [
+          "Health Care Quarterly"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.premierweightloss.com/?utm_source=gmb_auth"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0042 | DANA TRIPPI | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1124021175 | address=3100 N Tenaya Wy, Las Vegas, NV 89128, USA | phone=+17026716845",
+      "explainable_summary": {
+        "provider_id": "P0042",
+        "name": "DANA TRIPPI",
+        "npi": "1124021175",
+        "identity_status": "NPI_VERIFIED",
+        "address": "3100 N Tenaya Wy, Las Vegas, NV 89128, USA",
+        "phone": "+17026716845",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.premierweightloss.com/?utm_source=gmb_auth"
+          },
+          "specialty": {
+            "value": "Emergency Medicine",
+            "confidence": 0.6,
+            "source": "https://www.premierweightloss.com/?utm_source=gmb_auth"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Health Care Quarterly"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0061",
+    "npi": "1487657417",
+    "name": "DANIEL CAREY",
+    "address": "850 N Harrison St, Warsaw, IN 46580, USA",
+    "phone": "+15742677169",
+    "specialty": "Social Worker, Clinical",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.bowenhealth.org/"
+      },
+      "specialty": {
+        "value": "Social Worker, Clinical",
+        "confidence": 0.6,
+        "source": "https://www.bowenhealth.org/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.bowenhealth.org/"
+      },
+      "affiliations": {
+        "value": [
+          "Bowen Health"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.bowenhealth.org/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0061 | DANIEL CAREY | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1487657417 | address=850 N Harrison St, Warsaw, IN 46580, USA | phone=+15742677169",
+      "explainable_summary": {
+        "provider_id": "P0061",
+        "name": "DANIEL CAREY",
+        "npi": "1487657417",
+        "identity_status": "NPI_VERIFIED",
+        "address": "850 N Harrison St, Warsaw, IN 46580, USA",
+        "phone": "+15742677169",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.bowenhealth.org/"
+          },
+          "specialty": {
+            "value": "Social Worker, Clinical",
+            "confidence": 0.6,
+            "source": "https://www.bowenhealth.org/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Bowen Health"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0139",
+    "npi": "1831192871",
+    "name": "DAVID COWDEN",
+    "address": "105 W Stone Dr, Kingsport, TN 37660, USA",
+    "phone": "+14233926299",
+    "specialty": "Otolaryngology",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.holstonmedicalgroup.com/"
+      },
+      "specialty": {
+        "value": "Otolaryngology",
+        "confidence": 0.6,
+        "source": "https://www.holstonmedicalgroup.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.holstonmedicalgroup.com/"
+      },
+      "affiliations": {
+        "value": [
+          "Holston Medical Group",
+          "Health & Wellness",
+          "Audiology Clinical Research Der"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.holstonmedicalgroup.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0139 | DAVID COWDEN | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1831192871 | address=105 W Stone Dr, Kingsport, TN 37660, USA | phone=+14233926299",
+      "explainable_summary": {
+        "provider_id": "P0139",
+        "name": "DAVID COWDEN",
+        "npi": "1831192871",
+        "identity_status": "NPI_VERIFIED",
+        "address": "105 W Stone Dr, Kingsport, TN 37660, USA",
+        "phone": "+14233926299",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.holstonmedicalgroup.com/"
+          },
+          "specialty": {
+            "value": "Otolaryngology",
+            "confidence": 0.6,
+            "source": "https://www.holstonmedicalgroup.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Holston Medical Group",
+            "Health & Wellness",
+            "Audiology Clinical Research Der"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0076",
+    "npi": "1073516001",
+    "name": "DAVID ROSS",
+    "address": "127 Crestview Park Dr, Dickson, TN 37055, USA",
+    "phone": "0120 473 7200",
+    "specialty": "Internal Medicine",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.6,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://dicksonmd.com/"
+      },
+      "specialty": {
+        "value": "Internal Medicine",
+        "confidence": 0.6,
+        "source": "https://dicksonmd.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://dicksonmd.com/"
+      },
+      "affiliations": {
+        "value": [
+          "Dickson Medical Associates"
+        ],
+        "confidence": 0.85,
+        "source": "https://dicksonmd.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.675,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.6,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0076 | DAVID ROSS | decision=AUTO | score=0.675 | identity=NPI_VERIFIED | npi=1073516001 | address=127 Crestview Park Dr, Dickson, TN 37055, USA | phone=0120 473 7200",
+      "explainable_summary": {
+        "provider_id": "P0076",
+        "name": "DAVID ROSS",
+        "npi": "1073516001",
+        "identity_status": "NPI_VERIFIED",
+        "address": "127 Crestview Park Dr, Dickson, TN 37055, USA",
+        "phone": "0120 473 7200",
+        "profile_confidence": 0.675,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.6,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://dicksonmd.com/"
+          },
+          "specialty": {
+            "value": "Internal Medicine",
+            "confidence": 0.6,
+            "source": "https://dicksonmd.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Dickson Medical Associates"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0125",
+    "npi": "1972506921",
+    "name": "DUNCAN FAGUNDUS",
+    "address": "1850 W Arlington Blvd, Greenville, NC 27834, USA",
+    "phone": "+12527526101",
+    "specialty": "Internal Medicine, Rheumatology",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "MD Location : 1850 W Arlington Blvd, Greenville, NC 27834, USA View Map Arlington Campus Entrance: E",
+        "confidence": 0.8,
+        "source": "https://www.physicianseast.com/physician/duncan-fagundus/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      },
+      "specialty": {
+        "value": "Internal Medicine, Rheumatology",
+        "confidence": 0.6,
+        "source": "https://www.physicianseast.com/physician/duncan-fagundus/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.physicianseast.com/physician/duncan-fagundus/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      },
+      "affiliations": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.physicianseast.com/physician/duncan-fagundus/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.655,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.8,
+        "services": 0.15,
+        "affiliations": 0.15
+      },
+      "reasons": [
+        "no_services_listed",
+        "no_affiliations"
+      ],
+      "description": "P0125 | DUNCAN FAGUNDUS | decision=AUTO | score=0.655 | identity=NPI_VERIFIED | npi=1972506921 | address=1850 W Arlington Blvd, Greenville, NC 27834, USA | phone=+12527526101",
+      "explainable_summary": {
+        "provider_id": "P0125",
+        "name": "DUNCAN FAGUNDUS",
+        "npi": "1972506921",
+        "identity_status": "NPI_VERIFIED",
+        "address": "1850 W Arlington Blvd, Greenville, NC 27834, USA",
+        "phone": "+12527526101",
+        "profile_confidence": 0.655,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.8,
+          "services": 0.15,
+          "affiliations": 0.15
+        },
+        "top_reasons": [
+          "no_services_listed",
+          "no_affiliations"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "MD Location : 1850 W Arlington Blvd, Greenville, NC 27834, USA View Map Arlington Campus Entrance: E",
+            "confidence": 0.8,
+            "source": "https://www.physicianseast.com/physician/duncan-fagundus/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+          },
+          "specialty": {
+            "value": "Internal Medicine, Rheumatology",
+            "confidence": 0.6,
+            "source": "https://www.physicianseast.com/physician/duncan-fagundus/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+          },
+          "services_sample": [],
+          "affiliations_sample": []
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0054",
+    "npi": "1306849336",
+    "name": "ERIC TOWNSEND",
+    "address": "105 Solana Rd, Ponte Vedra Beach, FL 32082, USA",
+    "phone": "+19042857711",
+    "specialty": "Dentist, General Practice",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "University of Florida",
+        "confidence": 0.85,
+        "source": "https://www.pvcompletedentistry.com/meet-dr-townsend.html"
+      },
+      "specialty": {
+        "value": "Dentist, General Practice",
+        "confidence": 0.6,
+        "source": "https://www.pvcompletedentistry.com/meet-dr-townsend.html"
+      },
+      "services": {
+        "value": [
+          "Checkups & Cleanings",
+          "Periodontal Therapy",
+          "TMJ/TMD Therapy",
+          "Restorative Dentistry",
+          "Crowns & Bridges",
+          "Dentures & Partials",
+          "Dental Implants",
+          "Implant Dentures",
+          "Cosmetic Dentistry",
+          "Porcelain Veneers"
+        ],
+        "confidence": 0.8,
+        "source": "https://www.pvcompletedentistry.com/meet-dr-townsend.html"
+      },
+      "affiliations": {
+        "value": [
+          "Change Healthcare",
+          "Medical College of Virginia School of Dentist"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.pvcompletedentistry.com/meet-dr-townsend.html"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.797,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6408076614141465,
+        "education": 0.85,
+        "services": 0.8,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "semantic_specialty_boost"
+      ],
+      "description": "P0054 | ERIC TOWNSEND | decision=AUTO | score=0.797 | identity=NPI_VERIFIED | npi=1306849336 | address=105 Solana Rd, Ponte Vedra Beach, FL 32082, USA | phone=+19042857711",
+      "explainable_summary": {
+        "provider_id": "P0054",
+        "name": "ERIC TOWNSEND",
+        "npi": "1306849336",
+        "identity_status": "NPI_VERIFIED",
+        "address": "105 Solana Rd, Ponte Vedra Beach, FL 32082, USA",
+        "phone": "+19042857711",
+        "profile_confidence": 0.797,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6408076614141465,
+          "education": 0.85,
+          "services": 0.8,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "University of Florida",
+            "confidence": 0.85,
+            "source": "https://www.pvcompletedentistry.com/meet-dr-townsend.html"
+          },
+          "specialty": {
+            "value": "Dentist, General Practice",
+            "confidence": 0.6,
+            "source": "https://www.pvcompletedentistry.com/meet-dr-townsend.html"
+          },
+          "services_sample": [
+            "Checkups & Cleanings",
+            "Periodontal Therapy",
+            "TMJ/TMD Therapy"
+          ],
+          "affiliations_sample": [
+            "Change Healthcare",
+            "Medical College of Virginia School of Dentist"
+          ]
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.041,
+          "similarity": 0.682
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0037",
+    "npi": "1861495814",
+    "name": "FRANCISCO SMITH",
+    "address": "Royal Plam Medical Building, 1660 Medical Blvd, Naples, FL 34110, USA",
+    "phone": "+12395961995",
+    "specialty": "Obstetrics & Gynecology, Gynecologic Oncology",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "MD, MPH Mark B. Frenkel, MD, MA Mark Gerber, MD Christopher Govea, MD F. Desmond Hussey III, MD Howa",
+        "confidence": 0.8,
+        "source": "https://nasamri.com/"
+      },
+      "specialty": {
+        "value": "Obstetrics & Gynecology, Gynecologic Oncology",
+        "confidence": 0.6,
+        "source": "https://nasamri.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://nasamri.com/"
+      },
+      "affiliations": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://nasamri.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.655,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.8,
+        "services": 0.15,
+        "affiliations": 0.15
+      },
+      "reasons": [
+        "no_services_listed",
+        "no_affiliations"
+      ],
+      "description": "P0037 | FRANCISCO SMITH | decision=AUTO | score=0.655 | identity=NPI_VERIFIED | npi=1861495814 | address=Royal Plam Medical Building, 1660 Medical Blvd, Naples, FL 34110, USA | phone=+12395961995",
+      "explainable_summary": {
+        "provider_id": "P0037",
+        "name": "FRANCISCO SMITH",
+        "npi": "1861495814",
+        "identity_status": "NPI_VERIFIED",
+        "address": "Royal Plam Medical Building, 1660 Medical Blvd, Naples, FL 34110, USA",
+        "phone": "+12395961995",
+        "profile_confidence": 0.655,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.8,
+          "services": 0.15,
+          "affiliations": 0.15
+        },
+        "top_reasons": [
+          "no_services_listed",
+          "no_affiliations"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "MD, MPH Mark B. Frenkel, MD, MA Mark Gerber, MD Christopher Govea, MD F. Desmond Hussey III, MD Howa",
+            "confidence": 0.8,
+            "source": "https://nasamri.com/"
+          },
+          "specialty": {
+            "value": "Obstetrics & Gynecology, Gynecologic Oncology",
+            "confidence": 0.6,
+            "source": "https://nasamri.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": []
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0077",
+    "npi": "1982607917",
+    "name": "FREDERICK ROWLAND",
+    "address": "1200 CENTRE ST, DEPARTMENT OF MEDICINE, ROSLINDALE, MA, 021311000",
+    "phone": "+16173638293",
+    "specialty": "Internal Medicine, Geriatric Medicine",
+    "confidence": {
+      "address": 0.75,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": false,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "Harvard Medical School",
+        "confidence": 0.85,
+        "source": "https://www.hebrewseniorlife.org/"
+      },
+      "specialty": {
+        "value": "Internal Medicine, Geriatric Medicine",
+        "confidence": 0.6,
+        "source": "https://www.hebrewseniorlife.org/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.hebrewseniorlife.org/"
+      },
+      "affiliations": {
+        "value": [
+          "Health",
+          "Harvard Medical School"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.hebrewseniorlife.org/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.75,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.75,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.85,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "no_services_listed"
+      ],
+      "description": "P0077 | FREDERICK ROWLAND | decision=AUTO | score=0.75 | identity=NPI_VERIFIED | npi=1982607917 | address=1200 CENTRE ST, DEPARTMENT OF MEDICINE, ROSLINDALE, MA, 021311000 | phone=+16173638293",
+      "explainable_summary": {
+        "provider_id": "P0077",
+        "name": "FREDERICK ROWLAND",
+        "npi": "1982607917",
+        "identity_status": "NPI_VERIFIED",
+        "address": "1200 CENTRE ST, DEPARTMENT OF MEDICINE, ROSLINDALE, MA, 021311000",
+        "phone": "+16173638293",
+        "profile_confidence": 0.75,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.75,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.85,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "Harvard Medical School",
+            "confidence": 0.85,
+            "source": "https://www.hebrewseniorlife.org/"
+          },
+          "specialty": {
+            "value": "Internal Medicine, Geriatric Medicine",
+            "confidence": 0.6,
+            "source": "https://www.hebrewseniorlife.org/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Health",
+            "Harvard Medical School"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0041",
+    "npi": "1316940364",
+    "name": "GEETHA CONJEEVARAM",
+    "address": "75 Hospital Dr, Columbia, MO 65212, USA",
+    "phone": "+17405924491",
+    "specialty": "Internal Medicine",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "OhioHealth Research Institute",
+        "confidence": 0.85,
+        "source": "https://www.ohiohealth.com/"
+      },
+      "specialty": {
+        "value": "Internal Medicine",
+        "confidence": 0.6,
+        "source": "https://www.ohiohealth.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.ohiohealth.com/"
+      },
+      "affiliations": {
+        "value": [
+          "OhioHealth",
+          "OhioHealth Women ' s Center",
+          "OhioHealth Listen",
+          "OhioHealth Newslette",
+          "Health",
+          "OhioHealth Employer Solutions",
+          "OhioHealth Foundation",
+          "OhioHealth Physician Group"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.ohiohealth.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.728,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.85,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "no_services_listed"
+      ],
+      "description": "P0041 | GEETHA CONJEEVARAM | decision=AUTO | score=0.728 | identity=NPI_VERIFIED | npi=1316940364 | address=75 Hospital Dr, Columbia, MO 65212, USA | phone=+17405924491",
+      "explainable_summary": {
+        "provider_id": "P0041",
+        "name": "GEETHA CONJEEVARAM",
+        "npi": "1316940364",
+        "identity_status": "NPI_VERIFIED",
+        "address": "75 Hospital Dr, Columbia, MO 65212, USA",
+        "phone": "+17405924491",
+        "profile_confidence": 0.728,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.85,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "OhioHealth Research Institute",
+            "confidence": 0.85,
+            "source": "https://www.ohiohealth.com/"
+          },
+          "specialty": {
+            "value": "Internal Medicine",
+            "confidence": 0.6,
+            "source": "https://www.ohiohealth.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "OhioHealth",
+            "OhioHealth Women ' s Center",
+            "OhioHealth Listen"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0017",
+    "npi": "1396748349",
+    "name": "GEORGE GRUNERT",
+    "address": "2500 Fondren Rd Suite 300, Houston, TX 77063, USA",
+    "phone": "+17137302229",
+    "specialty": "Obstetrics & Gynecology, Reproductive Endocrinology",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "MD | Fertility Doctor in Houston, TX Skip To Content Patient Portal Referring Providers LGBTQ+ (713)",
+        "confidence": 0.8,
+        "source": "https://www.aspirehfi.com/fertility-specialists/dr-george-grunert?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-HFIPP"
+      },
+      "specialty": {
+        "value": "Obstetrics & Gynecology, Reproductive Endocrinology",
+        "confidence": 0.6,
+        "source": "https://www.aspirehfi.com/fertility-specialists/dr-george-grunert?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-HFIPP"
+      },
+      "services": {
+        "value": [
+          "Fertility Treatment",
+          "Fertility Evaluation",
+          "Houston IVF",
+          "Genetic Testing",
+          "Third-Party Reproduction",
+          "LGBTQ+ Fertility Care",
+          "Recurrent Miscarriage",
+          "International Patients",
+          "Reserve a Consult"
+        ],
+        "confidence": 0.8,
+        "source": "https://www.aspirehfi.com/fertility-specialists/dr-george-grunert?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-HFIPP"
+      },
+      "affiliations": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.aspirehfi.com/fertility-specialists/dr-george-grunert?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-HFIPP"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.72,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.8,
+        "services": 0.8,
+        "affiliations": 0.15
+      },
+      "reasons": [
+        "no_affiliations"
+      ],
+      "description": "P0017 | GEORGE GRUNERT | decision=AUTO | score=0.72 | identity=NPI_VERIFIED | npi=1396748349 | address=2500 Fondren Rd Suite 300, Houston, TX 77063, USA | phone=+17137302229",
+      "explainable_summary": {
+        "provider_id": "P0017",
+        "name": "GEORGE GRUNERT",
+        "npi": "1396748349",
+        "identity_status": "NPI_VERIFIED",
+        "address": "2500 Fondren Rd Suite 300, Houston, TX 77063, USA",
+        "phone": "+17137302229",
+        "profile_confidence": 0.72,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.8,
+          "services": 0.8,
+          "affiliations": 0.15
+        },
+        "top_reasons": [
+          "no_affiliations"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "MD | Fertility Doctor in Houston, TX Skip To Content Patient Portal Referring Providers LGBTQ+ (713)",
+            "confidence": 0.8,
+            "source": "https://www.aspirehfi.com/fertility-specialists/dr-george-grunert?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-HFIPP"
+          },
+          "specialty": {
+            "value": "Obstetrics & Gynecology, Reproductive Endocrinology",
+            "confidence": 0.6,
+            "source": "https://www.aspirehfi.com/fertility-specialists/dr-george-grunert?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-HFIPP"
+          },
+          "services_sample": [
+            "Fertility Treatment",
+            "Fertility Evaluation",
+            "Houston IVF"
+          ],
+          "affiliations_sample": []
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0074",
+    "npi": "1255334280",
+    "name": "JAMES HENSARLING",
+    "address": "4436 Mangum Dr, Flowood, MS 39232, USA",
+    "phone": "+16019827363",
+    "specialty": "Internal Medicine, Rheumatology",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.lsc-ms.com/?utm_source=gmb_auth"
+      },
+      "specialty": {
+        "value": "Internal Medicine, Rheumatology",
+        "confidence": 0.6,
+        "source": "https://www.lsc-ms.com/?utm_source=gmb_auth"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.lsc-ms.com/?utm_source=gmb_auth"
+      },
+      "affiliations": {
+        "value": [
+          "Center",
+          "##land Surgical Clinic"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.lsc-ms.com/?utm_source=gmb_auth"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0074 | JAMES HENSARLING | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1255334280 | address=4436 Mangum Dr, Flowood, MS 39232, USA | phone=+16019827363",
+      "explainable_summary": {
+        "provider_id": "P0074",
+        "name": "JAMES HENSARLING",
+        "npi": "1255334280",
+        "identity_status": "NPI_VERIFIED",
+        "address": "4436 Mangum Dr, Flowood, MS 39232, USA",
+        "phone": "+16019827363",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.lsc-ms.com/?utm_source=gmb_auth"
+          },
+          "specialty": {
+            "value": "Internal Medicine, Rheumatology",
+            "confidence": 0.6,
+            "source": "https://www.lsc-ms.com/?utm_source=gmb_auth"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Center",
+            "##land Surgical Clinic"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0079",
+    "npi": "1619970647",
+    "name": "JAYME LOTT",
+    "address": "736 S 900 E, Salt Lake City, UT 84102, USA",
+    "phone": "070603 11770",
+    "specialty": "Physician Assistant",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.6,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://entcenterutah.com/"
+      },
+      "specialty": {
+        "value": "Physician Assistant",
+        "confidence": 0.6,
+        "source": "https://entcenterutah.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://entcenterutah.com/"
+      },
+      "affiliations": {
+        "value": [
+          "Center"
+        ],
+        "confidence": 0.85,
+        "source": "https://entcenterutah.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.675,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.6,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0079 | JAYME LOTT | decision=AUTO | score=0.675 | identity=NPI_VERIFIED | npi=1619970647 | address=736 S 900 E, Salt Lake City, UT 84102, USA | phone=070603 11770",
+      "explainable_summary": {
+        "provider_id": "P0079",
+        "name": "JAYME LOTT",
+        "npi": "1619970647",
+        "identity_status": "NPI_VERIFIED",
+        "address": "736 S 900 E, Salt Lake City, UT 84102, USA",
+        "phone": "070603 11770",
+        "profile_confidence": 0.675,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.6,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://entcenterutah.com/"
+          },
+          "specialty": {
+            "value": "Physician Assistant",
+            "confidence": 0.6,
+            "source": "https://entcenterutah.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Center"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0043",
+    "npi": "1033112081",
+    "name": "JOHN FOGARTY",
+    "address": "1850 W Arlington Blvd, Greenville, NC 27834, USA",
+    "phone": "+12527526101",
+    "specialty": "Internal Medicine, Pulmonary Disease",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "MD Location : 1850 W Arlington Blvd, Greenville, NC 27834, USA View Map Arlington Campus Entrance: E",
+        "confidence": 0.8,
+        "source": "https://www.physicianseast.com/physician/john-fogarty/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU1NjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      },
+      "specialty": {
+        "value": "Internal Medicine, Pulmonary Disease",
+        "confidence": 0.6,
+        "source": "https://www.physicianseast.com/physician/john-fogarty/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU1NjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.physicianseast.com/physician/john-fogarty/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU1NjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      },
+      "affiliations": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.physicianseast.com/physician/john-fogarty/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU1NjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.655,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.8,
+        "services": 0.15,
+        "affiliations": 0.15
+      },
+      "reasons": [
+        "no_services_listed",
+        "no_affiliations"
+      ],
+      "description": "P0043 | JOHN FOGARTY | decision=AUTO | score=0.655 | identity=NPI_VERIFIED | npi=1033112081 | address=1850 W Arlington Blvd, Greenville, NC 27834, USA | phone=+12527526101",
+      "explainable_summary": {
+        "provider_id": "P0043",
+        "name": "JOHN FOGARTY",
+        "npi": "1033112081",
+        "identity_status": "NPI_VERIFIED",
+        "address": "1850 W Arlington Blvd, Greenville, NC 27834, USA",
+        "phone": "+12527526101",
+        "profile_confidence": 0.655,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.8,
+          "services": 0.15,
+          "affiliations": 0.15
+        },
+        "top_reasons": [
+          "no_services_listed",
+          "no_affiliations"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "MD Location : 1850 W Arlington Blvd, Greenville, NC 27834, USA View Map Arlington Campus Entrance: E",
+            "confidence": 0.8,
+            "source": "https://www.physicianseast.com/physician/john-fogarty/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU1NjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+          },
+          "specialty": {
+            "value": "Internal Medicine, Pulmonary Disease",
+            "confidence": 0.6,
+            "source": "https://www.physicianseast.com/physician/john-fogarty/?utm_source=Google&utm_medium=Yext&y_source=1_MTc4ODU1NjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+          },
+          "services_sample": [],
+          "affiliations_sample": []
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0033",
+    "npi": "1417950460",
+    "name": "JOHN GARCIA",
+    "address": "4200 Beckner Rd, Santa Fe, NM 87507, USA",
+    "phone": "+15059556200",
+    "specialty": "Orthopaedic Surgery",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.6,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "University of Texas Southwestern Medical School",
+        "confidence": 0.85,
+        "source": "https://nexushealth-nm.com/john-garcia/"
+      },
+      "specialty": {
+        "value": "Orthopaedic Surgery",
+        "confidence": 0.6,
+        "source": "https://nexushealth-nm.com/john-garcia/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://nexushealth-nm.com/john-garcia/"
+      },
+      "affiliations": {
+        "value": [
+          "##us Health Nexus Health",
+          "Nexus Health Primary Care",
+          "Nexus Health Physical Therapy",
+          "Nexus Health",
+          "Nexus Health Administration",
+          "University of Texas Southwestern Medical School"
+        ],
+        "confidence": 0.85,
+        "source": "https://nexushealth-nm.com/john-garcia/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.713,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.6,
+        "specialty": 0.6,
+        "education": 0.85,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "no_services_listed"
+      ],
+      "description": "P0033 | JOHN GARCIA | decision=AUTO | score=0.713 | identity=NPI_VERIFIED | npi=1417950460 | address=4200 Beckner Rd, Santa Fe, NM 87507, USA | phone=+15059556200",
+      "explainable_summary": {
+        "provider_id": "P0033",
+        "name": "JOHN GARCIA",
+        "npi": "1417950460",
+        "identity_status": "NPI_VERIFIED",
+        "address": "4200 Beckner Rd, Santa Fe, NM 87507, USA",
+        "phone": "+15059556200",
+        "profile_confidence": 0.713,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.6,
+          "specialty": 0.6,
+          "education": 0.85,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "University of Texas Southwestern Medical School",
+            "confidence": 0.85,
+            "source": "https://nexushealth-nm.com/john-garcia/"
+          },
+          "specialty": {
+            "value": "Orthopaedic Surgery",
+            "confidence": 0.6,
+            "source": "https://nexushealth-nm.com/john-garcia/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "##us Health Nexus Health",
+            "Nexus Health Primary Care",
+            "Nexus Health Physical Therapy"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0150",
+    "npi": "1497758445",
+    "name": "JOHN MORSE",
+    "address": "127 Crestview Park Dr, Dickson, TN 37055, USA",
+    "phone": "0120 473 7200",
+    "specialty": "Family Medicine",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.6,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://dicksonmd.com/"
+      },
+      "specialty": {
+        "value": "Family Medicine",
+        "confidence": 0.6,
+        "source": "https://dicksonmd.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://dicksonmd.com/"
+      },
+      "affiliations": {
+        "value": [
+          "Dickson Medical Associates"
+        ],
+        "confidence": 0.85,
+        "source": "https://dicksonmd.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.678,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.6,
+        "specialty": 0.6304656818509102,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed",
+        "semantic_specialty_boost"
+      ],
+      "description": "P0150 | JOHN MORSE | decision=AUTO | score=0.678 | identity=NPI_VERIFIED | npi=1497758445 | address=127 Crestview Park Dr, Dickson, TN 37055, USA | phone=0120 473 7200",
+      "explainable_summary": {
+        "provider_id": "P0150",
+        "name": "JOHN MORSE",
+        "npi": "1497758445",
+        "identity_status": "NPI_VERIFIED",
+        "address": "127 Crestview Park Dr, Dickson, TN 37055, USA",
+        "phone": "0120 473 7200",
+        "profile_confidence": 0.678,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.6,
+          "specialty": 0.6304656818509102,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed",
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://dicksonmd.com/"
+          },
+          "specialty": {
+            "value": "Family Medicine",
+            "confidence": 0.6,
+            "source": "https://dicksonmd.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Dickson Medical Associates"
+          ]
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.03,
+          "similarity": 0.661
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0136",
+    "npi": "1578566519",
+    "name": "JOHN SPANN",
+    "address": "6015 Shallowford Rd, Chattanooga, TN 37421, USA",
+    "phone": "+14238933333",
+    "specialty": "Oral & Maxillofacial Surgery",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "DDS | Chattanooga, TN Center for Oral Facial & Implant Surgery Skip to Content chevron-left chevron-",
+        "confidence": 0.8,
+        "source": "https://www.chattanoogaoms.com/meet-us/dr-john-a-spann-dds/"
+      },
+      "specialty": {
+        "value": "Oral & Maxillofacial Surgery",
+        "confidence": 0.6,
+        "source": "https://www.chattanoogaoms.com/meet-us/dr-john-a-spann-dds/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.chattanoogaoms.com/meet-us/dr-john-a-spann-dds/"
+      },
+      "affiliations": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.chattanoogaoms.com/meet-us/dr-john-a-spann-dds/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.657,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6247195631265641,
+        "education": 0.8,
+        "services": 0.15,
+        "affiliations": 0.15
+      },
+      "reasons": [
+        "no_services_listed",
+        "no_affiliations",
+        "semantic_specialty_boost"
+      ],
+      "description": "P0136 | JOHN SPANN | decision=AUTO | score=0.657 | identity=NPI_VERIFIED | npi=1578566519 | address=6015 Shallowford Rd, Chattanooga, TN 37421, USA | phone=+14238933333",
+      "explainable_summary": {
+        "provider_id": "P0136",
+        "name": "JOHN SPANN",
+        "npi": "1578566519",
+        "identity_status": "NPI_VERIFIED",
+        "address": "6015 Shallowford Rd, Chattanooga, TN 37421, USA",
+        "phone": "+14238933333",
+        "profile_confidence": 0.657,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6247195631265641,
+          "education": 0.8,
+          "services": 0.15,
+          "affiliations": 0.15
+        },
+        "top_reasons": [
+          "no_services_listed",
+          "no_affiliations",
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "DDS | Chattanooga, TN Center for Oral Facial & Implant Surgery Skip to Content chevron-left chevron-",
+            "confidence": 0.8,
+            "source": "https://www.chattanoogaoms.com/meet-us/dr-john-a-spann-dds/"
+          },
+          "specialty": {
+            "value": "Oral & Maxillofacial Surgery",
+            "confidence": 0.6,
+            "source": "https://www.chattanoogaoms.com/meet-us/dr-john-a-spann-dds/"
+          },
+          "services_sample": [],
+          "affiliations_sample": []
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.025,
+          "similarity": 0.649
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0078",
+    "npi": "1700889730",
+    "name": "KENNETH WEISS",
+    "address": "6286 Briarcrest Ave #200, Memphis, TN 38120, USA",
+    "phone": "+19016413000",
+    "specialty": "Orthopaedic Surgery, Sports Medicine",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "Lausanne Collegiate School",
+        "confidence": 0.85,
+        "source": "https://orthosouth.org/our-specialists/kenneth-s-weiss-md?utm_source=GMBSocialClimb&utm_medium=KennethS.Weiss%2CMD&scct=PNc4be719d8097cdf3af03e197a0088501"
+      },
+      "specialty": {
+        "value": "Orthopaedic Surgery, Sports Medicine",
+        "confidence": 0.6,
+        "source": "https://orthosouth.org/our-specialists/kenneth-s-weiss-md?utm_source=GMBSocialClimb&utm_medium=KennethS.Weiss%2CMD&scct=PNc4be719d8097cdf3af03e197a0088501"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://orthosouth.org/our-specialists/kenneth-s-weiss-md?utm_source=GMBSocialClimb&utm_medium=KennethS.Weiss%2CMD&scct=PNc4be719d8097cdf3af03e197a0088501"
+      },
+      "affiliations": {
+        "value": [
+          "Cells and Spine Health",
+          "Church Health"
+        ],
+        "confidence": 0.85,
+        "source": "https://orthosouth.org/our-specialists/kenneth-s-weiss-md?utm_source=GMBSocialClimb&utm_medium=KennethS.Weiss%2CMD&scct=PNc4be719d8097cdf3af03e197a0088501"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.728,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.85,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "no_services_listed"
+      ],
+      "description": "P0078 | KENNETH WEISS | decision=AUTO | score=0.728 | identity=NPI_VERIFIED | npi=1700889730 | address=6286 Briarcrest Ave #200, Memphis, TN 38120, USA | phone=+19016413000",
+      "explainable_summary": {
+        "provider_id": "P0078",
+        "name": "KENNETH WEISS",
+        "npi": "1700889730",
+        "identity_status": "NPI_VERIFIED",
+        "address": "6286 Briarcrest Ave #200, Memphis, TN 38120, USA",
+        "phone": "+19016413000",
+        "profile_confidence": 0.728,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.85,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "Lausanne Collegiate School",
+            "confidence": 0.85,
+            "source": "https://orthosouth.org/our-specialists/kenneth-s-weiss-md?utm_source=GMBSocialClimb&utm_medium=KennethS.Weiss%2CMD&scct=PNc4be719d8097cdf3af03e197a0088501"
+          },
+          "specialty": {
+            "value": "Orthopaedic Surgery, Sports Medicine",
+            "confidence": 0.6,
+            "source": "https://orthosouth.org/our-specialists/kenneth-s-weiss-md?utm_source=GMBSocialClimb&utm_medium=KennethS.Weiss%2CMD&scct=PNc4be719d8097cdf3af03e197a0088501"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Cells and Spine Health",
+            "Church Health"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0111",
+    "npi": "1366445314",
+    "name": "KEVIN NETTESHEIM",
+    "address": "4305 Butler Hill Rd B, St. Louis, MO 63128, USA",
+    "phone": "+13148499009",
+    "specialty": "Podiatrist, Foot & Ankle Surgery",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.mercy.net/search/doctor/"
+      },
+      "specialty": {
+        "value": "Podiatrist, Foot & Ankle Surgery",
+        "confidence": 0.6,
+        "source": "https://www.mercy.net/search/doctor/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.mercy.net/search/doctor/"
+      },
+      "affiliations": {
+        "value": [
+          "Hospital"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.mercy.net/search/doctor/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0111 | KEVIN NETTESHEIM | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1366445314 | address=4305 Butler Hill Rd B, St. Louis, MO 63128, USA | phone=+13148499009",
+      "explainable_summary": {
+        "provider_id": "P0111",
+        "name": "KEVIN NETTESHEIM",
+        "npi": "1366445314",
+        "identity_status": "NPI_VERIFIED",
+        "address": "4305 Butler Hill Rd B, St. Louis, MO 63128, USA",
+        "phone": "+13148499009",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.mercy.net/search/doctor/"
+          },
+          "specialty": {
+            "value": "Podiatrist, Foot & Ankle Surgery",
+            "confidence": 0.6,
+            "source": "https://www.mercy.net/search/doctor/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Hospital"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0143",
+    "npi": "1295738235",
+    "name": "KRISHNA RAGOTHAMAN",
+    "address": "128 N LOCUST ST, OAK HARBOR, OH, 434491358",
+    "phone": "+14198988124",
+    "specialty": "Family Medicine",
+    "confidence": {
+      "address": 0.75,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": false,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.mercy.com/find-a-doctor/physicians/krishna-m-ragothaman/206704"
+      },
+      "specialty": {
+        "value": "Family Medicine",
+        "confidence": 0.6,
+        "source": "https://www.mercy.com/find-a-doctor/physicians/krishna-m-ragothaman/206704"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.mercy.com/find-a-doctor/physicians/krishna-m-ragothaman/206704"
+      },
+      "affiliations": {
+        "value": [
+          "Health Care Services",
+          "Aetna Better Health OH Aetna Commercial & Aetna Me",
+          "Aetna Whole Health ACO OH Align Senior Care",
+          "Anthem Elevance Health KY & OH"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.mercy.com/find-a-doctor/physicians/krishna-m-ragothaman/206704"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.716,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.75,
+        "phone": 0.75,
+        "specialty": 0.6394326195120812,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed",
+        "semantic_specialty_boost"
+      ],
+      "description": "P0143 | KRISHNA RAGOTHAMAN | decision=AUTO | score=0.716 | identity=NPI_VERIFIED | npi=1295738235 | address=128 N LOCUST ST, OAK HARBOR, OH, 434491358 | phone=+14198988124",
+      "explainable_summary": {
+        "provider_id": "P0143",
+        "name": "KRISHNA RAGOTHAMAN",
+        "npi": "1295738235",
+        "identity_status": "NPI_VERIFIED",
+        "address": "128 N LOCUST ST, OAK HARBOR, OH, 434491358",
+        "phone": "+14198988124",
+        "profile_confidence": 0.716,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.75,
+          "phone": 0.75,
+          "specialty": 0.6394326195120812,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed",
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.mercy.com/find-a-doctor/physicians/krishna-m-ragothaman/206704"
+          },
+          "specialty": {
+            "value": "Family Medicine",
+            "confidence": 0.6,
+            "source": "https://www.mercy.com/find-a-doctor/physicians/krishna-m-ragothaman/206704"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Health Care Services",
+            "Aetna Better Health OH Aetna Commercial & Aetna Me",
+            "Aetna Whole Health ACO OH Align Senior Care"
+          ]
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.039,
+          "similarity": 0.679
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0032",
+    "npi": "1508869553",
+    "name": "LEE VAN HOUTEN-SAUTER",
+    "address": "220 Pine St, Knobel, AR 72435, USA",
+    "phone": "+18566297436",
+    "specialty": "Family Medicine",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.pinestreetfamilypractice.com/"
+      },
+      "specialty": {
+        "value": "Family Medicine",
+        "confidence": 0.6,
+        "source": "https://www.pinestreetfamilypractice.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.pinestreetfamilypractice.com/"
+      },
+      "affiliations": {
+        "value": [
+          "##cine Clinic"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.pinestreetfamilypractice.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0032 | LEE VAN HOUTEN-SAUTER | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1508869553 | address=220 Pine St, Knobel, AR 72435, USA | phone=+18566297436",
+      "explainable_summary": {
+        "provider_id": "P0032",
+        "name": "LEE VAN HOUTEN-SAUTER",
+        "npi": "1508869553",
+        "identity_status": "NPI_VERIFIED",
+        "address": "220 Pine St, Knobel, AR 72435, USA",
+        "phone": "+18566297436",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.pinestreetfamilypractice.com/"
+          },
+          "specialty": {
+            "value": "Family Medicine",
+            "confidence": 0.6,
+            "source": "https://www.pinestreetfamilypractice.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "##cine Clinic"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0108",
+    "npi": "1639172687",
+    "name": "MICHAEL ROPPOLO",
+    "address": "5131 O'Donovan Dr Suite 100, Baton Rouge, LA 70808, USA",
+    "phone": "+12257674893",
+    "specialty": "Internal Medicine, Nephrology",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.renalassociates.com/"
+      },
+      "specialty": {
+        "value": "Internal Medicine, Nephrology",
+        "confidence": 0.6,
+        "source": "https://www.renalassociates.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.renalassociates.com/"
+      },
+      "affiliations": {
+        "value": [
+          "##eHealth Services",
+          "##Chart Portal TeleHealth"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.renalassociates.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.696,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.663542452454567,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed",
+        "semantic_specialty_boost"
+      ],
+      "description": "P0108 | MICHAEL ROPPOLO | decision=AUTO | score=0.696 | identity=NPI_VERIFIED | npi=1639172687 | address=5131 O'Donovan Dr Suite 100, Baton Rouge, LA 70808, USA | phone=+12257674893",
+      "explainable_summary": {
+        "provider_id": "P0108",
+        "name": "MICHAEL ROPPOLO",
+        "npi": "1639172687",
+        "identity_status": "NPI_VERIFIED",
+        "address": "5131 O'Donovan Dr Suite 100, Baton Rouge, LA 70808, USA",
+        "phone": "+12257674893",
+        "profile_confidence": 0.696,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.663542452454567,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed",
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.renalassociates.com/"
+          },
+          "specialty": {
+            "value": "Internal Medicine, Nephrology",
+            "confidence": 0.6,
+            "source": "https://www.renalassociates.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "##eHealth Services",
+            "##Chart Portal TeleHealth"
+          ]
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.064,
+          "similarity": 0.727
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0121",
+    "npi": "1528061579",
+    "name": "NEIL WENSINK",
+    "address": "28821 Lorain Rd, North Olmsted, OH 44070, USA",
+    "phone": "+14407168400",
+    "specialty": "Chiropractor",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://superiorspinecare.com/"
+      },
+      "specialty": {
+        "value": "Chiropractor",
+        "confidence": 0.6,
+        "source": "https://superiorspinecare.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://superiorspinecare.com/"
+      },
+      "affiliations": {
+        "value": [
+          "Partners Health Services",
+          "Health"
+        ],
+        "confidence": 0.85,
+        "source": "https://superiorspinecare.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.697,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6682269081473351,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed",
+        "semantic_specialty_boost"
+      ],
+      "description": "P0121 | NEIL WENSINK | decision=AUTO | score=0.697 | identity=NPI_VERIFIED | npi=1528061579 | address=28821 Lorain Rd, North Olmsted, OH 44070, USA | phone=+14407168400",
+      "explainable_summary": {
+        "provider_id": "P0121",
+        "name": "NEIL WENSINK",
+        "npi": "1528061579",
+        "identity_status": "NPI_VERIFIED",
+        "address": "28821 Lorain Rd, North Olmsted, OH 44070, USA",
+        "phone": "+14407168400",
+        "profile_confidence": 0.697,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6682269081473351,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed",
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://superiorspinecare.com/"
+          },
+          "specialty": {
+            "value": "Chiropractor",
+            "confidence": 0.6,
+            "source": "https://superiorspinecare.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Partners Health Services",
+            "Health"
+          ]
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.068,
+          "similarity": 0.736
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0094",
+    "npi": "1407859556",
+    "name": "NEWTON PETERS",
+    "address": "155 Borthwick Ave, Portsmouth, NH 03801, USA",
+    "phone": "+16035015000",
+    "specialty": "Ophthalmology",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "MD has been taking care of people in the New Hampshire Seacoast and surrounding areas since 1995.   ",
+        "confidence": 0.8,
+        "source": "https://www.eyesightnh.com/"
+      },
+      "specialty": {
+        "value": "Ophthalmology",
+        "confidence": 0.6,
+        "source": "https://www.eyesightnh.com/"
+      },
+      "services": {
+        "value": [
+          "Cornea, Cataract, and Premium Cataract Surgery",
+          "Glaucoma Diagnosis and Management",
+          "Cosmetic and functional Eyelid Surgery",
+          "Oculoplastic Eye Care",
+          "General Ophthalmology",
+          "Keratoconus and Corneal Cross Linking",
+          "Dry Eye Disease Management",
+          "Retina & Macular Degeneration",
+          "Diabetic Eye Disease",
+          "Specialty Contact Lens Exams & Fittings"
+        ],
+        "confidence": 0.8,
+        "source": "https://www.eyesightnh.com/"
+      },
+      "affiliations": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.eyesightnh.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.72,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.8,
+        "services": 0.8,
+        "affiliations": 0.15
+      },
+      "reasons": [
+        "no_affiliations"
+      ],
+      "description": "P0094 | NEWTON PETERS | decision=AUTO | score=0.72 | identity=NPI_VERIFIED | npi=1407859556 | address=155 Borthwick Ave, Portsmouth, NH 03801, USA | phone=+16035015000",
+      "explainable_summary": {
+        "provider_id": "P0094",
+        "name": "NEWTON PETERS",
+        "npi": "1407859556",
+        "identity_status": "NPI_VERIFIED",
+        "address": "155 Borthwick Ave, Portsmouth, NH 03801, USA",
+        "phone": "+16035015000",
+        "profile_confidence": 0.72,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.8,
+          "services": 0.8,
+          "affiliations": 0.15
+        },
+        "top_reasons": [
+          "no_affiliations"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "MD has been taking care of people in the New Hampshire Seacoast and surrounding areas since 1995.   ",
+            "confidence": 0.8,
+            "source": "https://www.eyesightnh.com/"
+          },
+          "specialty": {
+            "value": "Ophthalmology",
+            "confidence": 0.6,
+            "source": "https://www.eyesightnh.com/"
+          },
+          "services_sample": [
+            "Cornea, Cataract, and Premium Cataract Surgery",
+            "Glaucoma Diagnosis and Management",
+            "Cosmetic and functional Eyelid Surgery"
+          ],
+          "affiliations_sample": []
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0145",
+    "npi": "1821091869",
+    "name": "PAOLA BASS",
+    "address": "210 Westside Dr, Dothan, AL 36303, USA",
+    "phone": "+13347935074",
+    "specialty": "Internal Medicine",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": "##s & Education Medical School",
+        "confidence": 0.85,
+        "source": "https://www.flowersmedicalgroup.com/doctors-providers/bass-paola-r-md-5873?utm_source=gmb&utm_medium=homepage&utm_campaign=biz-listings"
+      },
+      "specialty": {
+        "value": "Internal Medicine",
+        "confidence": 0.6,
+        "source": "https://www.flowersmedicalgroup.com/doctors-providers/bass-paola-r-md-5873?utm_source=gmb&utm_medium=homepage&utm_campaign=biz-listings"
+      },
+      "services": {
+        "value": [
+          "View All Services",
+          "Bariatric Surgery",
+          "Cardiology",
+          "Endocrinology",
+          "Family Medicine",
+          "General Surgery",
+          "Internal Medicine",
+          "Neurology",
+          "Neurosurgery",
+          "Occupational Medicine"
+        ],
+        "confidence": 0.8,
+        "source": "https://www.flowersmedicalgroup.com/doctors-providers/bass-paola-r-md-5873?utm_source=gmb&utm_medium=homepage&utm_campaign=biz-listings"
+      },
+      "affiliations": {
+        "value": [
+          "Flowers Medical Group",
+          "##s & Education Medical School"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.flowersmedicalgroup.com/doctors-providers/bass-paola-r-md-5873?utm_source=gmb&utm_medium=homepage&utm_campaign=biz-listings"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.793,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6024017773568631,
+        "education": 0.85,
+        "services": 0.8,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "semantic_specialty_boost"
+      ],
+      "description": "P0145 | PAOLA BASS | decision=AUTO | score=0.793 | identity=NPI_VERIFIED | npi=1821091869 | address=210 Westside Dr, Dothan, AL 36303, USA | phone=+13347935074",
+      "explainable_summary": {
+        "provider_id": "P0145",
+        "name": "PAOLA BASS",
+        "npi": "1821091869",
+        "identity_status": "NPI_VERIFIED",
+        "address": "210 Westside Dr, Dothan, AL 36303, USA",
+        "phone": "+13347935074",
+        "profile_confidence": 0.793,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6024017773568631,
+          "education": 0.85,
+          "services": 0.8,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": "##s & Education Medical School",
+            "confidence": 0.85,
+            "source": "https://www.flowersmedicalgroup.com/doctors-providers/bass-paola-r-md-5873?utm_source=gmb&utm_medium=homepage&utm_campaign=biz-listings"
+          },
+          "specialty": {
+            "value": "Internal Medicine",
+            "confidence": 0.6,
+            "source": "https://www.flowersmedicalgroup.com/doctors-providers/bass-paola-r-md-5873?utm_source=gmb&utm_medium=homepage&utm_campaign=biz-listings"
+          },
+          "services_sample": [
+            "View All Services",
+            "Bariatric Surgery",
+            "Cardiology"
+          ],
+          "affiliations_sample": [
+            "Flowers Medical Group",
+            "##s & Education Medical School"
+          ]
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.002,
+          "similarity": 0.605
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0085",
+    "npi": "1871596924",
+    "name": "PHILIP O'DONNELL",
+    "address": "104 Selma Dr, Winchester, VA 22601, USA",
+    "phone": "+15406782800",
+    "specialty": "Internal Medicine, Cardiovascular Disease",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.selmamed.com/"
+      },
+      "specialty": {
+        "value": "Internal Medicine, Cardiovascular Disease",
+        "confidence": 0.6,
+        "source": "https://www.selmamed.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.selmamed.com/"
+      },
+      "affiliations": {
+        "value": [
+          "Selma Medical Associates, Inc",
+          "Medical",
+          "Medical Associates"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.selmamed.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0085 | PHILIP O'DONNELL | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1871596924 | address=104 Selma Dr, Winchester, VA 22601, USA | phone=+15406782800",
+      "explainable_summary": {
+        "provider_id": "P0085",
+        "name": "PHILIP O'DONNELL",
+        "npi": "1871596924",
+        "identity_status": "NPI_VERIFIED",
+        "address": "104 Selma Dr, Winchester, VA 22601, USA",
+        "phone": "+15406782800",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.selmamed.com/"
+          },
+          "specialty": {
+            "value": "Internal Medicine, Cardiovascular Disease",
+            "confidence": 0.6,
+            "source": "https://www.selmamed.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Selma Medical Associates, Inc",
+            "Medical",
+            "Medical Associates"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0083",
+    "npi": "1053314104",
+    "name": "RAMON UNGAB",
+    "address": "2851 Stage Center Dr, Bartlett, TN 38134, USA",
+    "phone": "+19013887711",
+    "specialty": "Internal Medicine",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": false
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.methodisthealth.org/locations/methodist-medical-group-primary-care-appling?utm_source=pg-google&utm_medium=organic&utm_campaign=pg-listings"
+      },
+      "specialty": {
+        "value": "Internal Medicine",
+        "confidence": 0.6,
+        "source": "https://www.methodisthealth.org/locations/methodist-medical-group-primary-care-appling?utm_source=pg-google&utm_medium=organic&utm_campaign=pg-listings"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.methodisthealth.org/locations/methodist-medical-group-primary-care-appling?utm_source=pg-google&utm_medium=organic&utm_campaign=pg-listings"
+      },
+      "affiliations": {
+        "value": [
+          "Methodist Medical Group",
+          "Methodist Le Bonheur Healthcare",
+          "Medical Services Neurology & Neurosurgery"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.methodisthealth.org/locations/methodist-medical-group-primary-care-appling?utm_source=pg-google&utm_medium=organic&utm_campaign=pg-listings"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0083 | RAMON UNGAB | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1053314104 | address=2851 Stage Center Dr, Bartlett, TN 38134, USA | phone=+19013887711",
+      "explainable_summary": {
+        "provider_id": "P0083",
+        "name": "RAMON UNGAB",
+        "npi": "1053314104",
+        "identity_status": "NPI_VERIFIED",
+        "address": "2851 Stage Center Dr, Bartlett, TN 38134, USA",
+        "phone": "+19013887711",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.methodisthealth.org/locations/methodist-medical-group-primary-care-appling?utm_source=pg-google&utm_medium=organic&utm_campaign=pg-listings"
+          },
+          "specialty": {
+            "value": "Internal Medicine",
+            "confidence": 0.6,
+            "source": "https://www.methodisthealth.org/locations/methodist-medical-group-primary-care-appling?utm_source=pg-google&utm_medium=organic&utm_campaign=pg-listings"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Methodist Medical Group",
+            "Methodist Le Bonheur Healthcare",
+            "Medical Services Neurology & Neurosurgery"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0080",
+    "npi": "1326041476",
+    "name": "RICHARD SCHWARTZ",
+    "address": "Professional Building, 1500 N Dixie Hwy, West Palm Beach, FL 33401, USA",
+    "phone": "+15618334022",
+    "specialty": "Plastic Surgery",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.pbplasticsurgery.com/"
+      },
+      "specialty": {
+        "value": "Plastic Surgery",
+        "confidence": 0.6,
+        "source": "https://www.pbplasticsurgery.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.pbplasticsurgery.com/"
+      },
+      "affiliations": {
+        "value": [
+          "Surgery Center"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.pbplasticsurgery.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.699,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6898915648460389,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed",
+        "semantic_specialty_boost"
+      ],
+      "description": "P0080 | RICHARD SCHWARTZ | decision=AUTO | score=0.699 | identity=NPI_VERIFIED | npi=1326041476 | address=Professional Building, 1500 N Dixie Hwy, West Palm Beach, FL 33401, USA | phone=+15618334022",
+      "explainable_summary": {
+        "provider_id": "P0080",
+        "name": "RICHARD SCHWARTZ",
+        "npi": "1326041476",
+        "identity_status": "NPI_VERIFIED",
+        "address": "Professional Building, 1500 N Dixie Hwy, West Palm Beach, FL 33401, USA",
+        "phone": "+15618334022",
+        "profile_confidence": 0.699,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6898915648460389,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed",
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.pbplasticsurgery.com/"
+          },
+          "specialty": {
+            "value": "Plastic Surgery",
+            "confidence": 0.6,
+            "source": "https://www.pbplasticsurgery.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Surgery Center"
+          ]
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.09,
+          "similarity": 0.78
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0020",
+    "npi": "1922001973",
+    "name": "TERESA ANDERSON-KRULL",
+    "address": "E Main St, Ohio, USA",
+    "phone": "+15073770107",
+    "specialty": "Social Worker, Clinical",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.theandersonclinic.net/"
+      },
+      "specialty": {
+        "value": "Social Worker, Clinical",
+        "confidence": 0.6,
+        "source": "https://www.theandersonclinic.net/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.theandersonclinic.net/"
+      },
+      "affiliations": {
+        "value": [
+          "Anderson Clinic Services"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.theandersonclinic.net/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6014911711215973,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed",
+        "semantic_specialty_boost"
+      ],
+      "description": "P0020 | TERESA ANDERSON-KRULL | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1922001973 | address=E Main St, Ohio, USA | phone=+15073770107",
+      "explainable_summary": {
+        "provider_id": "P0020",
+        "name": "TERESA ANDERSON-KRULL",
+        "npi": "1922001973",
+        "identity_status": "NPI_VERIFIED",
+        "address": "E Main St, Ohio, USA",
+        "phone": "+15073770107",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6014911711215973,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed",
+          "semantic_specialty_boost"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.theandersonclinic.net/"
+          },
+          "specialty": {
+            "value": "Social Worker, Clinical",
+            "confidence": 0.6,
+            "source": "https://www.theandersonclinic.net/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Anderson Clinic Services"
+          ]
+        },
+        "uplift_applied": {
+          "type": "semantic_specialty_boost",
+          "value": 0.001,
+          "similarity": 0.603
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0090",
+    "npi": "1134122286",
+    "name": "TRACEY ROESING",
+    "address": "500 Old York Rd, Jenkintown, PA 19046, USA",
+    "phone": "+12154812725",
+    "specialty": "Family Medicine",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.jeffersonhealth.org/find-a-doctor/r/roesing-tracey-l"
+      },
+      "specialty": {
+        "value": "Family Medicine",
+        "confidence": 0.6,
+        "source": "https://www.jeffersonhealth.org/find-a-doctor/r/roesing-tracey-l"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.jeffersonhealth.org/find-a-doctor/r/roesing-tracey-l"
+      },
+      "affiliations": {
+        "value": [
+          "Jefferson Health"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.jeffersonhealth.org/find-a-doctor/r/roesing-tracey-l"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0090 | TRACEY ROESING | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1134122286 | address=500 Old York Rd, Jenkintown, PA 19046, USA | phone=+12154812725",
+      "explainable_summary": {
+        "provider_id": "P0090",
+        "name": "TRACEY ROESING",
+        "npi": "1134122286",
+        "identity_status": "NPI_VERIFIED",
+        "address": "500 Old York Rd, Jenkintown, PA 19046, USA",
+        "phone": "+12154812725",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.jeffersonhealth.org/find-a-doctor/r/roesing-tracey-l"
+          },
+          "specialty": {
+            "value": "Family Medicine",
+            "confidence": 0.6,
+            "source": "https://www.jeffersonhealth.org/find-a-doctor/r/roesing-tracey-l"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Jefferson Health"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "provider_id": "P0022",
+    "npi": "1659374601",
+    "name": "WENDY OBERDICK",
+    "address": "105 W Stone Dr, Kingsport, TN 37660, USA",
+    "phone": "+14232302420",
+    "specialty": "Family Medicine",
+    "confidence": {
+      "address": 0.6,
+      "phone": 0.75,
+      "identity": 0.9
+    },
+    "sources": {
+      "npi_provided": true,
+      "npi_verified": true,
+      "google_address": true,
+      "google_place": true
+    },
+    "identity_status": "NPI_VERIFIED",
+    "enrichment": {
+      "education": {
+        "value": null,
+        "confidence": 0.1,
+        "source": "https://www.holstonmedicalgroup.com/"
+      },
+      "specialty": {
+        "value": "Family Medicine",
+        "confidence": 0.6,
+        "source": "https://www.holstonmedicalgroup.com/"
+      },
+      "services": {
+        "value": [],
+        "confidence": 0.15,
+        "source": "https://www.holstonmedicalgroup.com/"
+      },
+      "affiliations": {
+        "value": [
+          "Holston Medical Group",
+          "Health & Wellness",
+          "Audiology Clinical Research Der"
+        ],
+        "confidence": 0.85,
+        "source": "https://www.holstonmedicalgroup.com/"
+      }
+    },
+    "qa": {
+      "decision": "AUTO",
+      "profile_confidence": 0.69,
+      "component_scores": {
+        "identity": 0.9,
+        "address": 0.6,
+        "phone": 0.75,
+        "specialty": 0.6,
+        "education": 0.1,
+        "services": 0.15,
+        "affiliations": 0.85
+      },
+      "reasons": [
+        "low_education_info",
+        "no_services_listed"
+      ],
+      "description": "P0022 | WENDY OBERDICK | decision=AUTO | score=0.69 | identity=NPI_VERIFIED | npi=1659374601 | address=105 W Stone Dr, Kingsport, TN 37660, USA | phone=+14232302420",
+      "explainable_summary": {
+        "provider_id": "P0022",
+        "name": "WENDY OBERDICK",
+        "npi": "1659374601",
+        "identity_status": "NPI_VERIFIED",
+        "address": "105 W Stone Dr, Kingsport, TN 37660, USA",
+        "phone": "+14232302420",
+        "profile_confidence": 0.69,
+        "component_scores": {
+          "identity": 0.9,
+          "address": 0.6,
+          "phone": 0.75,
+          "specialty": 0.6,
+          "education": 0.1,
+          "services": 0.15,
+          "affiliations": 0.85
+        },
+        "top_reasons": [
+          "low_education_info",
+          "no_services_listed"
+        ],
+        "enrichment_highlights": {
+          "education": {
+            "value": null,
+            "confidence": 0.1,
+            "source": "https://www.holstonmedicalgroup.com/"
+          },
+          "specialty": {
+            "value": "Family Medicine",
+            "confidence": 0.6,
+            "source": "https://www.holstonmedicalgroup.com/"
+          },
+          "services_sample": [],
+          "affiliations_sample": [
+            "Holston Medical Group",
+            "Health & Wellness",
+            "Audiology Clinical Research Der"
+          ]
+        }
+      }
+    }
+  },
+  {
     "provider_id": "P0002",
     "npi": "1588667638",
     "name": "WILLIAM PILCHER",
